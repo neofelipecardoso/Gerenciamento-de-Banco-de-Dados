@@ -6,9 +6,22 @@
 
 Os datasets que escolhemos foram os logo abaixo:
 
-Dataset 1: https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?resource=download
-Dataset 2:  https://www.kaggle.com/datasets/poushal02/student-academic-stress-real-world-dataset
-Dataset 3: https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention/data
+PNAD Contínua (IBGE): 
+https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/17270-pnad-continua.html?edicao=43499&t=resultados
+Censo Escolar (INEP 2022): 
+https://www.kaggle.com/datasets/hugobovaretohorsth/censo-escolar-2022-brazil/data
+INEP ATU (Regiões e UFs 2020): 
+https://www.kaggle.com/datasets/anairamcosta/inep-atu-brasil-regioes-ufs-2020-csv
+PeNSE (IBGE): 
+https://www.ibge.gov.br/estatisticas/sociais/educacao/9134-pesquisa-nacional-de-saude-do-escolar.html
+ENEM Microdados: 
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+Indicadores Educacionais – Nível Socioeconômico: 
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico
+Taxas de Distorção Idade-Série (INEP): 
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie
+IDEB (INEP): 
+https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
 
 Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar.
 
@@ -16,27 +29,26 @@ Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar
 
 Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a serem respondidas:
 
-1. O nível de escolaridade dos pais (Dataset 1 e 3) reduz a probabilidade de evasão e aumenta as notas em matemática, leitura e escrita?
-2. A ocupação dos pais (Dataset 1) influencia o estresse relatado pelos alunos (Dataset 2)?
-3. A escolaridade dos pais (Dataset 3) ajuda a mitigar o impacto negativo de ambientes de estudo barulhentos (Dataset 2)?
-4. Alunos com pais de maior escolaridade apresentam menor chance de abandono (Dataset 1) mesmo em cenários de crise econômica (PIB/Inflação)?
-5. A pressão acadêmica em casa (Dataset 2) é mais intensa em alunos cujos pais têm alta escolaridade (Dataset 1/3)?
-6. A qualidade do ambiente de estudo (Dataset 2) interfere mais no desempenho em leitura/escrita (Dataset 3) do que em matemática?
-7. O acompanhamento familiar (Dataset 1 – qualificação/ocupação dos pais) diminui a vulnerabilidade ao estresse acadêmico (Dataset 2)?
-8. Existe correlação entre pais desempregados (Dataset 1) e maior estresse em casa relatado pelos alunos (Dataset 2)?
-9. Acesso a refeições melhores (Dataset 3 – almoço padrão) reduz o impacto da pressão acadêmica (Dataset 2) sobre o desempenho em matemática?
-10. Alunos que fizeram curso preparatório (Dataset 3) demonstram maior resiliência ao estresse acadêmico (Dataset 2)?
-11. O desempenho em provas (Dataset 3) varia mais em função de fatores internos (curso preparatório) ou externos (pressão familiar – Dataset 2)?
-12. Há diferença na taxa de aprovação (Dataset 1) entre alunos que relatam alto estresse (Dataset 2) e os que têm estresse baixo?
-13. Períodos de alta inflação (Dataset 1) aumentam o estresse acadêmico relatado (Dataset 2) e reduzem o desempenho escolar (Dataset 3)?
-14. O impacto da renda familiar (ocupação/qualificação dos pais – Dataset 1) é mais forte no risco de evasão ou no nível de estresse (Dataset 2)?
-15. A combinação “pais com baixa escolaridade + ambiente barulhento” (Datasets 1, 2 e 3) é um preditor mais forte de baixo desempenho?
-16. O gênero (Dataset 3) influencia como fatores externos (inflação, desemprego – Dataset 1) afetam as notas e o estresse (Dataset 2)?
-17. Estratégias de enfrentamento (Dataset 2) reduzem o efeito negativo da baixa escolaridade dos pais (Dataset 1/3) sobre as notas?
-18. O apoio social (Dataset 2) tem maior impacto positivo em alunos com pais de baixa escolaridade (Dataset 3) do que em alunos de pais altamente escolarizados?
-19. Alunos que enfrentam alta competição acadêmica (Dataset 2) se beneficiam mais de preparação extra (Dataset 3) ou de apoio familiar (Dataset 1)?
-20. Existe um perfil de aluno “resiliente” (alto estresse, baixa renda, pais pouco escolarizados) que ainda assim consegue altas notas?
-
+1. Existe relação entre a renda familiar per capita (PNAD) e a taxa de conclusão do ensino médio (Censo Escolar)?
+2. Alunos de famílias em situação de desemprego (PNAD) apresentam maior risco de evasão escolar (Censo Escolar)?
+3. A desigualdade de renda (PNAD) afeta o desempenho médio em exames padronizados (ENEM e IDEB)?
+4. Famílias com maior gasto em educação (PNAD) têm filhos com desempenho acima da média (ENEM e IDEB)?
+5. O tipo de escola (Censo Escolar – pública x privada) influencia a probabilidade de aprovação e desempenho (ENEM)?
+6. A taxa de distorção idade-série (INEP) é maior em regiões com menor nível socioeconômico (Indicadores Educacionais)?
+7. O número de alunos por turma (Censo Escolar) está correlacionado com o desempenho escolar (IDEB)?
+8. Estados com maior investimento em educação (INEP ATU) apresentam menores taxas de abandono escolar (Censo Escolar)?
+9. A infraestrutura escolar (INEP ATU – laboratórios, bibliotecas, internet) influencia o desempenho (IDEB e ENEM)?
+10. O consumo de álcool e cigarro entre estudantes (PeNSE) afeta diretamente a taxa de reprovação (Censo Escolar)?
+11. Estudantes com pior qualidade de sono (PeNSE) apresentam menor desempenho escolar (ENEM)?
+12. Há relação entre indicadores de saúde mental (PeNSE – ansiedade, depressão) e evasão escolar (Censo Escolar)?
+13. O nível socioeconômico dos candidatos (Indicadores Educacionais) influencia a nota média por área de conhecimento (ENEM)?
+14. O tipo de escola (pública x privada – Censo Escolar) explica diferenças de desempenho no ENEM?
+15. Estados/regiões com menor taxa de distorção idade-série (INEP) apresentam melhores resultados no IDEB?
+16. O nível socioeconômico escolar (Indicadores Educacionais) impacta o IDEB de forma consistente entre regiões?
+17. Há relação clara entre nível socioeconômico escolar (Indicadores Educacionais) e taxa de reprovação (Censo Escolar)?
+18. Quais fatores socioeconômicos (PNAD) mais explicam a alta distorção idade-série em determinadas regiões (INEP)?
+19. O investimento público em educação por estado (INEP ATU) tem relação direta com o IDEB alcançado?
+20. O crescimento do IDEB em determinadas regiões pode ser explicado pela melhoria nas condições socioeconômicas (PNAD)?
 
 # Membros
 
