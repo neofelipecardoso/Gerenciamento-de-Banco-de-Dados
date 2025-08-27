@@ -6,21 +6,22 @@
 
 Os datasets que escolhemos foram os logo abaixo:
 
-PNAD Contínua (IBGE): 
+### PNAD Contínua (IBGE): 
 https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/17270-pnad-continua.html?edicao=43499&t=resultados
-Censo Escolar (INEP 2022): 
+
+### Censo Escolar (INEP 2022): 
 https://www.kaggle.com/datasets/hugobovaretohorsth/censo-escolar-2022-brazil/data
-INEP ATU (Regiões e UFs 2020): 
+### INEP ATU (Regiões e UFs 2020): 
 https://www.kaggle.com/datasets/anairamcosta/inep-atu-brasil-regioes-ufs-2020-csv
-PeNSE (IBGE): 
+### PeNSE (IBGE): 
 https://www.ibge.gov.br/estatisticas/sociais/educacao/9134-pesquisa-nacional-de-saude-do-escolar.html
-ENEM Microdados: 
+### ENEM Microdados: 
 https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-Indicadores Educacionais – Nível Socioeconômico: 
+### Indicadores Educacionais – Nível Socioeconômico: 
 https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico
-Taxas de Distorção Idade-Série (INEP): 
+### Taxas de Distorção Idade-Série (INEP): 
 https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie
-IDEB (INEP): 
+### IDEB (INEP): 
 https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
 
 Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar.
