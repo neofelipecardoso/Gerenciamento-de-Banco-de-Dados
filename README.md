@@ -2,6 +2,9 @@
 
 ## Esse arquivo contém a documentação do nosso projeto com informações referentes a datasets, perguntas, membros e mais.
 
+## Trello
+https://trello.com/b/A56DuRJG/gerenciamento-de-banco-de-dados
+
 # Datasets
 
 Os datasets que escolhemos foram os logo abaixo:
