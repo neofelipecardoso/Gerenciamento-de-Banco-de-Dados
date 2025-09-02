@@ -54,9 +54,12 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 19. Qual é a relação temporal entre o investimento público em educação por estudante e o IDEB nacional?
 20. O crescimento do IDEB em determinadas regiões pode ser explicado pela melhoria nas condições socioeconômicas (PNAD)?
 
-
 # Dicionário de Dados
+
+Tabelas Dimensão
+
 Tabela: Dim_Regiao
+
  * Finalidade: Descrever as regiões geográficas do Brasil.
  * Atributos:
    * id_regiao: Chave primária que identifica a região.
@@ -64,7 +67,9 @@ Tabela: Dim_Regiao
  * Relacionamentos:
    * PK (Chave Primária): id_regiao.
    * FKs (Chaves Estrangeiras): Não há chaves estrangeiras.
+
 Tabela: Dim_Estado
+
  * Finalidade: Descrever os estados brasileiros e relacioná-los com as regiões.
  * Atributos:
    * id_estado: Chave primária que identifica o estado.
@@ -73,7 +78,9 @@ Tabela: Dim_Estado
  * Relacionamentos:
    * PK (Chave Primária): id_estado.
    * FKs (Chaves Estrangeiras): id_regiao (N-1) → Dim_Regiao.
+
 Tabela: Dim_Municipio
+
  * Finalidade: Descrever os municípios e relacioná-los com os estados.
  * Atributos:
    * id_municipio: Chave primária que identifica o município.
@@ -83,7 +90,9 @@ Tabela: Dim_Municipio
  * Relacionamentos:
    * PK (Chave Primária): id_municipio.
    * FKs (Chaves Estrangeiras): id_estado (N-1) → Dim_Estado.
+
 Tabela: Dim_Escola
+
  * Finalidade: Descrever as escolas, sendo a dimensão mais granular.
  * Atributos:
    * id_escola: Chave primária que identifica a escola.
@@ -95,8 +104,11 @@ Tabela: Dim_Escola
  * Relacionamentos:
    * PK (Chave Primária): id_escola.
    * FKs (Chaves Estrangeiras): id_municipio (N-1) → Dim_Municipio.
-Tabelas de Fatos
+
+Tabelas Fato
+
 Tabela: Fat_InfraestruturaEscolar
+
  * Finalidade: Armazenar dados de infraestrutura e indicadores por escola.
  * Atributos:
    * id_infraestrutura: Chave primária que identifica cada registro.
@@ -109,7 +121,9 @@ Tabela: Fat_InfraestruturaEscolar
  * Relacionamentos:
    * PK (Chave Primária): id_infraestrutura.
    * FKs (Chaves Estrangeiras): id_escola (N-1) → Dim_Escola.
+
 Tabela: Fat_ResultadosENEM_Individual
+
  * Finalidade: Armazenar os resultados de cada aluno do ENEM.
  * Atributos:
    * id_estudante: Identificador único do participante do ENEM, originado da coluna NU_INSCRIÇAO do dataset ENEM .
@@ -126,7 +140,9 @@ Tabela: Fat_ResultadosENEM_Individual
    * FKs (Chaves Estrangeiras):
      * estado_estudante (N-1) → Estado.sigla_uf.
      * municipio_estudante (N-1) → Municipio.codigo_ibge.
+
 Tabela: Fat_IndicadoresEducacionais
+
  * Finalidade: Consolidar dados de diversos datasets do INEP que já vêm agregados por escola, município ou estado.
  * Atributos:
    * ano: Ano de referência, da coluna ANO do Censo Escolar (INEP 2022).
@@ -145,7 +161,9 @@ Tabela: Fat_IndicadoresEducacionais
      * id_escola (1-1) → CensoEscolar.id_escola.
      * uf (1-N) → INEP_ATU.uf.
      * regiao_uf (1-N) → INEP_ATU.regiao.
+
 Tabela: Fat_SaudeEscolar
+
  * Finalidade: Armazenar dados do PeNSE já agregados por município.
  * Atributos:
    * id_saude: Chave primária que identifica o registro.
@@ -158,7 +176,9 @@ Tabela: Fat_SaudeEscolar
  * Relacionamentos:
    * PK (Chave Primária): id_saude.
    * FKs (Chaves Estrangeiras): id_municipio, que se relaciona com Dim_Municipio.
+
 Tabela: Fat_IndicadoresSocioeconomicos
+
  * Finalidade: Armazenar dados socioeconômicos agregados por município ou estado.
  * Atributos:
    * id_indicador: Chave primária que identifica o registro.
@@ -168,7 +188,9 @@ Tabela: Fat_IndicadoresSocioeconomicos
  * Relacionamentos:
    * PK (Chave Primária): id_indicador.
    * FKs (Chaves Estrangeiras): id_municipio, que se relaciona com Dim_Municipio.
+
 Tabela: Fat_InvestimentoEducacao
+
  * Finalidade: Armazenar dados de investimento público direto nacional em educação por estudante.
  * Atributos:
    * id_investimento: Identificador único sequencial para cada registro.
@@ -179,17 +201,15 @@ Tabela: Fat_InvestimentoEducacao
    * PK (Chave Primária): id_investimento.
    * FKs (Chaves Estrangeiras): Não há chaves estrangeiras.
 
-
-
 # Membros
 
 Segue uma breve lista dos membros presentes nesse grupo:
 
-Prodcut Owner - Fernando de Ávila
-Scrum master - Felipe Campos
-Analista de Dados - Felipe Rodrigo
-Analista de Dados - Bruno
-Engenheiro de dados - Ana eliza
-Engenheiro de dados - Fábio Lutz
-Arquiteto de dados - Pietro
-Arquiteto de dados - Claudia
+Prodcut Owner - Fernando de Ávila  
+Scrum master - Felipe Campos  
+Analista de Dados - Felipe Rodrigo  
+Analista de Dados - Bruno  
+Engenheiro de dados - Ana eliza  
+Engenheiro de dados - Fabio Lütz  
+Arquiteto de dados - Pietro  
+Arquiteto de dados - Claudia  
