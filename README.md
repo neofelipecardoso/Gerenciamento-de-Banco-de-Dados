@@ -13,7 +13,7 @@ Os datasets que escolhemos foram os logo abaixo:
 https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/17270-pnad-continua.html?edicao=43499&t=resultados
 
 ### Censo Escolar (INEP 2022): 
-https://www.kaggle.com/datasets/hugobovaretohorsth/censo-escolar-2022-brazil/data
+https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar/resultados
 ### INEP Indicadores Educacionais
 https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/indicadores-financeiros-educacionais
 ### PeNSE (IBGE): 
@@ -28,6 +28,7 @@ https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educ
 https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
 
 Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar.
+
 
 # Perguntas a serem respondidas
 
