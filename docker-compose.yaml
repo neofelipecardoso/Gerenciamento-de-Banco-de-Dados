@@ -1,0 +1,45 @@
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-CU20-GDR1-ubuntu-22.04
+    container_name: sql-server
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD}
+      MSSQL_PID: Developer
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "${MSSQL_SA_PASSWORD}", "-C", "-Q", "SELECT 1"]
+      start_period: 15s
+      retries: 5
+      interval: 5s
+      timeout: 10s
+    volumes:
+      - mssql-data:/var/opt/mssql
+  
+  flyway:
+    image: flyway/flyway:11.11.2-alpine
+    container_name: flyway
+    environment:
+      FLYWAY_URL: jdbc:sqlserver://db:1433;databaseName=master;trustServerCertificate=true
+      FLYWAY_USER: sa
+      FLYWAY_PASSWORD: ${MSSQL_SA_PASSWORD}
+      FLYWAY_CONNECT_RETRIES: 60
+      FLYWAY_LOCATIONS: filesystem:/flyway/sql
+      FLYWAY_INIT_SQL: |
+        IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'data_analytics')
+        BEGIN
+          CREATE DATABASE data_analytics;
+        END
+        GO
+        USE data_analytics;
+        GO
+    command: migrate
+    volumes:
+      - ./migrations:/flyway/sql
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  mssql-data:
