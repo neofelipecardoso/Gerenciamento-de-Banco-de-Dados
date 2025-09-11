@@ -27,12 +27,12 @@ services:
       FLYWAY_CONNECT_RETRIES: 60
       FLYWAY_LOCATIONS: filesystem:/flyway/sql
       FLYWAY_INIT_SQL: |
-        IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'data_analytics')
+        IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'SistemaGerenciamento')
         BEGIN
-          CREATE DATABASE data_analytics;
+          CREATE DATABASE SistemaGerenciamento;
         END
         GO
-        USE data_analytics;
+        USE SistemaGerenciamento;
         GO
     command: migrate
     volumes:

@@ -1,9 +1,3 @@
-CREATE DATABASE SistemaGerenciamento;
-GO
-
-USE SistemaGerenciamento;
-GO
-
 -- DDL para a tabela DimRegiao
 CREATE TABLE DimRegiao (
     sk_regiao INT NOT NULL,
