@@ -9,4 +9,3 @@ CREATE TABLE DimEstado (
     -- Chave estrangeira referenciando DimRegiao
     CONSTRAINT fk_DimEstado_DimRegiao FOREIGN KEY (sk_regiao) REFERENCES DimRegiao (sk_regiao)
 );
-GO

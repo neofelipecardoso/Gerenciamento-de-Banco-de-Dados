@@ -14,4 +14,3 @@ CREATE TABLE DimEscola (
     -- Chave estrangeira referenciando DimMunicipio
     CONSTRAINT fk_DimEscola_DimMunicipio FOREIGN KEY (id_municipio) REFERENCES DimMunicipio (sk_municipio)
 );
-GO

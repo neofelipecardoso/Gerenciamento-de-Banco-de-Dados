@@ -6,4 +6,3 @@ CREATE TABLE DimRegiao (
     -- Chave primária da tabela
     CONSTRAINT pk_DimRegiao PRIMARY KEY (sk_regiao)
 );
-GO

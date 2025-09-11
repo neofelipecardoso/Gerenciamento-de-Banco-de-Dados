@@ -15,4 +15,3 @@ CREATE TABLE FatoSaebEscolar (
     -- Chave estrangeira referenciando DimEscola
     CONSTRAINT fk_FatoSaebEscolar_DimEscola FOREIGN KEY (sk_escola) REFERENCES DimEscola (sk_escola)
 );
-GO

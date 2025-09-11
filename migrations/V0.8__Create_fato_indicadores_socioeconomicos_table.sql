@@ -12,4 +12,3 @@ CREATE TABLE FatoIndicadoresSocioeconomicos (
     -- Chave estrangeira referenciando DimMunicipio
     CONSTRAINT fk_FatoIndicadoresSocioeconomicos_DimMunicipio FOREIGN KEY (sk_municipio) REFERENCES DimMunicipio (sk_municipio)
 );
-GO

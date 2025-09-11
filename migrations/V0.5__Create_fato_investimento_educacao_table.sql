@@ -11,4 +11,3 @@ CREATE TABLE FatoInvestimentoEducacao (
     -- Chave estrangeira referenciando DimEstado
     CONSTRAINT fk_FatoInvestimentoEducacao_DimEstado FOREIGN KEY (sk_estado) REFERENCES DimEstado (sk_estado)
 );
-GO

@@ -9,4 +9,3 @@ CREATE TABLE DimMunicipio (
     -- Chave estrangeira referenciando DimEstado
     CONSTRAINT fk_DimMunicipio_DimEstado FOREIGN KEY (sk_estado) REFERENCES DimEstado (sk_estado)
 );
-GO
