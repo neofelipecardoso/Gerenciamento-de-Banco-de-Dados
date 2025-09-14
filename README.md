@@ -55,6 +55,18 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 19. Qual é a relação temporal entre o investimento público em educação por estudante e o IDEB nacional?
 20. O crescimento do IDEB em determinadas regiões pode ser explicado pela melhoria nas condições socioeconômicas (PNAD)?
 
+## Informações e passo a passo dos Datasets
+
+## Datasets Utilizados
+
+| Dataset                        | Fonte de Dados | Link para Acesso | Instruções de Acesso |
+|--------------------------------|----------------|------------------|-----------------------|
+| Microdados do Censo Demográfico | IBGE           | [Acessar](https://www.ibge.gov.br/estatisticas/sociais/saude/22827-censo-demografico-2022.html) | Ao acessar a página, procure pela seção **"Microdados"**. Dentro dela, você encontrará links para os arquivos de dados. Eles são geralmente separados por Unidade da Federação e contêm arquivos de "Pessoas" e "Domicílios" em pastas separadas. Faça o download dos arquivos compactados (.zip) dos anos e estados desejados. |
+| Microdados da Pesquisa Nacional por Amostra de Domicílios (PNAD Contínua)        | IBGE        | [Acessar](https://www.ibge.gov.br/estatisticas/sociais/trabalho/2511-np-pnad-continua/30980-pnadc-divulgacao-pnadc4.html)           | Passo a passo: Na página da PNAD, localize a seção "Microdados". Lá, você encontrará a opção de "Downloads". Dentro do diretório de downloads, selecione os anos de interesse e baixe os arquivos de "Pessoas" e "Domicílios" separadamente.   
+ |
+| **[Nome do Dataset 3]**        | [Fonte]        | [Link]           | [Instruções resumidas] |
+
+
 # Dicionário de Dados
 
 Tabelas Dimensão
