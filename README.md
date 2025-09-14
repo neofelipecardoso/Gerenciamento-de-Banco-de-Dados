@@ -5,31 +5,6 @@
 ## Trello
 https://trello.com/b/A56DuRJG/gerenciamento-de-banco-de-dados
 
-# Datasets
-
-Os datasets que escolhemos foram os logo abaixo:
-
-### PNAD Contínua (IBGE): 
-https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/17270-pnad-continua.html?edicao=43499&t=resultados
-
-### Censo Escolar (INEP 2022): 
-https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar/resultados
-### INEP Indicadores Educacionais
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/indicadores-financeiros-educacionais
-### PeNSE (IBGE): 
-https://www.ibge.gov.br/estatisticas/sociais/educacao/9134-pesquisa-nacional-de-saude-do-escolar.html
-### ENEM Microdados: 
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-### Indicadores Educacionais – Nível Socioeconômico: 
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico
-### Taxas de Distorção Idade-Série (INEP): 
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie
-### IDEB (INEP): 
-https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
-
-Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar.
-
-
 # Perguntas a serem respondidas
 
 Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a serem respondidas:
@@ -55,9 +30,30 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 19. Qual é a relação temporal entre o investimento público em educação por estudante e o IDEB nacional?
 20. O crescimento do IDEB em determinadas regiões pode ser explicado pela melhoria nas condições socioeconômicas (PNAD)?
 
-## Informações e passo a passo dos Datasets
 
 ## Datasets Utilizados
+
+### PNAD Contínua (IBGE): 
+https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/17270-pnad-continua.html?edicao=43499&t=resultados
+
+### Censo Escolar (INEP 2022): 
+https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar/resultados
+### INEP Indicadores Educacionais
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/indicadores-financeiros-educacionais
+### PeNSE (IBGE): 
+https://www.ibge.gov.br/estatisticas/sociais/educacao/9134-pesquisa-nacional-de-saude-do-escolar.html
+### ENEM Microdados: 
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+### Indicadores Educacionais – Nível Socioeconômico: 
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico
+### Taxas de Distorção Idade-Série (INEP): 
+https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie
+### IDEB (INEP): 
+https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
+
+Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar.
+
+## Informações e passo a passo dos Datasets
 
 | Dataset                        | Fonte de Dados | Link para Acesso | Instruções de Acesso |
 |--------------------------------|----------------|------------------|-----------------------|
@@ -73,10 +69,7 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 | Dados de Mortalidade (SIM) e Agravos (Sinan) | DATASUS | [Acessar](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/) | Passo a passo: No portal, selecione o sistema de informação que você quer usar (por exemplo, **"Mortalidade"** para SIM ou **"Notificação"** para Sinan). Use o sistema de tabulação para filtrar as informações por "Linha", "Coluna" e "Medidas". Após a tabulação, você poderá salvar a tabela em formato **.CSV** para análise. |
 | Dados de Cobertura Vacinal (PNI) | DATASUS | [Acessar](http://tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def) | Passo a passo: Este link já leva você para a página de Cobertura Vacinal. Na interface do Tabnet, selecione as vacinas que deseja, os anos de interesse e a "Unidade da Federação" para a Linha da tabela. Clique em "Mostrar" para gerar a tabela e use a opção de salvar como **.CSV**. |
 | Dados de Patentes        | INPI        | [Acessar](https://www.gov.br/inpi/pt-br/central-de-conteudo/estatisticas/estatisticas)           | Passo a passo: Acesse a página e procure pela seção "Base de Dados Estatísticos do INPI". Dependendo do ano, você pode encontrar um painel interativo ou arquivos para download (BADEPI). O portal também oferece "Tabelas Completas dos Indicadores de Propriedade Industrial" que podem ser baixadas em formatos de planilhas.   |
-| Dados de Investimento em C&T       | Portal da Transparência        | [Acessar](https://portaldatransparencia.gov.br/funcoes/19-ciencia-e-tecnologia)           | Passo a passo: Para dados federais, use o portal, navegando até a seção de "Despesas" > "Por Função" e selecionando "19 - Ciência e Tecnologia". Os dados podem ser filtrados e exportados para download. Para dados estaduais, é preciso acessar o Portal da Transparência de cada estado, já que cada um tem o seu próprio sistema de divulgação.   
-
-
-Fontes e conteúdo relacionado |
+| Dados de Investimento em C&T       | Portal da Transparência        | [Acessar](https://portaldatransparencia.gov.br/funcoes/19-ciencia-e-tecnologia)           | Passo a passo: Para dados federais, use o portal, navegando até a seção de "Despesas" > "Por Função" e selecionando "19 - Ciência e Tecnologia". Os dados podem ser filtrados e exportados para download. Para dados estaduais, é preciso acessar o Portal da Transparência de cada estado, já que cada um tem o seu próprio sistema de divulgação.   Fontes e conteúdo relacionado |
 
 
 # Dicionário de Dados
