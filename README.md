@@ -53,7 +53,7 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 
 
 ## Dicionário de dados
-/dicionario-de-dados
+[Rota para o dicionario](./dicionario-de-dados)
 
 # Membros
 
