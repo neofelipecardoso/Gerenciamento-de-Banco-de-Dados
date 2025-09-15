@@ -33,27 +33,7 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 
 ## Datasets Utilizados
 
-### PNAD Contínua (IBGE): 
-https://www.ibge.gov.br/estatisticas/sociais/rendimento-despesa-e-consumo/17270-pnad-continua.html?edicao=43499&t=resultados
-
-### Censo Escolar (INEP 2022): 
-https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar/resultados
-### INEP Indicadores Educacionais
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/indicadores-financeiros-educacionais
-### PeNSE (IBGE): 
-https://www.ibge.gov.br/estatisticas/sociais/educacao/9134-pesquisa-nacional-de-saude-do-escolar.html
-### ENEM Microdados: 
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-### Indicadores Educacionais – Nível Socioeconômico: 
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico
-### Taxas de Distorção Idade-Série (INEP): 
-https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie
-### IDEB (INEP): 
-https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados
-
-Os datasets informado acima tratam sobre desempenho de alunos no âmbito escolar.
-
-## Informações e passo a passo dos Datasets
+### Informações e passo a passo dos Datasets
 
 | Dataset                        | Fonte de Dados | Link para Acesso | Instruções de Acesso |
 |--------------------------------|----------------|------------------|-----------------------|
