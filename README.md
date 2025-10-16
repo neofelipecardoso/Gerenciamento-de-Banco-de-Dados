@@ -41,37 +41,37 @@ Após longos momentos de pesquisa, definimos quais são as seguintes perguntas a
 
 15. Como o acesso à internet (ANATEL) em áreas rurais se correlaciona com a nota de proficiência em matemática (SAEB) dos alunos de escolas localizadas nessas áreas, controlando pela renda familiar (Censo Demográfico)?
 
-16 - A desigualdade de renda afeta o desempenho médio em exames padronizados?(Saeb, PNAD Continua e Censo Demografico)
+16. A desigualdade de renda afeta o desempenho médio em exames padronizados?(Saeb, PNAD Continua e Censo Demografico)
 
-17 - Estados com maior gasto em educação apresentam estudantes com desempenho melhor? (Portal da Transparência e Saeb)
+17. Estados com maior gasto em educação apresentam estudantes com desempenho melhor? (Portal da Transparência e Saeb)
 
-18 - A taxa de distorção idade-série  é maior em regiões com menor nível socioeconômico? (Censo Escolar e Censo Demográfico)
+18. A taxa de distorção idade-série  é maior em regiões com menor nível socioeconômico? (Censo Escolar e Censo Demográfico)
 
-19 - O número de alunos por turma  está correlacionado com o desempenho escolar? (Censo Escolar e Saeb)
+19. O número de alunos por turma  está correlacionado com o desempenho escolar? (Censo Escolar e Saeb)
 
-20 - Períodos com maior investimento público em educação por estudante apresentam correlação com menores taxas de abandono escolar? (Censo Escolar e Portal da Transparência)
+20. Períodos com maior investimento público em educação por estudante apresentam correlação com menores taxas de abandono escolar? (Censo Escolar e Portal da Transparência)
 
-21 - O consumo de álcool e cigarro entre estudantes afeta diretamente a taxa de reprovação? (PENSE e Censo Escolar)
+21. O consumo de álcool e cigarro entre estudantes afeta diretamente a taxa de reprovação? (PENSE e Censo Escolar)
 
-22 - Estudantes com pior qualidade de sono apresentam menor desempenho escolar? (PENSE e Saeb)
+22. Estudantes com pior qualidade de sono apresentam menor desempenho escolar? (PENSE e Saeb)
 
-23 - Há relação entre indicadores de saúde mental e evasão escolar?(PENSE e Censo Escolar)
+23. Há relação entre indicadores de saúde mental e evasão escolar?(PENSE e Censo Escolar)
 
-24 - O nível socioeconômico dos candidatos influencia a nota média por área de conhecimento? (SAEB e ENEM)
+24. O nível socioeconômico dos candidatos influencia a nota média por área de conhecimento? (SAEB e ENEM)
 
-25 - O tipo de escola (pública x privada) explica diferenças de desempenho no ENEM? (ENEM e Censo Escolar)
+25. O tipo de escola (pública x privada) explica diferenças de desempenho no ENEM? (ENEM e Censo Escolar)
 
-26 - Estados/regiões com menor taxa de distorção idade-série apresentam melhores resultados no IDEB? (Censo Escolar e Saeb)
+26. Estados/regiões com menor taxa de distorção idade-série apresentam melhores resultados no IDEB? (Censo Escolar e Saeb)
 
-27 - O nível socioeconômico e escolar impacta o IDEB de forma consistente entre regiões? (Saeb, Censo Demografico e PNAD Continua)
+27. O nível socioeconômico e escolar impacta o IDEB de forma consistente entre regiões? (Saeb, Censo Demografico e PNAD Continua)
 
-28 - Há relação clara entre nível socioeconômico escolare taxa de reprovação? (Censo Escolar e Saeb)
+28. Há relação clara entre nível socioeconômico escolare taxa de reprovação? (Censo Escolar e Saeb)
 
-29 - Quais fatores socioeconômicos mais explicam a alta distorção idade-série em determinadas regiões? (Censo Escolar, Censo Demográfico e PNAD Continua)
+29. Quais fatores socioeconômicos mais explicam a alta distorção idade-série em determinadas regiões? (Censo Escolar, Censo Demográfico e PNAD Continua)
 
-30 - Qual é a relação temporal entre o investimento público em educação por estudante e o IDEB nacional? (Portal da Transparência e Saeb)
+30. Qual é a relação temporal entre o investimento público em educação por estudante e o IDEB nacional? (Portal da Transparência e Saeb)
 
-31 - O crescimento do IDEB em determinadas regiões pode ser explicado pela melhoria nas condições socioeconômicas?(Saeb, Censo Demografico e PNAD Continua)
+31. O crescimento do IDEB em determinadas regiões pode ser explicado pela melhoria nas condições socioeconômicas?(Saeb, Censo Demografico e PNAD Continua)
 
 
 ## Datasets Utilizados
