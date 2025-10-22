@@ -1,0 +1,36 @@
+﻿"Tabela 7210 - Estudantes do ensino superior, especialização, mestrado ou doutorado, por sexo e conclusão de curso técnico de nível médio ou normal (magistério)"
+"Variável - Estudantes do superior, especialização, mestrado ou doutorado"
+"Grande Região";"Conclusão do curso técnico de nível médio ou normal (magistério)";"Ano x Sexo"
+"Grande Região";"Conclusão do curso técnico de nível médio ou normal (magistério)";"2019";;;;"2022";;;;"2023";;;;"2024"
+"Grande Região";"Conclusão do curso técnico de nível médio ou normal (magistério)";"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres"
+"Norte";"Concluiu curso técnico de nível médio ou curso normal (magistério)";"44";"Mil pessoas";"50";"Mil pessoas";"45";"Mil pessoas";"67";"Mil pessoas";"44";"Mil pessoas";"62";"Mil pessoas";"69";"Mil pessoas";"77";"Mil pessoas"
+"Norte";"Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)";"337";"Mil pessoas";"428";"Mil pessoas";"350";"Mil pessoas";"488";"Mil pessoas";"345";"Mil pessoas";"497";"Mil pessoas";"378";"Mil pessoas";"561";"Mil pessoas"
+"Nordeste";"Concluiu curso técnico de nível médio ou curso normal (magistério)";"135";"Mil pessoas";"172";"Mil pessoas";"118";"Mil pessoas";"183";"Mil pessoas";"134";"Mil pessoas";"186";"Mil pessoas";"142";"Mil pessoas";"171";"Mil pessoas"
+"Nordeste";"Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)";"870";"Mil pessoas";"1184";"Mil pessoas";"838";"Mil pessoas";"1072";"Mil pessoas";"840";"Mil pessoas";"1190";"Mil pessoas";"902";"Mil pessoas";"1220";"Mil pessoas"
+"Sudeste";"Concluiu curso técnico de nível médio ou curso normal (magistério)";"425";"Mil pessoas";"384";"Mil pessoas";"429";"Mil pessoas";"482";"Mil pessoas";"424";"Mil pessoas";"375";"Mil pessoas";"428";"Mil pessoas";"484";"Mil pessoas"
+"Sudeste";"Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)";"1562";"Mil pessoas";"2056";"Mil pessoas";"1584";"Mil pessoas";"2238";"Mil pessoas";"1667";"Mil pessoas";"2324";"Mil pessoas";"1729";"Mil pessoas";"2335";"Mil pessoas"
+"Sul";"Concluiu curso técnico de nível médio ou curso normal (magistério)";"109";"Mil pessoas";"142";"Mil pessoas";"112";"Mil pessoas";"130";"Mil pessoas";"106";"Mil pessoas";"153";"Mil pessoas";"132";"Mil pessoas";"147";"Mil pessoas"
+"Sul";"Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)";"605";"Mil pessoas";"807";"Mil pessoas";"619";"Mil pessoas";"845";"Mil pessoas";"652";"Mil pessoas";"822";"Mil pessoas";"659";"Mil pessoas";"881";"Mil pessoas"
+"Centro-Oeste";"Concluiu curso técnico de nível médio ou curso normal (magistério)";"41";"Mil pessoas";"37";"Mil pessoas";"52";"Mil pessoas";"58";"Mil pessoas";"36";"Mil pessoas";"54";"Mil pessoas";"43";"Mil pessoas";"47";"Mil pessoas"
+"Centro-Oeste";"Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)";"379";"Mil pessoas";"522";"Mil pessoas";"379";"Mil pessoas";"533";"Mil pessoas";"414";"Mil pessoas";"546";"Mil pessoas";"428";"Mil pessoas";"588";"Mil pessoas"
+"Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre"
+
+"Notas"
+"A partir de 01 de agosto de 2022, as estimativas deste tema passaram a ser divulgadas com base no novo método de ponderação da pesquisa, conforme a Nota Técnica 03/2021. Consequentemente, a série histórica dos indicadores foi atualizada."
+""
+"Legenda"
+"Símbolo";"Significado"
+"-";"Zero absoluto, não resultante de um cálculo ou arredondamento.
+Ex: Em determinado município não existem pessoas de 14 anos de idade sem instrução."
+"0";"Zero resultante de um cálculo ou arredondamento.
+Ex: A inflação do feijão em determinada Região Metropolitana foi 0.
+Determinado município produziu 400 kg de sementes de girassol e os dados da tabela são expressos em toneladas."
+"X";"Valor inibido para não identificar o informante.
+Ex: Determinado município só possui uma empresa produtora de cimento, logo o valor de sua produção deve ser inibido."
+"..";"Valor não se aplica.
+Ex: Não se pode obter o total da produção agrícola em determinado município quando os produtos agrícolas são contabilizados com unidades de medida distintas."
+"...";"Valor não disponível.
+Ex: A produção de feijão em determinado município não foi pesquisada ou determinado município não existia no ano da pesquisa."
+"A a Z
+(exceto X)";"Significa uma faixa de valores. Varia em função da tabela (se for o caso).
+Ex: O nível de precisão da produção estimada de combustíveis está na faixa A (95 a 100%)"

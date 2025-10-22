@@ -1,0 +1,38 @@
+﻿"Tabela 7146 - Estudantes do ensino superior, por cor ou raça e tipo de ensino superior"
+"Variável - Estudantes do ensino superior"
+"Grande Região";"Tipo de ensino superior";"Ano x Cor ou raça"
+"Grande Região";"Tipo de ensino superior";"2016";;;;"2017";;;;"2018";;;;"2019";;;;"2022";;;;"2023";;;;"2024"
+"Grande Região";"Tipo de ensino superior";"Branca";;"Preta ou parda";;"Branca";;"Preta ou parda";;"Branca";;"Preta ou parda";;"Branca";;"Preta ou parda";;"Branca";;"Preta ou parda";;"Branca";;"Preta ou parda";;"Branca";;"Preta ou parda"
+"Norte";"Graduação tecnológica";"16";"Mil pessoas";"51";"Mil pessoas";"12";"Mil pessoas";"44";"Mil pessoas";"10";"Mil pessoas";"43";"Mil pessoas";"15";"Mil pessoas";"54";"Mil pessoas";"23";"Mil pessoas";"66";"Mil pessoas";"16";"Mil pessoas";"67";"Mil pessoas";"27";"Mil pessoas";"66";"Mil pessoas"
+"Norte";"Graduação não tecnológica";"154";"Mil pessoas";"431";"Mil pessoas";"141";"Mil pessoas";"469";"Mil pessoas";"184";"Mil pessoas";"484";"Mil pessoas";"160";"Mil pessoas";"520";"Mil pessoas";"183";"Mil pessoas";"526";"Mil pessoas";"171";"Mil pessoas";"534";"Mil pessoas";"193";"Mil pessoas";"622";"Mil pessoas"
+"Nordeste";"Graduação tecnológica";"50";"Mil pessoas";"111";"Mil pessoas";"41";"Mil pessoas";"113";"Mil pessoas";"37";"Mil pessoas";"108";"Mil pessoas";"54";"Mil pessoas";"132";"Mil pessoas";"65";"Mil pessoas";"122";"Mil pessoas";"70";"Mil pessoas";"134";"Mil pessoas";"71";"Mil pessoas";"176";"Mil pessoas"
+"Nordeste";"Graduação não tecnológica";"546";"Mil pessoas";"1153";"Mil pessoas";"536";"Mil pessoas";"1115";"Mil pessoas";"619";"Mil pessoas";"1269";"Mil pessoas";"568";"Mil pessoas";"1231";"Mil pessoas";"550";"Mil pessoas";"1120";"Mil pessoas";"589";"Mil pessoas";"1172";"Mil pessoas";"602";"Mil pessoas";"1204";"Mil pessoas"
+"Sudeste";"Graduação tecnológica";"254";"Mil pessoas";"148";"Mil pessoas";"190";"Mil pessoas";"167";"Mil pessoas";"161";"Mil pessoas";"152";"Mil pessoas";"209";"Mil pessoas";"157";"Mil pessoas";"291";"Mil pessoas";"249";"Mil pessoas";"338";"Mil pessoas";"264";"Mil pessoas";"340";"Mil pessoas";"295";"Mil pessoas"
+"Sudeste";"Graduação não tecnológica";"1991";"Mil pessoas";"1162";"Mil pessoas";"1820";"Mil pessoas";"1202";"Mil pessoas";"1963";"Mil pessoas";"1355";"Mil pessoas";"1978";"Mil pessoas";"1321";"Mil pessoas";"1962";"Mil pessoas";"1296";"Mil pessoas";"1915";"Mil pessoas";"1384";"Mil pessoas";"1900";"Mil pessoas";"1426";"Mil pessoas"
+"Sul";"Graduação tecnológica";"113";"Mil pessoas";"26";"Mil pessoas";"119";"Mil pessoas";"28";"Mil pessoas";"134";"Mil pessoas";"26";"Mil pessoas";"105";"Mil pessoas";"37";"Mil pessoas";"195";"Mil pessoas";"45";"Mil pessoas";"181";"Mil pessoas";"74";"Mil pessoas";"215";"Mil pessoas";"56";"Mil pessoas"
+"Sul";"Graduação não tecnológica";"1001";"Mil pessoas";"153";"Mil pessoas";"997";"Mil pessoas";"197";"Mil pessoas";"1005";"Mil pessoas";"232";"Mil pessoas";"1009";"Mil pessoas";"230";"Mil pessoas";"923";"Mil pessoas";"238";"Mil pessoas";"893";"Mil pessoas";"266";"Mil pessoas";"902";"Mil pessoas";"297";"Mil pessoas"
+"Centro-Oeste";"Graduação tecnológica";"35";"Mil pessoas";"49";"Mil pessoas";"31";"Mil pessoas";"47";"Mil pessoas";"29";"Mil pessoas";"38";"Mil pessoas";"27";"Mil pessoas";"68";"Mil pessoas";"46";"Mil pessoas";"73";"Mil pessoas";"49";"Mil pessoas";"77";"Mil pessoas";"46";"Mil pessoas";"87";"Mil pessoas"
+"Centro-Oeste";"Graduação não tecnológica";"286";"Mil pessoas";"394";"Mil pessoas";"281";"Mil pessoas";"383";"Mil pessoas";"302";"Mil pessoas";"449";"Mil pessoas";"303";"Mil pessoas";"418";"Mil pessoas";"309";"Mil pessoas";"406";"Mil pessoas";"307";"Mil pessoas";"411";"Mil pessoas";"325";"Mil pessoas";"424";"Mil pessoas"
+"Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre"
+
+"Notas"
+"A categoria Total para ""Cor ou raça"" inclui as pessoas que se declaram indígenas, amarelas ou sem declaração.
+A partir de 01 de agosto de 2022, as estimativas deste tema passaram a ser divulgadas com base no novo método de ponderação da pesquisa, conforme a Nota Técnica 03/2021. Consequentemente, a série histórica dos indicadores foi atualizada.
+"
+""
+"Legenda"
+"Símbolo";"Significado"
+"-";"Zero absoluto, não resultante de um cálculo ou arredondamento.
+Ex: Em determinado município não existem pessoas de 14 anos de idade sem instrução."
+"0";"Zero resultante de um cálculo ou arredondamento.
+Ex: A inflação do feijão em determinada Região Metropolitana foi 0.
+Determinado município produziu 400 kg de sementes de girassol e os dados da tabela são expressos em toneladas."
+"X";"Valor inibido para não identificar o informante.
+Ex: Determinado município só possui uma empresa produtora de cimento, logo o valor de sua produção deve ser inibido."
+"..";"Valor não se aplica.
+Ex: Não se pode obter o total da produção agrícola em determinado município quando os produtos agrícolas são contabilizados com unidades de medida distintas."
+"...";"Valor não disponível.
+Ex: A produção de feijão em determinado município não foi pesquisada ou determinado município não existia no ano da pesquisa."
+"A a Z
+(exceto X)";"Significa uma faixa de valores. Varia em função da tabela (se for o caso).
+Ex: O nível de precisão da produção estimada de combustíveis está na faixa A (95 a 100%)"

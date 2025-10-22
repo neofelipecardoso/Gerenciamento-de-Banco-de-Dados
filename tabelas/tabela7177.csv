@@ -1,0 +1,36 @@
+﻿"Tabela 7177 - Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar, por sexo e frequência a curso de qualificação profissional"
+"Variável - Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar"
+"Grande Região";"Frequência a curso de qualificação profissional";"Ano x Sexo"
+"Grande Região";"Frequência a curso de qualificação profissional";"2016";;;;"2017";;;;"2018";;;;"2019";;;;"2022";;;;"2023";;;;"2024"
+"Grande Região";"Frequência a curso de qualificação profissional";"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres";;"Homens";;"Mulheres"
+"Norte";"Frequenta curso de qualificação profissional";"43";"Mil pessoas";"36";"Mil pessoas";"39";"Mil pessoas";"20";"Mil pessoas";"25";"Mil pessoas";"16";"Mil pessoas";"16";"Mil pessoas";"26";"Mil pessoas";"26";"Mil pessoas";"28";"Mil pessoas";"17";"Mil pessoas";"19";"Mil pessoas";"22";"Mil pessoas";"27";"Mil pessoas"
+"Norte";"Não frequenta curso de qualificação profissional";"3592";"Mil pessoas";"3097";"Mil pessoas";"3596";"Mil pessoas";"3091";"Mil pessoas";"3636";"Mil pessoas";"3099";"Mil pessoas";"3585";"Mil pessoas";"3044";"Mil pessoas";"3524";"Mil pessoas";"2988";"Mil pessoas";"3484";"Mil pessoas";"3027";"Mil pessoas";"3423";"Mil pessoas";"2860";"Mil pessoas"
+"Nordeste";"Frequenta curso de qualificação profissional";"83";"Mil pessoas";"67";"Mil pessoas";"56";"Mil pessoas";"48";"Mil pessoas";"47";"Mil pessoas";"32";"Mil pessoas";"43";"Mil pessoas";"47";"Mil pessoas";"40";"Mil pessoas";"49";"Mil pessoas";"36";"Mil pessoas";"40";"Mil pessoas";"52";"Mil pessoas";"49";"Mil pessoas"
+"Nordeste";"Não frequenta curso de qualificação profissional";"12705";"Mil pessoas";"12028";"Mil pessoas";"12758";"Mil pessoas";"11941";"Mil pessoas";"12559";"Mil pessoas";"11723";"Mil pessoas";"12404";"Mil pessoas";"11558";"Mil pessoas";"11921";"Mil pessoas";"11240";"Mil pessoas";"11709";"Mil pessoas";"11105";"Mil pessoas";"11388";"Mil pessoas";"10952";"Mil pessoas"
+"Sudeste";"Frequenta curso de qualificação profissional";"165";"Mil pessoas";"111";"Mil pessoas";"117";"Mil pessoas";"96";"Mil pessoas";"119";"Mil pessoas";"86";"Mil pessoas";"107";"Mil pessoas";"86";"Mil pessoas";"136";"Mil pessoas";"112";"Mil pessoas";"124";"Mil pessoas";"104";"Mil pessoas";"132";"Mil pessoas";"116";"Mil pessoas"
+"Sudeste";"Não frequenta curso de qualificação profissional";"14874";"Mil pessoas";"15331";"Mil pessoas";"14797";"Mil pessoas";"15136";"Mil pessoas";"14591";"Mil pessoas";"14895";"Mil pessoas";"14415";"Mil pessoas";"14579";"Mil pessoas";"13598";"Mil pessoas";"13962";"Mil pessoas";"13515";"Mil pessoas";"13903";"Mil pessoas";"13302";"Mil pessoas";"13563";"Mil pessoas"
+"Sul";"Frequenta curso de qualificação profissional";"83";"Mil pessoas";"73";"Mil pessoas";"74";"Mil pessoas";"46";"Mil pessoas";"56";"Mil pessoas";"42";"Mil pessoas";"50";"Mil pessoas";"45";"Mil pessoas";"87";"Mil pessoas";"50";"Mil pessoas";"62";"Mil pessoas";"56";"Mil pessoas";"64";"Mil pessoas";"46";"Mil pessoas"
+"Sul";"Não frequenta curso de qualificação profissional";"5871";"Mil pessoas";"5785";"Mil pessoas";"5923";"Mil pessoas";"5797";"Mil pessoas";"5892";"Mil pessoas";"5700";"Mil pessoas";"5641";"Mil pessoas";"5548";"Mil pessoas";"5563";"Mil pessoas";"5312";"Mil pessoas";"5461";"Mil pessoas";"5298";"Mil pessoas";"5326";"Mil pessoas";"5094";"Mil pessoas"
+"Centro-Oeste";"Frequenta curso de qualificação profissional";"47";"Mil pessoas";"27";"Mil pessoas";"45";"Mil pessoas";"30";"Mil pessoas";"22";"Mil pessoas";"22";"Mil pessoas";"21";"Mil pessoas";"21";"Mil pessoas";"31";"Mil pessoas";"27";"Mil pessoas";"31";"Mil pessoas";"34";"Mil pessoas";"33";"Mil pessoas";"28";"Mil pessoas"
+"Centro-Oeste";"Não frequenta curso de qualificação profissional";"3019";"Mil pessoas";"2718";"Mil pessoas";"3015";"Mil pessoas";"2731";"Mil pessoas";"3032";"Mil pessoas";"2695";"Mil pessoas";"2937";"Mil pessoas";"2631";"Mil pessoas";"2864";"Mil pessoas";"2495";"Mil pessoas";"2732";"Mil pessoas";"2467";"Mil pessoas";"2659";"Mil pessoas";"2402";"Mil pessoas"
+"Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre"
+
+"Notas"
+"A partir de 01 de agosto de 2022, as estimativas deste tema passaram a ser divulgadas com base no novo método de ponderação da pesquisa, conforme a Nota Técnica 03/2021. Consequentemente, a série histórica dos indicadores foi atualizada."
+""
+"Legenda"
+"Símbolo";"Significado"
+"-";"Zero absoluto, não resultante de um cálculo ou arredondamento.
+Ex: Em determinado município não existem pessoas de 14 anos de idade sem instrução."
+"0";"Zero resultante de um cálculo ou arredondamento.
+Ex: A inflação do feijão em determinada Região Metropolitana foi 0.
+Determinado município produziu 400 kg de sementes de girassol e os dados da tabela são expressos em toneladas."
+"X";"Valor inibido para não identificar o informante.
+Ex: Determinado município só possui uma empresa produtora de cimento, logo o valor de sua produção deve ser inibido."
+"..";"Valor não se aplica.
+Ex: Não se pode obter o total da produção agrícola em determinado município quando os produtos agrícolas são contabilizados com unidades de medida distintas."
+"...";"Valor não disponível.
+Ex: A produção de feijão em determinado município não foi pesquisada ou determinado município não existia no ano da pesquisa."
+"A a Z
+(exceto X)";"Significa uma faixa de valores. Varia em função da tabela (se for o caso).
+Ex: O nível de precisão da produção estimada de combustíveis está na faixa A (95 a 100%)"
