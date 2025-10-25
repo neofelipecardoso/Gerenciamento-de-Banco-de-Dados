@@ -16,6 +16,7 @@ services:
       timeout: 10s
     volumes:
       - mssql-data:/var/opt/mssql
+      - ./datasets:/datasets:ro
   
   flyway:
     image: flyway/flyway:11-alpine

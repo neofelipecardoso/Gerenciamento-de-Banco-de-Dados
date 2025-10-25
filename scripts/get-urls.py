@@ -80,7 +80,7 @@ IDS = [
 
 
 def fetch_response(id: int) -> requests.Response:
-    time.sleep(0.5)
+    time.sleep(0.1)
     resp = requests.get(
         f"https://servicodados.ibge.gov.br/api/v3/agregados/{id}/metadados", timeout=30
     )
@@ -112,12 +112,12 @@ def get_url(data):
 def build_url(
     id: int, variavel: str, nivel_territorial: str, classificacoes: list[str]
 ) -> str:
-    base = f"https://sidra.ibge.gov.br/geratabela?format=br.csv&name=tabela{id}.csv&terr=N&rank=-&query=t/{id}/{nivel_territorial}/all/v/{variavel}/p/all"
+    base = f"https://sidra.ibge.gov.br/geratabela?format=xlsx&name=tabela{id}.xlsx&terr=N&rank=-&query=t/{id}/{nivel_territorial}/all/v/{variavel}/p/all"
     query = ""
 
     qtd_classificacoes = len(classificacoes)
     if not classificacoes:
-        query = f"d/v{variavel}%201/l/v,p,t&measurecol=true"
+        query = f"d/v{variavel}%201/l/v,p,t"
     else:
         c_parts = "/".join(f"c{c}/allxt" for c in classificacoes)
         if qtd_classificacoes == 1:
@@ -128,19 +128,19 @@ def build_url(
             l_part = f"l/v,p%2Bc{classificacoes[0]}%2Bc{classificacoes[1]},t%2Bc{classificacoes[2]}"
         else:
             return "# ERROR"
-        query = f"{c_parts}/{l_part}&measurecol=true"
+        query = f"{c_parts}/{l_part}"
 
     return f"{base}/{query}"
 
 
 def main():
-    print("Starting...")
+    print("Starting 'get-urls.py'...")
 
-    print(f"all IDs ({len(IDS)}): '{IDS}'")
+    print(f"all IDs ({len(IDS)})")
 
     unique_ids = list(dict.fromkeys(IDS))
 
-    print(f"unique IDs ({len(unique_ids)}): '{unique_ids}'")
+    print(f"using only unique IDs ({len(unique_ids)})")
 
     with open(OUTPUT_FILE, "w") as file:
         urls = []
@@ -156,7 +156,6 @@ def main():
                 urls.append(f"# ERROR (ID {id}): {e}")
         text_to_write = "\n\n".join(urls)
         file.write(text_to_write)
-        print("File created")
 
     print("Done")
 
