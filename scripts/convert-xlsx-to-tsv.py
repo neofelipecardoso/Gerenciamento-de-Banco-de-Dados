@@ -8,7 +8,7 @@ INPUT_DIR = Path("datasets_xlsx")
 ENCODING = "utf-8"
 LINETERMINATOR = "\n"
 OUTPUT_DIR = Path("datasets_tsv")
-HEADER_ROWS_TO_SKIP = 2
+HEADER_ROWS_TO_SKIP = 3
 FOOTER_ROWS_TO_SKIP = 1
 
 
@@ -40,9 +40,7 @@ def extract_content(ws, file):
 
 def convert_file(file):
     if not file.suffix.lower() == ".xlsx" or not file.is_file():
-        raise ValueError(
-            f"The input directory must contain only XLSX files.: {file}"
-        )
+        raise ValueError(f"The input directory must contain only XLSX files.: {file}")
 
     output_file = OUTPUT_DIR / file.name.replace(".xlsx", ".tsv")
 
@@ -65,9 +63,10 @@ def convert_file(file):
         quoting=csv.QUOTE_MINIMAL,
     )
 
+
 def main():
     print("Starting 'convert-xlsx-to-tsv.py'...")
-    
+
     if not INPUT_DIR.exists():
         raise FileNotFoundError(f"Input directory not found: {INPUT_DIR}")
 
