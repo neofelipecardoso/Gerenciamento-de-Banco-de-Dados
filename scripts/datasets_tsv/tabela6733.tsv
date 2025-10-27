@@ -1,8 +1,6 @@
-Tabela 6733 - Domicílios e Moradores com água canalizada, por situação do domicílio	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14
-Variável - Domicílios com água canalizada (Mil unidades)														
-Unidade da Federação	Ano x Situação do domicílio													
-	2016		2017		2018		2019		2022		2023		2024	
-	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural
+Unidade da Federação	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio
+Unidade da Federação	2016	2016	2017	2017	2018	2018	2019	2019	2022	2022	2023	2023	2024	2024
+Unidade da Federação	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural
 Rondônia	399	131	413	123	421	122	424	125	459	128	519	125	527	118
 Acre	169	29	169	30	181	42	184	44	209	37	209	38	224	43
 Amazonas	826	85	875	87	897	83	885	74	974	88	1023	88	1072	86
@@ -30,4 +28,3 @@ Mato Grosso do Sul	773	89	791	86	805	91	815	86	887	89	924	95	936	87
 Mato Grosso	924	163	948	162	968	173	964	171	1061	158	1162	151	1206	120
 Goiás	2009	195	2075	201	2123	197	2200	193	2358	167	2507	166	2585	157
 Distrito Federal	877	52	901	56	905	60	893	57	964	45	1021	43	1008	36
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 1ª visita														

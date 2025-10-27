@@ -1,195 +1,192 @@
-Tabela 7135 - Pessoas de 25 anos ou mais de idade, por cor ou raça e nível de instrução	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15
-Variável - Pessoas de 25 anos ou mais de idade (Mil pessoas)															
-Unidade da Federação	Nível de instrução	Ano x Cor ou raça													
-		2016		2017		2018		2019		2022		2023		2024	
-		Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda
+Unidade da Federação	Nível de instrução	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça
+Unidade da Federação	Nível de instrução	2016	2016	2017	2017	2018	2018	2019	2019	2022	2022	2023	2023	2024	2024
+Unidade da Federação	Nível de instrução	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda
 Rondônia	Sem instrução	25	64	22	58	22	55	18	49	23	60	27	65	26	61
-	Ensino fundamental incompleto ou equivalente	113	263	114	283	109	283	106	288	111	267	117	270	95	271
-	Ensino fundamental completo ou equivalente	23	66	22	58	23	57	19	50	23	56	24	54	20	62
-	Ensino médio incompleto ou equivalente	11	30	13	42	16	41	14	46	14	45	22	59	16	37
-	Ensino médio completo ou equivalente	62	145	68	158	65	168	67	190	83	212	84	222	84	260
-	Ensino superior incompleto ou equivalente	9	22	9	25	9	25	14	31	11	25	10	27	12	26
-	Superior completo	41	61	52	61	48	75	53	74	70	112	77	99	71	125
+Rondônia	Ensino fundamental incompleto ou equivalente	113	263	114	283	109	283	106	288	111	267	117	270	95	271
+Rondônia	Ensino fundamental completo ou equivalente	23	66	22	58	23	57	19	50	23	56	24	54	20	62
+Rondônia	Ensino médio incompleto ou equivalente	11	30	13	42	16	41	14	46	14	45	22	59	16	37
+Rondônia	Ensino médio completo ou equivalente	62	145	68	158	65	168	67	190	83	212	84	222	84	260
+Rondônia	Ensino superior incompleto ou equivalente	9	22	9	25	9	25	14	31	11	25	10	27	12	26
+Rondônia	Superior completo	41	61	52	61	48	75	53	74	70	112	77	99	71	125
 Acre	Sem instrução	8	47	7	47	6	47	5	48	6	46	7	56	7	44
-	Ensino fundamental incompleto ou equivalente	19	121	22	119	24	121	19	121	19	115	16	109	20	116
-	Ensino fundamental completo ou equivalente	5	27	6	26	5	26	5	28	6	23	4	30	5	30
-	Ensino médio incompleto ou equivalente	2	15	3	16	3	16	3	16	3	22	3	20	4	20
-	Ensino médio completo ou equivalente	17	74	18	79	20	78	20	89	23	107	21	119	27	115
-	Ensino superior incompleto ou equivalente	4	14	3	13	5	14	4	12	4	15	5	15	4	14
-	Superior completo	15	39	18	41	17	48	21	54	26	73	22	63	27	68
+Acre	Ensino fundamental incompleto ou equivalente	19	121	22	119	24	121	19	121	19	115	16	109	20	116
+Acre	Ensino fundamental completo ou equivalente	5	27	6	26	5	26	5	28	6	23	4	30	5	30
+Acre	Ensino médio incompleto ou equivalente	2	15	3	16	3	16	3	16	3	22	3	20	4	20
+Acre	Ensino médio completo ou equivalente	17	74	18	79	20	78	20	89	23	107	21	119	27	115
+Acre	Ensino superior incompleto ou equivalente	4	14	3	13	5	14	4	12	4	15	5	15	4	14
+Acre	Superior completo	15	39	18	41	17	48	21	54	26	73	22	63	27	68
 Amazonas	Sem instrução	21	148	18	120	17	129	8	101	18	109	18	113	15	113
-	Ensino fundamental incompleto ou equivalente	64	487	70	516	78	523	68	527	70	473	62	475	61	446
-	Ensino fundamental completo ou equivalente	21	126	19	114	18	108	18	106	21	128	16	117	19	119
-	Ensino médio incompleto ou equivalente	10	67	10	74	9	85	6	87	14	89	14	89	11	77
-	Ensino médio completo ou equivalente	100	495	101	543	109	577	110	578	149	655	137	680	156	752
-	Ensino superior incompleto ou equivalente	16	63	24	70	23	74	28	81	22	91	20	86	17	76
-	Superior completo	74	165	100	170	92	207	110	215	103	268	105	287	116	310
+Amazonas	Ensino fundamental incompleto ou equivalente	64	487	70	516	78	523	68	527	70	473	62	475	61	446
+Amazonas	Ensino fundamental completo ou equivalente	21	126	19	114	18	108	18	106	21	128	16	117	19	119
+Amazonas	Ensino médio incompleto ou equivalente	10	67	10	74	9	85	6	87	14	89	14	89	11	77
+Amazonas	Ensino médio completo ou equivalente	100	495	101	543	109	577	110	578	149	655	137	680	156	752
+Amazonas	Ensino superior incompleto ou equivalente	16	63	24	70	23	74	28	81	22	91	20	86	17	76
+Amazonas	Superior completo	74	165	100	170	92	207	110	215	103	268	105	287	116	310
 Roraima	Sem instrução	3	17	3	15	2	15	3	14	3	15	4	14	4	12
-	Ensino fundamental incompleto ou equivalente	10	48	11	46	11	52	9	47	9	51	11	49	10	52
-	Ensino fundamental completo ou equivalente	3	11	3	11	3	12	2	11	3	17	3	17	5	14
-	Ensino médio incompleto ou equivalente	2	8	3	12	3	10	3	12	3	13	3	17	4	16
-	Ensino médio completo ou equivalente	15	55	18	61	16	61	17	71	20	98	25	92	25	90
-	Ensino superior incompleto ou equivalente	4	8	4	10	5	11	4	13	4	13	4	12	6	17
-	Superior completo	16	27	16	28	17	35	21	34	18	43	23	41	21	46
+Roraima	Ensino fundamental incompleto ou equivalente	10	48	11	46	11	52	9	47	9	51	11	49	10	52
+Roraima	Ensino fundamental completo ou equivalente	3	11	3	11	3	12	2	11	3	17	3	17	5	14
+Roraima	Ensino médio incompleto ou equivalente	2	8	3	12	3	10	3	12	3	13	3	17	4	16
+Roraima	Ensino médio completo ou equivalente	15	55	18	61	16	61	17	71	20	98	25	92	25	90
+Roraima	Ensino superior incompleto ou equivalente	4	8	4	10	5	11	4	13	4	13	4	12	6	17
+Roraima	Superior completo	16	27	16	28	17	35	21	34	18	43	23	41	21	46
 Pará	Sem instrução	44	326	45	305	40	297	34	269	51	314	41	286	51	269
-	Ensino fundamental incompleto ou equivalente	247	1528	248	1508	231	1523	248	1506	266	1468	264	1436	246	1362
-	Ensino fundamental completo ou equivalente	55	285	53	294	62	289	53	294	62	284	63	308	65	331
-	Ensino médio incompleto ou equivalente	46	217	59	233	38	241	38	238	49	271	48	256	55	267
-	Ensino médio completo ou equivalente	194	921	210	953	203	1005	233	1060	267	1119	275	1249	304	1280
-	Ensino superior incompleto ou equivalente	28	88	24	114	33	119	31	115	42	123	37	141	50	189
-	Superior completo	109	278	115	289	148	341	165	348	178	463	200	492	228	525
+Pará	Ensino fundamental incompleto ou equivalente	247	1528	248	1508	231	1523	248	1506	266	1468	264	1436	246	1362
+Pará	Ensino fundamental completo ou equivalente	55	285	53	294	62	289	53	294	62	284	63	308	65	331
+Pará	Ensino médio incompleto ou equivalente	46	217	59	233	38	241	38	238	49	271	48	256	55	267
+Pará	Ensino médio completo ou equivalente	194	921	210	953	203	1005	233	1060	267	1119	275	1249	304	1280
+Pará	Ensino superior incompleto ou equivalente	28	88	24	114	33	119	31	115	42	123	37	141	50	189
+Pará	Superior completo	109	278	115	289	148	341	165	348	178	463	200	492	228	525
 Amapá	Sem instrução	3	22	5	19	3	29	6	28	4	31	5	37	4	37
-	Ensino fundamental incompleto ou equivalente	16	90	14	93	17	98	13	93	14	88	10	86	15	90
-	Ensino fundamental completo ou equivalente	4	22	5	25	5	21	4	25	3	26	3	22	5	27
-	Ensino médio incompleto ou equivalente	3	16	3	22	3	18	4	22	3	20	3	21	3	19
-	Ensino médio completo ou equivalente	25	101	20	100	19	112	25	120	24	135	25	151	30	145
-	Ensino superior incompleto ou equivalente	6	12	5	21	4	14	6	17	8	19	5	18	5	20
-	Superior completo	19	47	17	53	20	54	19	56	30	73	28	90	31	87
+Amapá	Ensino fundamental incompleto ou equivalente	16	90	14	93	17	98	13	93	14	88	10	86	15	90
+Amapá	Ensino fundamental completo ou equivalente	4	22	5	25	5	21	4	25	3	26	3	22	5	27
+Amapá	Ensino médio incompleto ou equivalente	3	16	3	22	3	18	4	22	3	20	3	21	3	19
+Amapá	Ensino médio completo ou equivalente	25	101	20	100	19	112	25	120	24	135	25	151	30	145
+Amapá	Ensino superior incompleto ou equivalente	6	12	5	21	4	14	6	17	8	19	5	18	5	20
+Amapá	Superior completo	19	47	17	53	20	54	19	56	30	73	28	90	31	87
 Tocantins	Sem instrução	19	89	19	90	19	88	13	75	12	73	14	79	11	61
-	Ensino fundamental incompleto ou equivalente	52	215	54	235	50	236	50	256	51	217	38	220	50	240
-	Ensino fundamental completo ou equivalente	14	47	10	41	9	44	8	48	9	39	10	47	10	47
-	Ensino médio incompleto ou equivalente	8	30	6	34	8	31	6	40	9	39	12	38	8	40
-	Ensino médio completo ou equivalente	52	167	52	171	49	186	49	199	55	215	50	220	58	223
-	Ensino superior incompleto ou equivalente	5	23	8	26	11	21	9	22	9	31	11	25	12	35
-	Superior completo	35	66	41	81	47	87	49	89	62	123	58	129	67	129
+Tocantins	Ensino fundamental incompleto ou equivalente	52	215	54	235	50	236	50	256	51	217	38	220	50	240
+Tocantins	Ensino fundamental completo ou equivalente	14	47	10	41	9	44	8	48	9	39	10	47	10	47
+Tocantins	Ensino médio incompleto ou equivalente	8	30	6	34	8	31	6	40	9	39	12	38	8	40
+Tocantins	Ensino médio completo ou equivalente	52	167	52	171	49	186	49	199	55	215	50	220	58	223
+Tocantins	Ensino superior incompleto ou equivalente	5	23	8	26	11	21	9	22	9	31	11	25	12	35
+Tocantins	Superior completo	35	66	41	81	47	87	49	89	62	123	58	129	67	129
 Maranhão	Sem instrução	99	524	91	534	87	505	84	513	73	443	74	444	70	436
-	Ensino fundamental incompleto ou equivalente	226	1128	210	1128	200	1126	208	1084	194	1062	179	1077	184	1093
-	Ensino fundamental completo ou equivalente	57	241	48	239	52	234	51	236	53	259	45	263	47	284
-	Ensino médio incompleto ou equivalente	29	127	25	156	33	162	37	160	30	184	25	186	28	184
-	Ensino médio completo ou equivalente	189	660	182	748	184	751	207	792	212	939	222	977	228	1026
-	Ensino superior incompleto ou equivalente	20	59	19	61	30	74	24	75	26	81	27	88	25	86
-	Superior completo	74	176	85	188	93	225	99	248	136	324	160	336	163	367
+Maranhão	Ensino fundamental incompleto ou equivalente	226	1128	210	1128	200	1126	208	1084	194	1062	179	1077	184	1093
+Maranhão	Ensino fundamental completo ou equivalente	57	241	48	239	52	234	51	236	53	259	45	263	47	284
+Maranhão	Ensino médio incompleto ou equivalente	29	127	25	156	33	162	37	160	30	184	25	186	28	184
+Maranhão	Ensino médio completo ou equivalente	189	660	182	748	184	751	207	792	212	939	222	977	228	1026
+Maranhão	Ensino superior incompleto ou equivalente	20	59	19	61	30	74	24	75	26	81	27	88	25	86
+Maranhão	Superior completo	74	176	85	188	93	225	99	248	136	324	160	336	163	367
 Piauí	Sem instrução	46	220	47	198	43	191	36	185	52	224	50	209	35	164
-	Ensino fundamental incompleto ou equivalente	130	664	142	640	105	688	118	694	123	597	119	576	120	630
-	Ensino fundamental completo ou equivalente	29	114	29	121	23	127	25	109	28	98	23	102	29	105
-	Ensino médio incompleto ou equivalente	15	79	13	78	14	81	13	86	16	88	13	86	15	98
-	Ensino médio completo ou equivalente	78	297	88	309	81	308	73	331	91	354	93	399	96	411
-	Ensino superior incompleto ou equivalente	12	36	11	33	9	42	13	48	12	38	17	41	19	55
-	Superior completo	71	135	71	150	73	152	66	170	105	216	95	232	105	216
+Piauí	Ensino fundamental incompleto ou equivalente	130	664	142	640	105	688	118	694	123	597	119	576	120	630
+Piauí	Ensino fundamental completo ou equivalente	29	114	29	121	23	127	25	109	28	98	23	102	29	105
+Piauí	Ensino médio incompleto ou equivalente	15	79	13	78	14	81	13	86	16	88	13	86	15	98
+Piauí	Ensino médio completo ou equivalente	78	297	88	309	81	308	73	331	91	354	93	399	96	411
+Piauí	Ensino superior incompleto ou equivalente	12	36	11	33	9	42	13	48	12	38	17	41	19	55
+Piauí	Superior completo	71	135	71	150	73	152	66	170	105	216	95	232	105	216
 Ceará	Sem instrução	155	623	152	581	134	541	139	509	161	544	152	548	150	533
-	Ensino fundamental incompleto ou equivalente	417	1418	424	1453	393	1439	410	1461	431	1348	375	1361	357	1389
-	Ensino fundamental completo ou equivalente	112	399	119	341	115	350	104	342	128	353	102	328	95	367
-	Ensino médio incompleto ou equivalente	59	166	63	192	57	216	61	212	80	227	69	282	60	286
-	Ensino médio completo ou equivalente	364	848	385	941	407	955	386	1036	435	1224	468	1231	424	1296
-	Ensino superior incompleto ou equivalente	48	97	65	106	70	124	70	122	83	118	64	135	75	132
-	Superior completo	224	240	242	288	266	353	301	362	345	409	322	463	379	457
+Ceará	Ensino fundamental incompleto ou equivalente	417	1418	424	1453	393	1439	410	1461	431	1348	375	1361	357	1389
+Ceará	Ensino fundamental completo ou equivalente	112	399	119	341	115	350	104	342	128	353	102	328	95	367
+Ceará	Ensino médio incompleto ou equivalente	59	166	63	192	57	216	61	212	80	227	69	282	60	286
+Ceará	Ensino médio completo ou equivalente	364	848	385	941	407	955	386	1036	435	1224	468	1231	424	1296
+Ceará	Ensino superior incompleto ou equivalente	48	97	65	106	70	124	70	122	83	118	64	135	75	132
+Ceará	Superior completo	224	240	242	288	266	353	301	362	345	409	322	463	379	457
 Rio Grande do Norte	Sem instrução	69	150	54	131	48	110	52	133	63	138	63	157	72	135
-	Ensino fundamental incompleto ou equivalente	225	552	250	580	256	584	244	568	219	533	222	507	224	463
-	Ensino fundamental completo ou equivalente	50	80	43	84	45	81	45	89	49	110	45	107	41	100
-	Ensino médio incompleto ou equivalente	37	81	33	84	29	66	43	77	41	105	44	94	37	90
-	Ensino médio completo ou equivalente	213	307	207	325	203	327	196	326	241	379	258	411	273	415
-	Ensino superior incompleto ou equivalente	25	39	34	33	22	52	37	42	44	38	37	43	33	55
-	Superior completo	125	124	127	124	156	133	171	164	184	164	186	169	192	219
+Rio Grande do Norte	Ensino fundamental incompleto ou equivalente	225	552	250	580	256	584	244	568	219	533	222	507	224	463
+Rio Grande do Norte	Ensino fundamental completo ou equivalente	50	80	43	84	45	81	45	89	49	110	45	107	41	100
+Rio Grande do Norte	Ensino médio incompleto ou equivalente	37	81	33	84	29	66	43	77	41	105	44	94	37	90
+Rio Grande do Norte	Ensino médio completo ou equivalente	213	307	207	325	203	327	196	326	241	379	258	411	273	415
+Rio Grande do Norte	Ensino superior incompleto ou equivalente	25	39	34	33	22	52	37	42	44	38	37	43	33	55
+Rio Grande do Norte	Superior completo	125	124	127	124	156	133	171	164	184	164	186	169	192	219
 Paraíba	Sem instrução	87	233	84	224	84	237	76	224	76	240	84	232	71	208
-	Ensino fundamental incompleto ou equivalente	280	656	243	682	269	667	271	682	266	657	241	638	247	640
-	Ensino fundamental completo ou equivalente	42	104	42	107	46	84	43	96	40	110	49	104	55	99
-	Ensino médio incompleto ou equivalente	30	69	29	76	29	66	29	67	33	94	42	95	41	98
-	Ensino médio completo ou equivalente	171	311	171	327	185	353	166	354	205	402	211	421	224	427
-	Ensino superior incompleto ou equivalente	27	43	33	43	32	44	28	50	26	45	32	43	33	47
-	Superior completo	141	120	141	159	132	162	144	177	154	164	170	170	191	198
+Paraíba	Ensino fundamental incompleto ou equivalente	280	656	243	682	269	667	271	682	266	657	241	638	247	640
+Paraíba	Ensino fundamental completo ou equivalente	42	104	42	107	46	84	43	96	40	110	49	104	55	99
+Paraíba	Ensino médio incompleto ou equivalente	30	69	29	76	29	66	29	67	33	94	42	95	41	98
+Paraíba	Ensino médio completo ou equivalente	171	311	171	327	185	353	166	354	205	402	211	421	224	427
+Paraíba	Ensino superior incompleto ou equivalente	27	43	33	43	32	44	28	50	26	45	32	43	33	47
+Paraíba	Superior completo	141	120	141	159	132	162	144	177	154	164	170	170	191	198
 Pernambuco	Sem instrução	179	509	160	533	153	438	145	440	201	454	180	406	155	391
-	Ensino fundamental incompleto ou equivalente	502	1511	476	1524	508	1455	510	1424	514	1363	552	1345	543	1396
-	Ensino fundamental completo ou equivalente	113	282	99	272	108	257	107	272	113	308	125	283	114	277
-	Ensino médio incompleto ou equivalente	66	168	60	182	63	189	69	182	74	191	75	186	80	195
-	Ensino médio completo ou equivalente	435	1004	444	1059	498	1070	520	1085	601	1240	653	1259	606	1322
-	Ensino superior incompleto ou equivalente	69	79	55	94	80	114	80	119	78	87	69	109	82	116
-	Superior completo	340	326	361	308	387	390	406	389	374	397	441	447	428	484
+Pernambuco	Ensino fundamental incompleto ou equivalente	502	1511	476	1524	508	1455	510	1424	514	1363	552	1345	543	1396
+Pernambuco	Ensino fundamental completo ou equivalente	113	282	99	272	108	257	107	272	113	308	125	283	114	277
+Pernambuco	Ensino médio incompleto ou equivalente	66	168	60	182	63	189	69	182	74	191	75	186	80	195
+Pernambuco	Ensino médio completo ou equivalente	435	1004	444	1059	498	1070	520	1085	601	1240	653	1259	606	1322
+Pernambuco	Ensino superior incompleto ou equivalente	69	79	55	94	80	114	80	119	78	87	69	109	82	116
+Pernambuco	Superior completo	340	326	361	308	387	390	406	389	374	397	441	447	428	484
 Alagoas	Sem instrução	60	271	64	258	52	254	54	240	52	198	47	205	51	210
-	Ensino fundamental incompleto ou equivalente	137	581	145	605	137	600	146	581	160	541	148	508	143	500
-	Ensino fundamental completo ou equivalente	28	101	30	96	25	102	30	106	33	95	30	105	32	96
-	Ensino médio incompleto ou equivalente	17	60	16	63	17	63	19	67	22	82	24	80	19	78
-	Ensino médio completo ou equivalente	95	273	94	318	110	316	111	311	130	341	135	370	143	391
-	Ensino superior incompleto ou equivalente	15	38	15	35	14	30	16	28	22	50	22	54	23	49
-	Superior completo	69	85	67	92	90	106	100	129	99	156	103	159	118	169
+Alagoas	Ensino fundamental incompleto ou equivalente	137	581	145	605	137	600	146	581	160	541	148	508	143	500
+Alagoas	Ensino fundamental completo ou equivalente	28	101	30	96	25	102	30	106	33	95	30	105	32	96
+Alagoas	Ensino médio incompleto ou equivalente	17	60	16	63	17	63	19	67	22	82	24	80	19	78
+Alagoas	Ensino médio completo ou equivalente	95	273	94	318	110	316	111	311	130	341	135	370	143	391
+Alagoas	Ensino superior incompleto ou equivalente	15	38	15	35	14	30	16	28	22	50	22	54	23	49
+Alagoas	Superior completo	69	85	67	92	90	106	100	129	99	156	103	159	118	169
 Sergipe	Sem instrução	33	142	26	126	25	124	22	105	30	112	30	102	27	103
-	Ensino fundamental incompleto ou equivalente	98	391	94	421	102	404	111	423	100	407	108	361	94	393
-	Ensino fundamental completo ou equivalente	19	65	15	77	13	72	16	65	22	69	22	69	24	72
-	Ensino médio incompleto ou equivalente	10	40	10	55	13	52	8	52	12	60	13	64	16	59
-	Ensino médio completo ou equivalente	66	239	64	243	64	242	72	266	103	274	78	305	95	315
-	Ensino superior incompleto ou equivalente	8	32	12	37	11	33	15	35	15	47	13	39	14	38
-	Superior completo	51	102	49	99	55	102	61	109	64	119	69	151	73	154
+Sergipe	Ensino fundamental incompleto ou equivalente	98	391	94	421	102	404	111	423	100	407	108	361	94	393
+Sergipe	Ensino fundamental completo ou equivalente	19	65	15	77	13	72	16	65	22	69	22	69	24	72
+Sergipe	Ensino médio incompleto ou equivalente	10	40	10	55	13	52	8	52	12	60	13	64	16	59
+Sergipe	Ensino médio completo ou equivalente	66	239	64	243	64	242	72	266	103	274	78	305	95	315
+Sergipe	Ensino superior incompleto ou equivalente	8	32	12	37	11	33	15	35	15	47	13	39	14	38
+Sergipe	Superior completo	51	102	49	99	55	102	61	109	64	119	69	151	73	154
 Bahia	Sem instrução	211	965	209	990	206	1012	176	960	239	891	244	956	186	885
-	Ensino fundamental incompleto ou equivalente	546	2607	514	2659	478	2669	501	2649	489	2422	496	2399	496	2277
-	Ensino fundamental completo ou equivalente	78	394	82	389	71	412	75	414	90	416	89	458	99	454
-	Ensino médio incompleto ou equivalente	64	368	54	372	63	376	50	385	87	451	63	391	75	471
-	Ensino médio completo ou equivalente	418	1893	423	1909	436	1973	421	2050	467	2429	527	2529	514	2581
-	Ensino superior incompleto ou equivalente	50	215	55	196	57	255	47	235	51	211	74	212	70	220
-	Superior completo	246	547	292	565	289	618	293	711	277	831	348	798	388	927
+Bahia	Ensino fundamental incompleto ou equivalente	546	2607	514	2659	478	2669	501	2649	489	2422	496	2399	496	2277
+Bahia	Ensino fundamental completo ou equivalente	78	394	82	389	71	412	75	414	90	416	89	458	99	454
+Bahia	Ensino médio incompleto ou equivalente	64	368	54	372	63	376	50	385	87	451	63	391	75	471
+Bahia	Ensino médio completo ou equivalente	418	1893	423	1909	436	1973	421	2050	467	2429	527	2529	514	2581
+Bahia	Ensino superior incompleto ou equivalente	50	215	55	196	57	255	47	235	51	211	74	212	70	220
+Bahia	Superior completo	246	547	292	565	289	618	293	711	277	831	348	798	388	927
 Minas Gerais	Sem instrução	199	468	194	409	188	425	168	433	164	402	196	436	171	385
-	Ensino fundamental incompleto ou equivalente	1832	3279	1821	3333	1791	3305	1790	3293	1747	3102	1712	2929	1615	2893
-	Ensino fundamental completo ou equivalente	453	740	434	764	413	705	440	715	426	668	430	658	426	691
-	Ensino médio incompleto ou equivalente	211	365	204	344	210	374	185	445	250	458	228	477	240	497
-	Ensino médio completo ou equivalente	1483	1741	1397	1933	1421	2044	1486	2048	1633	2339	1622	2496	1633	2593
-	Ensino superior incompleto ou equivalente	243	221	215	255	245	233	249	274	236	268	242	296	239	320
-	Superior completo	1203	696	1083	713	1288	791	1236	892	1471	1004	1530	1054	1645	1129
+Minas Gerais	Ensino fundamental incompleto ou equivalente	1832	3279	1821	3333	1791	3305	1790	3293	1747	3102	1712	2929	1615	2893
+Minas Gerais	Ensino fundamental completo ou equivalente	453	740	434	764	413	705	440	715	426	668	430	658	426	691
+Minas Gerais	Ensino médio incompleto ou equivalente	211	365	204	344	210	374	185	445	250	458	228	477	240	497
+Minas Gerais	Ensino médio completo ou equivalente	1483	1741	1397	1933	1421	2044	1486	2048	1633	2339	1622	2496	1633	2593
+Minas Gerais	Ensino superior incompleto ou equivalente	243	221	215	255	245	233	249	274	236	268	242	296	239	320
+Minas Gerais	Superior completo	1203	696	1083	713	1288	791	1236	892	1471	1004	1530	1054	1645	1129
 Espírito Santo	Sem instrução	65	109	49	100	46	91	37	84	41	96	39	105	36	78
-	Ensino fundamental incompleto ou equivalente	310	490	309	507	298	513	278	550	274	509	281	501	260	491
-	Ensino fundamental completo ou equivalente	86	130	83	152	72	137	66	129	81	142	78	134	72	147
-	Ensino médio incompleto ou equivalente	39	66	30	75	37	90	35	99	39	101	33	98	30	102
-	Ensino médio completo ou equivalente	267	412	267	433	273	428	255	455	263	534	279	528	297	573
-	Ensino superior incompleto ou equivalente	39	45	37	45	44	56	47	61	41	64	43	67	44	60
-	Superior completo	220	135	234	160	218	163	233	183	267	232	299	246	321	243
+Espírito Santo	Ensino fundamental incompleto ou equivalente	310	490	309	507	298	513	278	550	274	509	281	501	260	491
+Espírito Santo	Ensino fundamental completo ou equivalente	86	130	83	152	72	137	66	129	81	142	78	134	72	147
+Espírito Santo	Ensino médio incompleto ou equivalente	39	66	30	75	37	90	35	99	39	101	33	98	30	102
+Espírito Santo	Ensino médio completo ou equivalente	267	412	267	433	273	428	255	455	263	534	279	528	297	573
+Espírito Santo	Ensino superior incompleto ou equivalente	39	45	37	45	44	56	47	61	41	64	43	67	44	60
+Espírito Santo	Superior completo	220	135	234	160	218	163	233	183	267	232	299	246	321	243
 Rio de Janeiro	Sem instrução	162	276	161	275	151	242	147	217	150	261	138	244	140	198
-	Ensino fundamental incompleto ou equivalente	1063	1922	1028	1945	1030	1794	991	1750	900	1550	875	1491	891	1574
-	Ensino fundamental completo ou equivalente	513	787	424	758	428	656	445	641	404	637	345	560	337	571
-	Ensino médio incompleto ou equivalente	165	243	160	339	182	345	192	353	186	371	200	375	176	343
-	Ensino médio completo ou equivalente	1642	1979	1578	2094	1658	2132	1621	2225	1688	2332	1746	2388	1700	2563
-	Ensino superior incompleto ou equivalente	234	173	260	229	317	283	331	294	364	325	375	321	330	328
-	Superior completo	1452	525	1438	618	1579	740	1681	806	1963	965	2075	973	2061	1067
+Rio de Janeiro	Ensino fundamental incompleto ou equivalente	1063	1922	1028	1945	1030	1794	991	1750	900	1550	875	1491	891	1574
+Rio de Janeiro	Ensino fundamental completo ou equivalente	513	787	424	758	428	656	445	641	404	637	345	560	337	571
+Rio de Janeiro	Ensino médio incompleto ou equivalente	165	243	160	339	182	345	192	353	186	371	200	375	176	343
+Rio de Janeiro	Ensino médio completo ou equivalente	1642	1979	1578	2094	1658	2132	1621	2225	1688	2332	1746	2388	1700	2563
+Rio de Janeiro	Ensino superior incompleto ou equivalente	234	173	260	229	317	283	331	294	364	325	375	321	330	328
+Rio de Janeiro	Superior completo	1452	525	1438	618	1579	740	1681	806	1963	965	2075	973	2061	1067
 São Paulo	Sem instrução	558	477	438	370	382	457	366	441	443	449	434	544	439	539
-	Ensino fundamental incompleto ou equivalente	4299	3266	4146	3331	3844	3574	3852	3533	3576	3229	3520	3361	3348	3326
-	Ensino fundamental completo ou equivalente	1680	1207	1512	1090	1378	1083	1394	1127	1333	1161	1376	1121	1274	1204
-	Ensino médio incompleto ou equivalente	503	434	685	608	596	709	562	741	719	658	672	795	618	765
-	Ensino médio completo ou equivalente	5776	3116	5710	3580	5423	3820	5392	4041	5790	4623	5887	4720	5912	5089
-	Ensino superior incompleto ou equivalente	792	312	820	355	925	441	939	431	882	437	862	473	820	446
-	Superior completo	5008	868	5049	1047	4987	1125	5260	1374	5980	1649	5927	1763	6167	1953
+São Paulo	Ensino fundamental incompleto ou equivalente	4299	3266	4146	3331	3844	3574	3852	3533	3576	3229	3520	3361	3348	3326
+São Paulo	Ensino fundamental completo ou equivalente	1680	1207	1512	1090	1378	1083	1394	1127	1333	1161	1376	1121	1274	1204
+São Paulo	Ensino médio incompleto ou equivalente	503	434	685	608	596	709	562	741	719	658	672	795	618	765
+São Paulo	Ensino médio completo ou equivalente	5776	3116	5710	3580	5423	3820	5392	4041	5790	4623	5887	4720	5912	5089
+São Paulo	Ensino superior incompleto ou equivalente	792	312	820	355	925	441	939	431	882	437	862	473	820	446
+São Paulo	Superior completo	5008	868	5049	1047	4987	1125	5260	1374	5980	1649	5927	1763	6167	1953
 Paraná	Sem instrução	197	186	206	174	212	175	157	173	192	167	190	193	193	174
-	Ensino fundamental incompleto ou equivalente	1481	811	1504	873	1444	905	1326	963	1277	937	1256	889	1251	908
-	Ensino fundamental completo ou equivalente	485	238	422	236	406	234	393	239	414	268	417	255	362	267
-	Ensino médio incompleto ou equivalente	174	106	217	124	197	132	207	166	191	175	198	174	206	166
-	Ensino médio completo ou equivalente	1260	480	1285	532	1276	545	1304	616	1373	706	1505	726	1472	823
-	Ensino superior incompleto ou equivalente	165	41	177	59	196	56	183	69	194	76	206	81	224	93
-	Superior completo	1040	156	1024	154	1106	183	1146	227	1231	281	1270	307	1297	325
+Paraná	Ensino fundamental incompleto ou equivalente	1481	811	1504	873	1444	905	1326	963	1277	937	1256	889	1251	908
+Paraná	Ensino fundamental completo ou equivalente	485	238	422	236	406	234	393	239	414	268	417	255	362	267
+Paraná	Ensino médio incompleto ou equivalente	174	106	217	124	197	132	207	166	191	175	198	174	206	166
+Paraná	Ensino médio completo ou equivalente	1260	480	1285	532	1276	545	1304	616	1373	706	1505	726	1472	823
+Paraná	Ensino superior incompleto ou equivalente	165	41	177	59	196	56	183	69	194	76	206	81	224	93
+Paraná	Superior completo	1040	156	1024	154	1106	183	1146	227	1231	281	1270	307	1297	325
 Santa Catarina	Sem instrução	110	28	82	24	97	40	101	38	108	38	106	43	119	41
-	Ensino fundamental incompleto ou equivalente	1318	238	1270	275	1200	295	1147	301	1038	300	1049	300	940	293
-	Ensino fundamental completo ou equivalente	471	75	428	82	416	106	417	112	406	126	405	117	396	128
-	Ensino médio incompleto ou equivalente	140	28	144	35	136	46	146	54	156	61	147	59	152	61
-	Ensino médio completo ou equivalente	1023	120	983	158	984	207	1061	201	1117	271	1104	328	1174	365
-	Ensino superior incompleto ou equivalente	147	17	166	20	182	32	179	34	172	34	180	47	178	45
-	Superior completo	632	38	740	49	757	81	806	69	897	110	906	126	991	138
+Santa Catarina	Ensino fundamental incompleto ou equivalente	1318	238	1270	275	1200	295	1147	301	1038	300	1049	300	940	293
+Santa Catarina	Ensino fundamental completo ou equivalente	471	75	428	82	416	106	417	112	406	126	405	117	396	128
+Santa Catarina	Ensino médio incompleto ou equivalente	140	28	144	35	136	46	146	54	156	61	147	59	152	61
+Santa Catarina	Ensino médio completo ou equivalente	1023	120	983	158	984	207	1061	201	1117	271	1104	328	1174	365
+Santa Catarina	Ensino superior incompleto ou equivalente	147	17	166	20	182	32	179	34	172	34	180	47	178	45
+Santa Catarina	Superior completo	632	38	740	49	757	81	806	69	897	110	906	126	991	138
 Rio Grande do Sul	Sem instrução	166	63	131	64	125	61	107	53	122	58	134	67	131	60
-	Ensino fundamental incompleto ou equivalente	2114	527	2132	553	2118	593	1978	566	1882	571	1842	591	1736	591
-	Ensino fundamental completo ou equivalente	619	142	611	175	622	173	594	174	600	184	535	174	533	166
-	Ensino médio incompleto ou equivalente	250	63	275	75	295	84	262	86	299	110	304	138	256	124
-	Ensino médio completo ou equivalente	1511	272	1495	260	1449	326	1606	373	1642	392	1624	462	1748	482
-	Ensino superior incompleto ou equivalente	353	39	395	54	373	53	407	65	394	78	401	96	415	85
-	Superior completo	1085	81	1103	76	1133	91	1186	113	1421	131	1329	161	1443	202
+Rio Grande do Sul	Ensino fundamental incompleto ou equivalente	2114	527	2132	553	2118	593	1978	566	1882	571	1842	591	1736	591
+Rio Grande do Sul	Ensino fundamental completo ou equivalente	619	142	611	175	622	173	594	174	600	184	535	174	533	166
+Rio Grande do Sul	Ensino médio incompleto ou equivalente	250	63	275	75	295	84	262	86	299	110	304	138	256	124
+Rio Grande do Sul	Ensino médio completo ou equivalente	1511	272	1495	260	1449	326	1606	373	1642	392	1624	462	1748	482
+Rio Grande do Sul	Ensino superior incompleto ou equivalente	353	39	395	54	373	53	407	65	394	78	401	96	415	85
+Rio Grande do Sul	Superior completo	1085	81	1103	76	1133	91	1186	113	1421	131	1329	161	1443	202
 Mato Grosso do Sul	Sem instrução	32	61	27	53	29	46	24	49	29	53	25	51	21	50
-	Ensino fundamental incompleto ou equivalente	221	367	212	370	220	352	207	351	171	314	187	319	175	317
-	Ensino fundamental completo ou equivalente	60	79	55	77	46	72	45	78	49	80	48	78	46	81
-	Ensino médio incompleto ou equivalente	28	46	34	51	38	54	31	57	25	68	29	64	32	56
-	Ensino médio completo ou equivalente	152	196	180	196	165	196	174	203	198	264	195	264	188	297
-	Ensino superior incompleto ou equivalente	41	36	41	35	41	35	36	42	40	40	44	56	40	53
-	Superior completo	134	86	163	99	184	90	185	114	218	137	239	161	232	173
+Mato Grosso do Sul	Ensino fundamental incompleto ou equivalente	221	367	212	370	220	352	207	351	171	314	187	319	175	317
+Mato Grosso do Sul	Ensino fundamental completo ou equivalente	60	79	55	77	46	72	45	78	49	80	48	78	46	81
+Mato Grosso do Sul	Ensino médio incompleto ou equivalente	28	46	34	51	38	54	31	57	25	68	29	64	32	56
+Mato Grosso do Sul	Ensino médio completo ou equivalente	152	196	180	196	165	196	174	203	198	264	195	264	188	297
+Mato Grosso do Sul	Ensino superior incompleto ou equivalente	41	36	41	35	41	35	36	42	40	40	44	56	40	53
+Mato Grosso do Sul	Superior completo	134	86	163	99	184	90	185	114	218	137	239	161	232	173
 Mato Grosso	Sem instrução	39	116	33	140	33	118	26	100	36	109	36	109	23	81
-	Ensino fundamental incompleto ou equivalente	210	479	199	476	203	487	181	481	174	432	160	397	155	395
-	Ensino fundamental completo ou equivalente	57	130	42	104	50	108	47	101	41	114	44	112	42	102
-	Ensino médio incompleto ou equivalente	25	70	32	86	36	84	36	99	39	110	38	116	31	128
-	Ensino médio completo ou equivalente	157	311	164	312	137	354	166	349	177	427	204	435	191	486
-	Ensino superior incompleto ou equivalente	24	51	30	51	32	58	32	68	34	63	34	58	43	70
-	Superior completo	134	134	150	145	153	176	149	205	167	209	183	231	212	254
+Mato Grosso	Ensino fundamental incompleto ou equivalente	210	479	199	476	203	487	181	481	174	432	160	397	155	395
+Mato Grosso	Ensino fundamental completo ou equivalente	57	130	42	104	50	108	47	101	41	114	44	112	42	102
+Mato Grosso	Ensino médio incompleto ou equivalente	25	70	32	86	36	84	36	99	39	110	38	116	31	128
+Mato Grosso	Ensino médio completo ou equivalente	157	311	164	312	137	354	166	349	177	427	204	435	191	486
+Mato Grosso	Ensino superior incompleto ou equivalente	24	51	30	51	32	58	32	68	34	63	34	58	43	70
+Mato Grosso	Superior completo	134	134	150	145	153	176	149	205	167	209	183	231	212	254
 Goiás	Sem instrução	84	211	80	217	72	192	70	174	79	192	71	169	59	141
-	Ensino fundamental incompleto ou equivalente	436	911	435	966	435	958	450	932	428	880	384	877	358	879
-	Ensino fundamental completo ou equivalente	119	238	119	229	99	218	85	208	110	240	110	245	99	219
-	Ensino médio incompleto ou equivalente	73	149	60	168	79	188	91	180	71	208	77	193	88	220
-	Ensino médio completo ou equivalente	404	660	397	660	418	729	410	787	497	835	473	935	507	968
-	Ensino superior incompleto ou equivalente	66	88	66	117	78	93	85	105	84	113	90	110	96	132
-	Superior completo	290	290	330	317	337	308	361	356	397	449	502	464	522	470
+Goiás	Ensino fundamental incompleto ou equivalente	436	911	435	966	435	958	450	932	428	880	384	877	358	879
+Goiás	Ensino fundamental completo ou equivalente	119	238	119	229	99	218	85	208	110	240	110	245	99	219
+Goiás	Ensino médio incompleto ou equivalente	73	149	60	168	79	188	91	180	71	208	77	193	88	220
+Goiás	Ensino médio completo ou equivalente	404	660	397	660	418	729	410	787	497	835	473	935	507	968
+Goiás	Ensino superior incompleto ou equivalente	66	88	66	117	78	93	85	105	84	113	90	110	96	132
+Goiás	Superior completo	290	290	330	317	337	308	361	356	397	449	502	464	522	470
 Distrito Federal	Sem instrução	18	44	14	45	17	57	20	45	12	34	16	30	16	40
-	Ensino fundamental incompleto ou equivalente	82	257	89	270	100	252	99	245	84	241	90	224	84	218
-	Ensino fundamental completo ou equivalente	44	111	27	94	32	93	37	74	31	75	31	78	36	90
-	Ensino médio incompleto ou equivalente	16	38	16	53	17	52	19	58	23	55	20	49	26	55
-	Ensino médio completo ou equivalente	164	341	155	338	175	328	182	355	184	369	178	385	187	409
-	Ensino superior incompleto ou equivalente	37	48	39	54	33	60	45	62	44	68	47	75	49	73
-	Superior completo	296	248	290	292	325	300	343	289	379	332	406	392	418	399
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre															
+Distrito Federal	Ensino fundamental incompleto ou equivalente	82	257	89	270	100	252	99	245	84	241	90	224	84	218
+Distrito Federal	Ensino fundamental completo ou equivalente	44	111	27	94	32	93	37	74	31	75	31	78	36	90
+Distrito Federal	Ensino médio incompleto ou equivalente	16	38	16	53	17	52	19	58	23	55	20	49	26	55
+Distrito Federal	Ensino médio completo ou equivalente	164	341	155	338	175	328	182	355	184	369	178	385	187	409
+Distrito Federal	Ensino superior incompleto ou equivalente	37	48	39	54	33	60	45	62	44	68	47	75	49	73
+Distrito Federal	Superior completo	296	248	290	292	325	300	343	289	379	332	406	392	418	399

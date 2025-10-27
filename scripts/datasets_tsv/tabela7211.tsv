@@ -1,8 +1,6 @@
-Tabela 7211 - Viagens realizadas pelos moradores dos domicílios no período de referência dos últimos três meses, por tipo de viagem	Unnamed: 1	Unnamed: 2
-Variável - Viagens realizadas pelos moradores dos domicílios (Mil unidades)		
-Unidade da Federação	Ano x Tipo de viagem	
-	2019	
-	Viagem nacional	Viagem internacional
+Unidade da Federação	Ano x Tipo de viagem	Ano x Tipo de viagem
+Unidade da Federação	2019	2019
+Unidade da Federação	Viagem nacional	Viagem internacional
 Rondônia	123	2
 Acre	57	2
 Amazonas	228	3
@@ -30,4 +28,3 @@ Mato Grosso do Sul	298	4
 Mato Grosso	325	4
 Goiás	713	14
 Distrito Federal	265	21
-Fonte: IBGE. Pesquisa Nacional por Amostra de Domicílios Contínua, 2019 (3º trimestre), a partir de 2020 (acumulado de segundas visitas).		

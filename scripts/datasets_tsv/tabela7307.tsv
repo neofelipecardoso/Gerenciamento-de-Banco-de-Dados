@@ -1,60 +1,57 @@
-Tabela 7307 - Domicílios e Moradores, por situação do domicílio e existência de utilização da internet no domicílio	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15	Unnamed: 16	Unnamed: 17
-Variável - Domicílios (Mil unidades)																	
-Unidade da Federação	Existência de utilização da Internet no domicílio	Ano x Situação do domicílio															
-		2016		2017		2018		2019		2021		2022		2023		2024	
-		Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural
+Unidade da Federação	Existência de utilização da Internet no domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio
+Unidade da Federação	Existência de utilização da Internet no domicílio	2016	2016	2017	2017	2018	2018	2019	2019	2021	2021	2022	2022	2023	2023	2024	2024
+Unidade da Federação	Existência de utilização da Internet no domicílio	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural
 Rondônia	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Rondônia	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Acre	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Acre	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Amazonas	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Amazonas	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Roraima	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Roraima	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Pará	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Pará	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Amapá	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Amapá	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Tocantins	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Tocantins	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Maranhão	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Maranhão	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Piauí	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Piauí	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Ceará	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Ceará	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Rio Grande do Norte	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Rio Grande do Norte	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Paraíba	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Paraíba	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Pernambuco	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Pernambuco	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Alagoas	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Alagoas	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Sergipe	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Sergipe	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Bahia	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Bahia	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Minas Gerais	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Minas Gerais	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Espírito Santo	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Espírito Santo	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Rio de Janeiro	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Rio de Janeiro	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 São Paulo	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+São Paulo	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Paraná	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Paraná	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Santa Catarina	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Santa Catarina	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Rio Grande do Sul	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Rio Grande do Sul	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Mato Grosso do Sul	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Mato Grosso do Sul	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Mato Grosso	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Mato Grosso	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Goiás	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Goiás	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
 Distrito Federal	Havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 4º trimestre																	
+Distrito Federal	Não havia utilização de internet	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-

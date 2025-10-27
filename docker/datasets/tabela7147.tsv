@@ -1,16 +1,13 @@
-Tabela 7147 - Estudantes do ensino superior, por sexo e tipo de ensino superior	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15
-Variável - Estudantes do ensino superior (Mil pessoas)															
-Grande Região	Tipo de ensino superior	Ano x Sexo													
-		2016		2017		2018		2019		2022		2023		2024	
-		Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
+Grande Região	Tipo de ensino superior	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo
+Grande Região	Tipo de ensino superior	2016	2016	2017	2017	2018	2018	2019	2019	2022	2022	2023	2023	2024	2024
+Grande Região	Tipo de ensino superior	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
 Norte	Graduação tecnológica	34	34	25	32	25	29	33	37	47	44	41	44	47	49
-	Graduação não tecnológica	253	341	259	360	283	396	304	384	302	422	298	421	336	493
+Norte	Graduação não tecnológica	253	341	259	360	283	396	304	384	302	422	298	421	336	493
 Nordeste	Graduação tecnológica	81	80	72	81	76	70	86	101	94	94	113	95	141	108
-	Graduação não tecnológica	655	1057	677	982	837	1063	776	1034	732	958	721	1059	753	1063
+Nordeste	Graduação não tecnológica	655	1057	677	982	837	1063	776	1034	732	958	721	1059	753	1063
 Sudeste	Graduação tecnológica	227	187	211	148	174	149	188	181	284	261	335	279	387	272
-	Graduação não tecnológica	1445	1751	1376	1691	1471	1893	1485	1851	1395	1908	1452	1900	1387	1975
+Sudeste	Graduação não tecnológica	1445	1751	1376	1691	1471	1893	1485	1851	1395	1908	1452	1900	1387	1975
 Sul	Graduação tecnológica	76	64	82	66	92	68	76	68	138	103	137	119	151	120
-	Graduação não tecnológica	516	644	532	668	550	697	531	719	485	683	495	675	506	703
+Sul	Graduação não tecnológica	516	644	532	668	550	697	531	719	485	683	495	675	506	703
 Centro-Oeste	Graduação tecnológica	40	44	40	38	37	33	54	42	67	54	67	59	72	63
-	Graduação não tecnológica	294	391	292	384	327	433	306	419	297	427	307	418	313	446
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre															
+Centro-Oeste	Graduação não tecnológica	294	391	292	384	327	433	306	419	297	427	307	418	313	446

@@ -1,8 +1,6 @@
-Tabela 6734 - Domicílios e Moradores com banheiro de uso exclusivo, por situação do domicílio	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12
-Variável - Domicílios com banheiro de uso exclusivo (Mil unidades)												
-Unidade da Federação	Ano x Situação do domicílio											
-	2017		2018		2019		2022		2023		2024	
-	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural
+Unidade da Federação	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio	Ano x Situação do domicílio
+Unidade da Federação	2017	2017	2018	2018	2019	2019	2022	2022	2023	2023	2024	2024
+Unidade da Federação	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural	Urbana	Rural
 Rondônia	415	124	425	120	425	129	461	127	521	125	526	116
 Acre	166	28	171	30	168	32	199	32	202	35	212	32
 Amazonas	861	94	864	85	861	79	955	92	993	78	1037	75
@@ -30,4 +28,3 @@ Mato Grosso do Sul	791	86	805	90	813	86	886	89	923	95	936	87
 Mato Grosso	947	161	970	173	965	170	1060	161	1163	151	1205	119
 Goiás	2074	200	2128	198	2200	192	2363	169	2507	167	2593	156
 Distrito Federal	900	56	905	60	892	58	964	46	1021	44	1009	37
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 1ª visita												

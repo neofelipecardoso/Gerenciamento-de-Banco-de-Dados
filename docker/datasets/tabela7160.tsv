@@ -1,60 +1,57 @@
-Tabela 7160 - Estudantes de 15 anos ou mais de idade, por cor ou raça e situação de ocupação	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15
-Variável - Estudantes de 15 anos ou mais de idade (Mil pessoas)															
-Unidade da Federação	Situação de ocupação na semana de referência	Ano x Cor ou raça													
-		2016		2017		2018		2019		2022		2023		2024	
-		Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda
+Unidade da Federação	Situação de ocupação na semana de referência	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça	Ano x Cor ou raça
+Unidade da Federação	Situação de ocupação na semana de referência	2016	2016	2017	2017	2018	2018	2019	2019	2022	2022	2023	2023	2024	2024
+Unidade da Federação	Situação de ocupação na semana de referência	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda	Branca	Preta ou parda
 Rondônia	Ocupados	28	67	20	59	21	54	26	66	25	63	30	53	21	53
-	Não ocupados	30	82	31	79	37	80	32	83	36	90	35	88	31	81
+Rondônia	Não ocupados	30	82	31	79	37	80	32	83	36	90	35	88	31	81
 Acre	Ocupados	7	37	10	30	8	31	7	29	7	27	5	21	6	23
-	Não ocupados	16	73	15	67	13	65	15	64	17	65	15	70	16	65
+Acre	Não ocupados	16	73	15	67	13	65	15	64	17	65	15	70	16	65
 Amazonas	Ocupados	32	161	33	146	31	125	28	148	43	155	35	146	32	152
-	Não ocupados	55	278	59	269	61	286	54	274	49	242	63	248	64	266
+Amazonas	Não ocupados	55	278	59	269	61	286	54	274	49	242	63	248	64	266
 Roraima	Ocupados	6	19	5	20	7	17	7	18	5	17	5	17	8	24
-	Não ocupados	9	30	11	33	9	29	9	32	8	32	6	32	9	31
+Roraima	Não ocupados	9	30	11	33	9	29	9	32	8	32	6	32	9	31
 Pará	Ocupados	67	282	64	286	75	292	68	276	79	345	81	344	99	370
-	Não ocupados	125	536	113	554	113	550	117	555	148	518	132	528	126	557
+Pará	Não ocupados	125	536	113	554	113	550	117	555	148	518	132	528	126	557
 Amapá	Ocupados	7	21	9	26	5	22	8	23	10	25	9	22	6	21
-	Não ocupados	14	64	19	71	14	77	14	71	18	51	12	63	16	59
+Amapá	Não ocupados	14	64	19	71	14	77	14	71	18	51	12	63	16	59
 Tocantins	Ocupados	13	49	12	48	21	51	16	41	19	68	20	63	26	70
-	Não ocupados	30	87	25	92	25	81	20	86	28	86	23	72	21	77
+Tocantins	Não ocupados	30	87	25	92	25	81	20	86	28	86	23	72	21	77
 Maranhão	Ocupados	44	182	45	160	53	164	47	170	42	162	43	175	49	168
-	Não ocupados	111	410	81	435	99	457	112	449	103	416	106	437	97	447
+Maranhão	Não ocupados	111	410	81	435	99	457	112	449	103	416	106	437	97	447
 Piauí	Ocupados	28	106	24	106	28	108	28	111	35	127	25	94	28	87
-	Não ocupados	45	190	56	203	42	216	44	194	48	206	57	179	55	172
+Piauí	Não ocupados	45	190	56	203	42	216	44	194	48	206	57	179	55	172
 Ceará	Ocupados	86	210	101	195	100	225	112	246	92	219	96	203	102	204
-	Não ocupados	177	430	173	460	178	460	167	420	199	419	170	446	151	434
+Ceará	Não ocupados	177	430	173	460	178	460	167	420	199	419	170	446	151	434
 Rio Grande do Norte	Ocupados	44	64	46	66	53	84	64	83	49	72	48	62	61	91
-	Não ocupados	95	165	100	169	106	162	99	158	107	160	109	154	102	151
+Rio Grande do Norte	Não ocupados	95	165	100	169	106	162	99	158	107	160	109	154	102	151
 Paraíba	Ocupados	58	91	53	96	51	93	47	91	46	88	53	77	53	90
-	Não ocupados	116	200	98	204	108	206	107	202	85	219	92	188	91	165
+Paraíba	Não ocupados	116	200	98	204	108	206	107	202	85	219	92	188	91	165
 Pernambuco	Ocupados	107	165	89	132	113	153	100	186	111	182	108	177	112	191
-	Não ocupados	209	443	206	505	210	449	196	460	217	398	204	408	231	429
+Pernambuco	Não ocupados	209	443	206	505	210	449	196	460	217	398	204	408	231	429
 Alagoas	Ocupados	29	78	22	62	23	56	26	61	33	72	35	91	38	93
-	Não ocupados	67	201	56	205	71	216	60	199	68	183	70	180	69	168
+Alagoas	Não ocupados	67	201	56	205	71	216	60	199	68	183	70	180	69	168
 Sergipe	Ocupados	18	64	19	67	18	50	22	58	26	61	24	63	27	70
-	Não ocupados	32	134	34	138	35	133	35	132	43	120	42	123	41	120
+Sergipe	Não ocupados	32	134	34	138	35	133	35	132	43	120	42	123	41	120
 Bahia	Ocupados	138	513	94	511	114	508	102	464	95	473	99	428	105	447
-	Não ocupados	164	902	194	874	179	917	189	948	208	809	197	778	194	825
+Bahia	Não ocupados	164	902	194	874	179	917	189	948	208	809	197	778	194	825
 Minas Gerais	Ocupados	413	528	368	510	391	534	417	572	419	523	404	496	450	601
-	Não ocupados	506	819	485	817	487	771	465	736	398	642	419	623	412	616
+Minas Gerais	Não ocupados	506	819	485	817	487	771	465	736	398	642	419	623	412	616
 Espírito Santo	Ocupados	56	89	65	87	64	97	69	107	75	112	75	107	77	120
-	Não ocupados	91	153	85	146	79	152	65	152	80	146	82	136	78	118
+Espírito Santo	Não ocupados	91	153	85	146	79	152	65	152	80	146	82	136	78	118
 Rio de Janeiro	Ocupados	215	235	226	268	295	282	322	284	384	390	409	372	415	400
-	Não ocupados	542	669	522	690	548	655	509	627	543	603	504	638	494	595
+Rio de Janeiro	Não ocupados	542	669	522	690	548	655	509	627	543	603	504	638	494	595
 São Paulo	Ocupados	1228	595	1146	632	1156	776	1237	726	1473	818	1406	858	1420	920
-	Não ocupados	1658	936	1503	993	1480	1009	1392	887	1327	948	1311	943	1298	878
+São Paulo	Não ocupados	1658	936	1503	993	1480	1009	1392	887	1327	948	1311	943	1298	878
 Paraná	Ocupados	371	134	378	179	397	170	382	178	413	197	422	209	414	226
-	Não ocupados	452	178	433	187	423	200	409	209	353	190	389	215	361	194
+Paraná	Não ocupados	452	178	433	187	423	200	409	209	353	190	389	215	361	194
 Santa Catarina	Ocupados	316	41	316	54	315	73	321	67	352	89	331	86	340	90
-	Não ocupados	312	51	287	62	281	72	265	70	256	62	253	81	228	72
+Santa Catarina	Não ocupados	312	51	287	62	281	72	265	70	256	62	253	81	228	72
 Rio Grande do Sul	Ocupados	508	93	470	94	488	90	484	102	524	118	513	143	541	137
-	Não ocupados	511	128	476	117	457	135	475	145	418	126	380	123	390	135
+Rio Grande do Sul	Não ocupados	511	128	476	117	457	135	475	145	418	126	380	123	390	135
 Mato Grosso do Sul	Ocupados	76	80	72	66	64	66	66	75	72	82	74	86	71	99
-	Não ocupados	66	82	69	83	69	92	66	78	68	78	63	79	65	81
+Mato Grosso do Sul	Não ocupados	66	82	69	83	69	92	66	78	68	78	63	79	65	81
 Mato Grosso	Ocupados	57	117	62	123	67	129	65	128	61	131	70	132	74	141
-	Não ocupados	62	147	59	139	67	141	50	131	45	113	56	132	52	108
+Mato Grosso	Não ocupados	62	147	59	139	67	141	50	131	45	113	56	132	52	108
 Goiás	Ocupados	114	195	111	193	120	226	132	212	142	237	159	219	148	238
-	Não ocupados	143	266	136	259	130	273	157	274	151	233	129	218	147	247
+Goiás	Não ocupados	143	266	136	259	130	273	157	274	151	233	129	218	147	247
 Distrito Federal	Ocupados	59	90	59	86	57	99	76	110	102	129	95	143	93	136
-	Não ocupados	93	157	88	161	92	140	99	149	91	151	92	135	83	121
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre															
+Distrito Federal	Não ocupados	93	157	88	161	92	140	99	149	91	151	92	135	83	121

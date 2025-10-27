@@ -1,16 +1,13 @@
-Tabela 7177 - Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar, por sexo e frequência a curso de qualificação profissional	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15
-Variável - Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar (Mil pessoas)															
-Grande Região	Frequência a curso de qualificação profissional	Ano x Sexo													
-		2016		2017		2018		2019		2022		2023		2024	
-		Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
+Grande Região	Frequência a curso de qualificação profissional	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo
+Grande Região	Frequência a curso de qualificação profissional	2016	2016	2017	2017	2018	2018	2019	2019	2022	2022	2023	2023	2024	2024
+Grande Região	Frequência a curso de qualificação profissional	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
 Norte	Frequenta curso de qualificação profissional	43	36	39	20	25	16	16	26	26	28	17	19	22	27
-	Não frequenta curso de qualificação profissional	3592	3097	3596	3091	3636	3099	3585	3044	3524	2988	3484	3027	3423	2860
+Norte	Não frequenta curso de qualificação profissional	3592	3097	3596	3091	3636	3099	3585	3044	3524	2988	3484	3027	3423	2860
 Nordeste	Frequenta curso de qualificação profissional	83	67	56	48	47	32	43	47	40	49	36	40	52	49
-	Não frequenta curso de qualificação profissional	12705	12028	12758	11941	12559	11723	12404	11558	11921	11240	11709	11105	11388	10952
+Nordeste	Não frequenta curso de qualificação profissional	12705	12028	12758	11941	12559	11723	12404	11558	11921	11240	11709	11105	11388	10952
 Sudeste	Frequenta curso de qualificação profissional	165	111	117	96	119	86	107	86	136	112	124	104	132	116
-	Não frequenta curso de qualificação profissional	14874	15331	14797	15136	14591	14895	14415	14579	13598	13962	13515	13903	13302	13563
+Sudeste	Não frequenta curso de qualificação profissional	14874	15331	14797	15136	14591	14895	14415	14579	13598	13962	13515	13903	13302	13563
 Sul	Frequenta curso de qualificação profissional	83	73	74	46	56	42	50	45	87	50	62	56	64	46
-	Não frequenta curso de qualificação profissional	5871	5785	5923	5797	5892	5700	5641	5548	5563	5312	5461	5298	5326	5094
+Sul	Não frequenta curso de qualificação profissional	5871	5785	5923	5797	5892	5700	5641	5548	5563	5312	5461	5298	5326	5094
 Centro-Oeste	Frequenta curso de qualificação profissional	47	27	45	30	22	22	21	21	31	27	31	34	33	28
-	Não frequenta curso de qualificação profissional	3019	2718	3015	2731	3032	2695	2937	2631	2864	2495	2732	2467	2659	2402
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre															
+Centro-Oeste	Não frequenta curso de qualificação profissional	3019	2718	3015	2731	3032	2695	2937	2631	2864	2495	2732	2467	2659	2402

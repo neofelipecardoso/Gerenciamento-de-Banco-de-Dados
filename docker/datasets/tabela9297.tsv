@@ -1,8 +1,6 @@
-Tabela 9297 - Pessoas de 25 anos ou mais de idade com deficiência, por nível de instrução	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4
-Variável - Pessoas de 25 anos ou mais de idade com deficiência (Mil pessoas)				
-Unidade da Federação	Ano x Nível de instrução			
-	2022			
-	Sem instrução e fundamental incompleto	Fundamental completo e médio incompleto	Médio completo e superior incompleto	Superior completo
+Unidade da Federação	Ano x Nível de instrução	Ano x Nível de instrução	Ano x Nível de instrução	Ano x Nível de instrução
+Unidade da Federação	2022	2022	2022	2022
+Unidade da Federação	Sem instrução e fundamental incompleto	Fundamental completo e médio incompleto	Médio completo e superior incompleto	Superior completo
 Rondônia	92	15	19	10
 Acre	38	4	10	5
 Amazonas	126	20	51	18
@@ -30,4 +28,3 @@ Mato Grosso do Sul	130	18	37	18
 Mato Grosso	168	36	53	24
 Goiás	344	61	92	39
 Distrito Federal	92	23	51	31
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 3º trimestre				

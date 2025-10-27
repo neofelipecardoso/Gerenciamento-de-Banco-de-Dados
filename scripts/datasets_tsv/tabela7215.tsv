@@ -1,41 +1,38 @@
-Tabela 7215 - Pessoas de 14 a 29 anos que não frequentam escola e que frequentaram no máximo o ensino médio ou curso equivalente sem o completar, por sexo e idade que deixou de frequentar escola pela última vez	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9
-Variável - Pessoas de 14 a 29 anos que não frequentam escola e que frequentaram no máximo o ensino médio ou curso equivalente sem o completar (Mil pessoas)									
-Grande Região	Idade que deixou de frequentar escola pela última vez	Ano x Sexo							
-		2019		2022		2023		2024	
-		Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
+Grande Região	Idade que deixou de frequentar escola pela última vez	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo
+Grande Região	Idade que deixou de frequentar escola pela última vez	2019	2019	2022	2022	2023	2023	2024	2024
+Grande Região	Idade que deixou de frequentar escola pela última vez	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
 Norte	até os 13 anos	76	51	58	41	44	34	36	24
-	14 anos	52	43	38	28	36	40	27	38
-	15 anos	78	70	65	63	66	70	67	59
-	16 anos	98	87	72	67	75	63	85	55
-	17 anos	102	98	108	83	100	69	95	72
-	18 anos	125	84	119	79	130	75	129	81
-	19 anos ou mais	199	157	165	117	146	114	117	89
+Norte	14 anos	52	43	38	28	36	40	27	38
+Norte	15 anos	78	70	65	63	66	70	67	59
+Norte	16 anos	98	87	72	67	75	63	85	55
+Norte	17 anos	102	98	108	83	100	69	95	72
+Norte	18 anos	125	84	119	79	130	75	129	81
+Norte	19 anos ou mais	199	157	165	117	146	114	117	89
 Nordeste	até os 13 anos	211	124	139	112	112	104	137	88
-	14 anos	139	136	105	108	91	97	96	91
-	15 anos	269	253	211	173	196	157	198	171
-	16 anos	314	240	218	200	230	195	216	185
-	17 anos	344	268	311	239	305	235	294	208
-	18 anos	364	244	378	238	358	234	354	232
-	19 anos ou mais	478	366	423	282	371	265	353	259
+Nordeste	14 anos	139	136	105	108	91	97	96	91
+Nordeste	15 anos	269	253	211	173	196	157	198	171
+Nordeste	16 anos	314	240	218	200	230	195	216	185
+Nordeste	17 anos	344	268	311	239	305	235	294	208
+Nordeste	18 anos	364	244	378	238	358	234	354	232
+Nordeste	19 anos ou mais	478	366	423	282	371	265	353	259
 Sudeste	até os 13 anos	192	125	133	57	97	60	104	62
-	14 anos	186	141	156	116	112	91	105	101
-	15 anos	324	221	230	163	219	166	212	142
-	16 anos	467	317	286	219	278	221	317	209
-	17 anos	409	256	363	224	383	237	379	227
-	18 anos	325	198	381	220	411	253	384	223
-	19 anos ou mais	261	208	291	194	259	144	242	151
+Sudeste	14 anos	186	141	156	116	112	91	105	101
+Sudeste	15 anos	324	221	230	163	219	166	212	142
+Sudeste	16 anos	467	317	286	219	278	221	317	209
+Sudeste	17 anos	409	256	363	224	383	237	379	227
+Sudeste	18 anos	325	198	381	220	411	253	384	223
+Sudeste	19 anos ou mais	261	208	291	194	259	144	242	151
 Sul	até os 13 anos	71	40	53	44	44	27	48	27
-	14 anos	85	71	61	56	47	37	48	44
-	15 anos	154	103	108	89	109	66	84	76
-	16 anos	161	139	162	96	137	105	137	101
-	17 anos	189	129	210	118	159	118	189	114
-	18 anos	163	77	172	91	162	102	174	85
-	19 anos ou mais	100	77	86	84	104	77	89	55
+Sul	14 anos	85	71	61	56	47	37	48	44
+Sul	15 anos	154	103	108	89	109	66	84	76
+Sul	16 anos	161	139	162	96	137	105	137	101
+Sul	17 anos	189	129	210	118	159	118	189	114
+Sul	18 anos	163	77	172	91	162	102	174	85
+Sul	19 anos ou mais	100	77	86	84	104	77	89	55
 Centro-Oeste	até os 13 anos	31	20	28	14	23	16	28	14
-	14 anos	31	24	31	23	23	22	23	20
-	15 anos	54	52	56	44	45	40	48	39
-	16 anos	79	66	85	51	75	56	76	51
-	17 anos	107	72	101	63	78	64	91	61
-	18 anos	98	65	102	53	109	55	83	50
-	19 anos ou mais	101	73	85	61	80	49	62	48
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 2º trimestre									
+Centro-Oeste	14 anos	31	24	31	23	23	22	23	20
+Centro-Oeste	15 anos	54	52	56	44	45	40	48	39
+Centro-Oeste	16 anos	79	66	85	51	75	56	76	51
+Centro-Oeste	17 anos	107	72	101	63	78	64	91	61
+Centro-Oeste	18 anos	98	65	102	53	109	55	83	50
+Centro-Oeste	19 anos ou mais	101	73	85	61	80	49	62	48

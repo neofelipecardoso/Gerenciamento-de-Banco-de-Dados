@@ -1,56 +1,53 @@
-Tabela 7320 - Pessoas de 10 anos ou mais de idade, por sexo, condição de estudante e rede de ensino e curso frequentado	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15	Unnamed: 16	Unnamed: 17
-Variável - Pessoas de 10 anos ou mais de idade (Mil pessoas)																	
-Grande Região	Condição de estudante, rede de ensino e curso frequentado	Ano x Sexo															
-		2016		2017		2018		2019		2021		2022		2023		2024	
-		Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
+Grande Região	Condição de estudante, rede de ensino e curso frequentado	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo	Ano x Sexo
+Grande Região	Condição de estudante, rede de ensino e curso frequentado	2016	2016	2017	2017	2018	2018	2019	2019	2021	2021	2022	2022	2023	2023	2024	2024
+Grande Região	Condição de estudante, rede de ensino e curso frequentado	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres	Homens	Mulheres
 Norte	Não estudante	5215	5273	5398	5391	5575	5505	5612	5688	5821	5826	5936	5956	6030	6046	6167	6228
-	Estudante	1880	1925	1873	1962	1914	1918	1849	1950	1936	1960	1918	1982	1921	1987	1843	1951
-	Rede pública	1593	1528	1576	1523	1571	1470	1509	1492	1589	1487	1565	1466	1530	1456	1475	1419
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	1067	937	1027	934	1014	898	958	904	988	891	1001	850	956	852	898	841
-	Ensino Médio ou EJA do Ensino Médio (rede pública)	425	466	431	456	442	446	422	441	456	440	434	460	430	455	461	440
-	Superior, Especialização, Mestrado ou Doutorado (rede pública)	96	119	113	129	111	122	125	145	141	152	125	150	142	146	116	138
-	Rede privada	287	396	297	439	343	449	340	458	347	473	353	515	391	531	368	532
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	63	74	62	72	81	80	80	72	72	80	78	80	77	78	67	73
-	Ensino Médio ou EJA do Ensino Médio (rede privada)	32	40	35	40	25	40	36	35	36	28	29	36	38	32	37	38
-	Superior, Especialização, Mestrado ou Doutorado (rede privada)	192	282	200	327	237	329	224	351	239	365	245	399	276	422	264	421
+Norte	Estudante	1880	1925	1873	1962	1914	1918	1849	1950	1936	1960	1918	1982	1921	1987	1843	1951
+Norte	Rede pública	1593	1528	1576	1523	1571	1470	1509	1492	1589	1487	1565	1466	1530	1456	1475	1419
+Norte	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	1067	937	1027	934	1014	898	958	904	988	891	1001	850	956	852	898	841
+Norte	Ensino Médio ou EJA do Ensino Médio (rede pública)	425	466	431	456	442	446	422	441	456	440	434	460	430	455	461	440
+Norte	Superior, Especialização, Mestrado ou Doutorado (rede pública)	96	119	113	129	111	122	125	145	141	152	125	150	142	146	116	138
+Norte	Rede privada	287	396	297	439	343	449	340	458	347	473	353	515	391	531	368	532
+Norte	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	63	74	62	72	81	80	80	72	72	80	78	80	77	78	67	73
+Norte	Ensino Médio ou EJA do Ensino Médio (rede privada)	32	40	35	40	25	40	36	35	36	28	29	36	38	32	37	38
+Norte	Superior, Especialização, Mestrado ou Doutorado (rede privada)	192	282	200	327	237	329	224	351	239	365	245	399	276	422	264	421
 Nordeste	Não estudante	17693	19187	17951	19374	18080	19581	18335	19907	18503	20239	18767	20447	18869	20742	19211	21168
-	Estudante	5215	5449	5190	5406	5212	5364	5187	5230	5145	5369	5120	5310	4953	5309	4772	5090
-	Rede pública	4183	4103	4093	3975	4082	3965	4102	3830	4123	4090	3976	3952	3882	3829	3689	3622
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	2772	2391	2688	2362	2633	2374	2638	2290	2573	2330	2425	2291	2314	2196	2226	2087
-	Ensino Médio ou EJA do Ensino Médio (rede pública)	1098	1305	1061	1247	1071	1189	1080	1164	1178	1312	1162	1223	1165	1172	1125	1159
-	Superior, Especialização, Mestrado ou Doutorado (rede pública)	288	381	326	341	366	384	371	366	351	418	359	403	384	437	339	377
-	Rede privada	1032	1346	1097	1430	1130	1399	1084	1400	1022	1280	1144	1358	1070	1480	1083	1468
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	412	393	415	417	430	398	402	429	386	385	441	357	396	405	408	411
-	Ensino Médio ou EJA do Ensino Médio (rede privada)	132	128	129	129	110	128	101	111	125	131	109	131	118	123	115	134
-	Superior, Especialização, Mestrado ou Doutorado (rede privada)	486	824	553	883	588	873	580	859	511	764	593	869	555	950	561	923
+Nordeste	Estudante	5215	5449	5190	5406	5212	5364	5187	5230	5145	5369	5120	5310	4953	5309	4772	5090
+Nordeste	Rede pública	4183	4103	4093	3975	4082	3965	4102	3830	4123	4090	3976	3952	3882	3829	3689	3622
+Nordeste	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	2772	2391	2688	2362	2633	2374	2638	2290	2573	2330	2425	2291	2314	2196	2226	2087
+Nordeste	Ensino Médio ou EJA do Ensino Médio (rede pública)	1098	1305	1061	1247	1071	1189	1080	1164	1178	1312	1162	1223	1165	1172	1125	1159
+Nordeste	Superior, Especialização, Mestrado ou Doutorado (rede pública)	288	381	326	341	366	384	371	366	351	418	359	403	384	437	339	377
+Nordeste	Rede privada	1032	1346	1097	1430	1130	1399	1084	1400	1022	1280	1144	1358	1070	1480	1083	1468
+Nordeste	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	412	393	415	417	430	398	402	429	386	385	441	357	396	405	408	411
+Nordeste	Ensino Médio ou EJA do Ensino Médio (rede privada)	132	128	129	129	110	128	101	111	125	131	109	131	118	123	115	134
+Nordeste	Superior, Especialização, Mestrado ou Doutorado (rede privada)	486	824	553	883	588	873	580	859	511	764	593	869	555	950	561	923
 Sudeste	Não estudante	29162	31616	29651	32034	29853	32432	30286	32782	30756	33114	30809	33297	31365	33605	31876	34024
-	Estudante	7303	7247	6988	7201	6954	7289	6900	7205	7153	7566	7190	7752	7090	7564	7094	7346
-	Rede pública	4960	4733	4835	4599	4700	4638	4574	4444	4982	4601	4697	4659	4622	4485	4477	4166
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	2860	2721	2842	2533	2806	2578	2711	2549	2873	2498	2734	2551	2686	2502	2598	2331
-	Ensino Médio ou EJA do Ensino Médio (rede pública)	1659	1593	1567	1609	1444	1548	1417	1441	1534	1476	1431	1532	1391	1436	1381	1304
-	Superior, Especialização, Mestrado ou Doutorado (rede pública)	433	406	417	448	441	499	441	442	565	610	520	562	530	529	498	532
-	Rede privada	2342	2513	2153	2602	2254	2651	2326	2761	2171	2964	2493	3093	2468	3079	2617	3179
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	624	569	585	595	597	591	622	592	619	699	677	621	656	643	719	709
-	Ensino Médio ou EJA do Ensino Médio (rede privada)	353	318	264	286	267	244	246	288	212	285	273	278	267	305	309	332
-	Superior, Especialização, Mestrado ou Doutorado (rede privada)	1363	1625	1301	1721	1390	1811	1455	1880	1338	1981	1541	2191	1543	2132	1589	2139
+Sudeste	Estudante	7303	7247	6988	7201	6954	7289	6900	7205	7153	7566	7190	7752	7090	7564	7094	7346
+Sudeste	Rede pública	4960	4733	4835	4599	4700	4638	4574	4444	4982	4601	4697	4659	4622	4485	4477	4166
+Sudeste	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	2860	2721	2842	2533	2806	2578	2711	2549	2873	2498	2734	2551	2686	2502	2598	2331
+Sudeste	Ensino Médio ou EJA do Ensino Médio (rede pública)	1659	1593	1567	1609	1444	1548	1417	1441	1534	1476	1431	1532	1391	1436	1381	1304
+Sudeste	Superior, Especialização, Mestrado ou Doutorado (rede pública)	433	406	417	448	441	499	441	442	565	610	520	562	530	529	498	532
+Sudeste	Rede privada	2342	2513	2153	2602	2254	2651	2326	2761	2171	2964	2493	3093	2468	3079	2617	3179
+Sudeste	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	624	569	585	595	597	591	622	592	619	699	677	621	656	643	719	709
+Sudeste	Ensino Médio ou EJA do Ensino Médio (rede privada)	353	318	264	286	267	244	246	288	212	285	273	278	267	305	309	332
+Sudeste	Superior, Especialização, Mestrado ou Doutorado (rede privada)	1363	1625	1301	1721	1390	1811	1455	1880	1338	1981	1541	2191	1543	2132	1589	2139
 Sul	Não estudante	9955	10451	10117	10504	10260	10635	10314	10658	10506	10717	10592	10788	10700	10940	10895	11117
-	Estudante	2473	2588	2455	2597	2420	2548	2489	2551	2495	2664	2536	2665	2519	2659	2323	2638
-	Rede pública	1779	1766	1715	1678	1702	1623	1757	1638	1764	1700	1782	1698	1681	1635	1538	1577
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	1106	1014	1075	984	1061	936	1079	938	1042	946	1049	950	1024	928	943	930
-	Ensino Médio ou EJA do Ensino Médio (rede pública)	489	534	467	489	458	486	487	499	497	532	515	508	466	491	434	457
-	Superior, Especialização, Mestrado ou Doutorado (rede pública)	179	210	169	198	178	195	185	195	218	212	205	228	185	202	161	189
-	Rede privada	694	822	740	919	717	925	731	913	732	964	754	967	838	1025	786	1061
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	133	129	131	148	136	143	147	128	132	138	137	125	136	143	154	154
-	Ensino Médio ou EJA do Ensino Médio (rede privada)	82	85	77	90	71	82	80	76	82	81	75	78	85	85	79	104
-	Superior, Especialização, Mestrado ou Doutorado (rede privada)	477	606	531	681	508	700	504	708	518	745	542	764	617	797	552	803
+Sul	Estudante	2473	2588	2455	2597	2420	2548	2489	2551	2495	2664	2536	2665	2519	2659	2323	2638
+Sul	Rede pública	1779	1766	1715	1678	1702	1623	1757	1638	1764	1700	1782	1698	1681	1635	1538	1577
+Sul	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	1106	1014	1075	984	1061	936	1079	938	1042	946	1049	950	1024	928	943	930
+Sul	Ensino Médio ou EJA do Ensino Médio (rede pública)	489	534	467	489	458	486	487	499	497	532	515	508	466	491	434	457
+Sul	Superior, Especialização, Mestrado ou Doutorado (rede pública)	179	210	169	198	178	195	185	195	218	212	205	228	185	202	161	189
+Sul	Rede privada	694	822	740	919	717	925	731	913	732	964	754	967	838	1025	786	1061
+Sul	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	133	129	131	148	136	143	147	128	132	138	137	125	136	143	154	154
+Sul	Ensino Médio ou EJA do Ensino Médio (rede privada)	82	85	77	90	71	82	80	76	82	81	75	78	85	85	79	104
+Sul	Superior, Especialização, Mestrado ou Doutorado (rede privada)	477	606	531	681	508	700	504	708	518	745	542	764	617	797	552	803
 Centro-Oeste	Não estudante	5092	5249	5143	5371	5266	5443	5329	5524	5414	5576	5599	5673	5768	5808	5736	5887
-	Estudante	1421	1503	1454	1537	1462	1515	1452	1569	1490	1648	1474	1609	1442	1606	1466	1617
-	Rede pública	1042	1012	1021	989	1027	1009	1012	1027	1038	1085	996	1019	961	991	1011	1003
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	648	584	634	568	641	579	608	592	619	598	583	569	584	527	620	567
-	Ensino Médio ou EJA do Ensino Médio (rede pública)	298	298	284	299	274	291	295	301	308	345	303	317	257	315	280	288
-	Superior, Especialização, Mestrado ou Doutorado (rede pública)	94	126	99	120	109	135	107	130	109	135	107	128	119	145	112	148
-	Rede privada	379	491	433	548	435	506	440	542	451	564	479	590	481	615	454	614
-	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	103	93	110	105	102	92	112	102	117	101	106	100	108	105	94	103
-	Ensino Médio ou EJA do Ensino Médio (rede privada)	38	60	46	51	51	47	51	46	49	58	43	44	47	59	47	49
-	Superior, Especialização, Mestrado ou Doutorado (rede privada)	239	337	277	391	282	366	277	394	285	404	330	447	326	451	313	461
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 4º trimestre																	
+Centro-Oeste	Estudante	1421	1503	1454	1537	1462	1515	1452	1569	1490	1648	1474	1609	1442	1606	1466	1617
+Centro-Oeste	Rede pública	1042	1012	1021	989	1027	1009	1012	1027	1038	1085	996	1019	961	991	1011	1003
+Centro-Oeste	Ensino Fundamental ou EJA do Ensino Fundamental (rede pública)	648	584	634	568	641	579	608	592	619	598	583	569	584	527	620	567
+Centro-Oeste	Ensino Médio ou EJA do Ensino Médio (rede pública)	298	298	284	299	274	291	295	301	308	345	303	317	257	315	280	288
+Centro-Oeste	Superior, Especialização, Mestrado ou Doutorado (rede pública)	94	126	99	120	109	135	107	130	109	135	107	128	119	145	112	148
+Centro-Oeste	Rede privada	379	491	433	548	435	506	440	542	451	564	479	590	481	615	454	614
+Centro-Oeste	Ensino Fundamental ou EJA do Ensino Fundamental (rede privada)	103	93	110	105	102	92	112	102	117	101	106	100	108	105	94	103
+Centro-Oeste	Ensino Médio ou EJA do Ensino Médio (rede privada)	38	60	46	51	51	47	51	46	49	58	43	44	47	59	47	49
+Centro-Oeste	Superior, Especialização, Mestrado ou Doutorado (rede privada)	239	337	277	391	282	366	277	394	285	404	330	447	326	451	313	461

@@ -1,60 +1,57 @@
-Tabela 9311 - Pessoas de 25 anos ou mais de idade, por nível de instrução e existência de deficiência	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5
-Variável - Pessoas de 25 anos ou mais de idade (Mil pessoas)					
-Unidade da Federação	Existência de deficiência	Ano x Nível de instrução			
-		2022			
-		Sem instrução e fundamental incompleto	Fundamental completo e médio incompleto	Médio completo e superior incompleto	Superior completo
+Unidade da Federação	Existência de deficiência	Ano x Nível de instrução	Ano x Nível de instrução	Ano x Nível de instrução	Ano x Nível de instrução
+Unidade da Federação	Existência de deficiência	2022	2022	2022	2022
+Unidade da Federação	Existência de deficiência	Sem instrução e fundamental incompleto	Fundamental completo e médio incompleto	Médio completo e superior incompleto	Superior completo
 Rondônia	Pessoa com deficiência	92	15	19	10
-	Pessoa sem deficiência	361	132	322	180
+Rondônia	Pessoa sem deficiência	361	132	322	180
 Acre	Pessoa com deficiência	38	4	10	5
-	Pessoa sem deficiência	154	52	141	91
+Acre	Pessoa sem deficiência	154	52	141	91
 Amazonas	Pessoa com deficiência	126	20	51	18
-	Pessoa sem deficiência	571	231	897	372
+Amazonas	Pessoa sem deficiência	571	231	897	372
 Roraima	Pessoa com deficiência	16	4	7	3
-	Pessoa sem deficiência	70	34	135	59
+Roraima	Pessoa sem deficiência	70	34	135	59
 Pará	Pessoa com deficiência	471	69	117	30
-	Pessoa sem deficiência	1637	587	1441	675
+Pará	Pessoa sem deficiência	1637	587	1441	675
 Amapá	Pessoa com deficiência	33	5	12	4
-	Pessoa sem deficiência	113	50	174	103
+Amapá	Pessoa sem deficiência	113	50	174	103
 Tocantins	Pessoa com deficiência	92	11	17	9
-	Pessoa sem deficiência	276	89	293	180
+Tocantins	Pessoa sem deficiência	276	89	293	180
 Maranhão	Pessoa com deficiência	398	43	78	29
-	Pessoa sem deficiência	1421	482	1196	451
+Maranhão	Pessoa sem deficiência	1421	482	1196	451
 Piauí	Pessoa com deficiência	226	25	34	16
-	Pessoa sem deficiência	729	194	507	327
+Piauí	Pessoa sem deficiência	729	194	507	327
 Ceará	Pessoa com deficiência	588	95	139	35
-	Pessoa sem deficiência	1895	686	1771	707
+Ceará	Pessoa sem deficiência	1895	686	1771	707
 Rio Grande do Norte	Pessoa com deficiência	197	33	51	20
-	Pessoa sem deficiência	748	272	676	321
+Rio Grande do Norte	Pessoa sem deficiência	748	272	676	321
 Paraíba	Pessoa com deficiência	224	26	45	19
-	Pessoa sem deficiência	988	248	655	314
+Paraíba	Pessoa sem deficiência	988	248	655	314
 Pernambuco	Pessoa com deficiência	572	77	149	35
-	Pessoa sem deficiência	2010	614	1877	800
+Pernambuco	Pessoa sem deficiência	2010	614	1877	800
 Alagoas	Pessoa com deficiência	216	21	38	15
-	Pessoa sem deficiência	745	217	522	242
+Alagoas	Pessoa sem deficiência	745	217	522	242
 Sergipe	Pessoa com deficiência	166	19	37	12
-	Pessoa sem deficiência	481	142	392	177
+Sergipe	Pessoa sem deficiência	481	142	392	177
 Bahia	Pessoa com deficiência	899	112	242	77
-	Pessoa sem deficiência	3265	947	3017	1074
+Bahia	Pessoa sem deficiência	3265	947	3017	1074
 Minas Gerais	Pessoa com deficiência	1123	158	280	93
-	Pessoa sem deficiência	4290	1604	4301	2389
+Minas Gerais	Pessoa sem deficiência	4290	1604	4301	2389
 Espírito Santo	Pessoa com deficiência	195	35	53	19
-	Pessoa sem deficiência	740	307	856	512
+Espírito Santo	Pessoa sem deficiência	740	307	856	512
 Rio de Janeiro	Pessoa com deficiência	622	185	308	130
-	Pessoa sem deficiência	2225	1417	4447	2816
+Rio de Janeiro	Pessoa sem deficiência	2225	1417	4447	2816
 São Paulo	Pessoa com deficiência	1745	411	698	310
-	Pessoa sem deficiência	6123	3496	11446	7547
+São Paulo	Pessoa sem deficiência	6123	3496	11446	7547
 Paraná	Pessoa com deficiência	604	94	152	53
-	Pessoa sem deficiência	1997	952	2240	1505
+Paraná	Pessoa sem deficiência	1997	952	2240	1505
 Santa Catarina	Pessoa com deficiência	262	62	85	29
-	Pessoa sem deficiência	1217	690	1530	992
+Santa Catarina	Pessoa sem deficiência	1217	690	1530	992
 Rio Grande do Sul	Pessoa com deficiência	639	141	164	64
-	Pessoa sem deficiência	2008	1021	2385	1491
+Rio Grande do Sul	Pessoa sem deficiência	2008	1021	2385	1491
 Mato Grosso do Sul	Pessoa com deficiência	130	18	37	18
-	Pessoa sem deficiência	453	210	523	354
+Mato Grosso do Sul	Pessoa sem deficiência	453	210	523	354
 Mato Grosso	Pessoa com deficiência	168	36	53	24
-	Pessoa sem deficiência	566	277	656	368
+Mato Grosso	Pessoa sem deficiência	566	277	656	368
 Goiás	Pessoa com deficiência	344	61	92	39
-	Pessoa sem deficiência	1234	577	1506	827
+Goiás	Pessoa sem deficiência	1234	577	1506	827
 Distrito Federal	Pessoa com deficiência	92	23	51	31
-	Pessoa sem deficiência	273	157	608	735
-Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 3º trimestre					
+Distrito Federal	Pessoa sem deficiência	273	157	608	735
