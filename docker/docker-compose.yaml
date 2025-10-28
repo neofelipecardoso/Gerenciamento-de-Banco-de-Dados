@@ -1,6 +1,6 @@
 services:
   db:
-    image: mcr.microsoft.com/mssql/server:2022-CU20-GDR1-ubuntu-22.04
+    image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sql-server
     environment:
       ACCEPT_EULA: "Y"
@@ -16,9 +16,10 @@ services:
       timeout: 10s
     volumes:
       - mssql-data:/var/opt/mssql
+      - ./datasets:/datasets:ro
   
   flyway:
-    image: flyway/flyway:11.11.2-alpine
+    image: flyway/flyway:11-alpine
     container_name: flyway
     environment:
       FLYWAY_URL: jdbc:sqlserver://db:1433;databaseName=master;trustServerCertificate=true
