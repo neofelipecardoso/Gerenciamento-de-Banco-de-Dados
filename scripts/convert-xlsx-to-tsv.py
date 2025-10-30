@@ -8,7 +8,7 @@ INPUT_DIR = Path("datasets_xlsx")
 ENCODING = "utf-8"
 LINETERMINATOR = "\n"
 OUTPUT_DIR = Path("datasets_tsv")
-HEADER_ROWS_TO_SKIP = 3
+HEADER_ROWS_TO_SKIP = 2
 FOOTER_ROWS_TO_SKIP = 1
 
 

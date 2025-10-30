@@ -1,247 +1,249 @@
 
+-- ========================== tabela4361 ==========================
+
 CREATE TABLE [tabela4361] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_privado__exclusive_trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Trabalhador_doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Trabalhador_doméstico___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Trabalhador_doméstico___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___com_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_público__exclusive_militar_e_funcionário_público_estatutário___sem_carteira_de_trabalho_assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregado_no_setor_público___militar_e_funcionário_público_estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregador_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Empregador_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Conta_própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Conta_própria_com_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Conta_própria_sem_CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Trabalhador_familiar_auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...5 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...5 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...6 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...6 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...7 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...7 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...8 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...8 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...9 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...9 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...0 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...0 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...1 x Trabalhador doméstico - com carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...1 x Trabalhador doméstico - sem carteira de trabalho assinada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - com carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - sem carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - com carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - sem carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - com carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - sem carteira de trabalho assin_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregado no setor público] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregador com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregador sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Conta própria] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Conta própria com CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Conta própria sem CNPJ] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Trabalhador familiar auxiliar] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela4361]
 FROM '/datasets/tabela4361.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -249,132 +251,381 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Posição na ocupação e categoria do emprego no trabalho principal],
+    unpvt.[Valor]
+INTO tabela4361_unpivoted
+FROM tabela4361
+CROSS APPLY (
+    VALUES
+		('2012', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregado]),
+		('2012', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador doméstico]),
+		('2012', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assinada]),
+		('2012', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2012', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Trabalhador doméstico]),
+		('2012', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2012', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2012', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregado no setor público]),
+		('2012', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assinada]),
+		('2012', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assinada]),
+		('2012', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutário]),
+		('2012', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregador]),
+		('2012', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregador com CNPJ]),
+		('2012', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregador sem CNPJ]),
+		('2012', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Conta própria]),
+		('2012', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Conta própria com CNPJ]),
+		('2012', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Conta própria sem CNPJ]),
+		('2012', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Trabalhador familiar auxiliar]),
+		('2013', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregado]),
+		('2013', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_2]),
+		('2013', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_2]),
+		('2013', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_2]),
+		('2013', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Trabalhador doméstico]),
+		('2013', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2013', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2013', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregado no setor público]),
+		('2013', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_2]),
+		('2013', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_2]),
+		('2013', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_2]),
+		('2013', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregador]),
+		('2013', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregador com CNPJ]),
+		('2013', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Empregador sem CNPJ]),
+		('2013', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Conta própria]),
+		('2013', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Conta própria com CNPJ]),
+		('2013', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Conta própria sem CNPJ]),
+		('2013', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2013 x Trabalhador familiar auxiliar]),
+		('2014', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregado]),
+		('2014', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_3]),
+		('2014', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_3]),
+		('2014', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_3]),
+		('2014', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Trabalhador doméstico]),
+		('2014', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2014', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2014', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregado no setor público]),
+		('2014', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_3]),
+		('2014', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_3]),
+		('2014', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_3]),
+		('2014', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregador]),
+		('2014', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregador com CNPJ]),
+		('2014', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Empregador sem CNPJ]),
+		('2014', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Conta própria]),
+		('2014', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Conta própria com CNPJ]),
+		('2014', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Conta própria sem CNPJ]),
+		('2014', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2014 x Trabalhador familiar auxiliar]),
+		('2015', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregado]),
+		('2015', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_4]),
+		('2015', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_4]),
+		('2015', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_4]),
+		('2015', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Trabalhador doméstico]),
+		('2015', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...5 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2015', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...5 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2015', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregado no setor público]),
+		('2015', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_4]),
+		('2015', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_4]),
+		('2015', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_4]),
+		('2015', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregador]),
+		('2015', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregador com CNPJ]),
+		('2015', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Empregador sem CNPJ]),
+		('2015', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Conta própria]),
+		('2015', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Conta própria com CNPJ]),
+		('2015', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Conta própria sem CNPJ]),
+		('2015', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2015 x Trabalhador familiar auxiliar]),
+		('2016', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregado]),
+		('2016', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_5]),
+		('2016', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_5]),
+		('2016', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_5]),
+		('2016', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Trabalhador doméstico]),
+		('2016', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...6 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2016', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...6 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2016', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregado no setor público]),
+		('2016', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_5]),
+		('2016', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_5]),
+		('2016', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_5]),
+		('2016', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregador]),
+		('2016', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregador com CNPJ]),
+		('2016', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Empregador sem CNPJ]),
+		('2016', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Conta própria]),
+		('2016', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Conta própria com CNPJ]),
+		('2016', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Conta própria sem CNPJ]),
+		('2016', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2016 x Trabalhador familiar auxiliar]),
+		('2017', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregado]),
+		('2017', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_6]),
+		('2017', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_6]),
+		('2017', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_6]),
+		('2017', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Trabalhador doméstico]),
+		('2017', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...7 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2017', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...7 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2017', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregado no setor público]),
+		('2017', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_6]),
+		('2017', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_6]),
+		('2017', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_6]),
+		('2017', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregador]),
+		('2017', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregador com CNPJ]),
+		('2017', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Empregador sem CNPJ]),
+		('2017', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Conta própria]),
+		('2017', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Conta própria com CNPJ]),
+		('2017', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Conta própria sem CNPJ]),
+		('2017', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2017 x Trabalhador familiar auxiliar]),
+		('2018', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregado]),
+		('2018', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_7]),
+		('2018', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_7]),
+		('2018', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_7]),
+		('2018', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Trabalhador doméstico]),
+		('2018', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...8 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2018', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...8 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2018', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregado no setor público]),
+		('2018', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_7]),
+		('2018', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_7]),
+		('2018', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_7]),
+		('2018', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregador]),
+		('2018', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregador com CNPJ]),
+		('2018', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Empregador sem CNPJ]),
+		('2018', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Conta própria]),
+		('2018', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Conta própria com CNPJ]),
+		('2018', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Conta própria sem CNPJ]),
+		('2018', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2018 x Trabalhador familiar auxiliar]),
+		('2019', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregado]),
+		('2019', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_8]),
+		('2019', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_8]),
+		('2019', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_8]),
+		('2019', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Trabalhador doméstico]),
+		('2019', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...9 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2019', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...9 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2019', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregado no setor público]),
+		('2019', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_8]),
+		('2019', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_8]),
+		('2019', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_8]),
+		('2019', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregador]),
+		('2019', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregador com CNPJ]),
+		('2019', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Empregador sem CNPJ]),
+		('2019', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Conta própria]),
+		('2019', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Conta própria com CNPJ]),
+		('2019', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Conta própria sem CNPJ]),
+		('2019', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2019 x Trabalhador familiar auxiliar]),
+		('2020', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregado]),
+		('2020', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_9]),
+		('2020', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_9]),
+		('2020', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_9]),
+		('2020', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Trabalhador doméstico]),
+		('2020', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...0 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2020', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...0 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2020', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregado no setor público]),
+		('2020', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_9]),
+		('2020', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_9]),
+		('2020', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_9]),
+		('2020', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregador]),
+		('2020', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregador com CNPJ]),
+		('2020', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Empregador sem CNPJ]),
+		('2020', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Conta própria]),
+		('2020', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Conta própria com CNPJ]),
+		('2020', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Conta própria sem CNPJ]),
+		('2020', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2020 x Trabalhador familiar auxiliar]),
+		('2021', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregado]),
+		('2021', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_10]),
+		('2021', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_10]),
+		('2021', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_10]),
+		('2021', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Trabalhador doméstico]),
+		('2021', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...1 x Trabalhador doméstico - com carteira de trabalho assinada]),
+		('2021', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...1 x Trabalhador doméstico - sem carteira de trabalho assinada]),
+		('2021', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregado no setor público]),
+		('2021', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_10]),
+		('2021', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_10]),
+		('2021', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_10]),
+		('2021', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregador]),
+		('2021', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregador com CNPJ]),
+		('2021', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Empregador sem CNPJ]),
+		('2021', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Conta própria]),
+		('2021', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Conta própria com CNPJ]),
+		('2021', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Conta própria sem CNPJ]),
+		('2021', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2021 x Trabalhador familiar auxiliar]),
+		('2022', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregado]),
+		('2022', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_11]),
+		('2022', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_11]),
+		('2022', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_11]),
+		('2022', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Trabalhador doméstico]),
+		('2022', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - com carteira de trabalho assin_2]),
+		('2022', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...2 x Trabalhador doméstico - sem carteira de trabalho assin_2]),
+		('2022', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregado no setor público]),
+		('2022', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_11]),
+		('2022', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_11]),
+		('2022', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_11]),
+		('2022', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregador]),
+		('2022', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregador com CNPJ]),
+		('2022', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Empregador sem CNPJ]),
+		('2022', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Conta própria]),
+		('2022', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Conta própria com CNPJ]),
+		('2022', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Conta própria sem CNPJ]),
+		('2022', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2022 x Trabalhador familiar auxiliar]),
+		('2023', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregado]),
+		('2023', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_12]),
+		('2023', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_12]),
+		('2023', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_12]),
+		('2023', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Trabalhador doméstico]),
+		('2023', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - com carteira de trabalho assin_2]),
+		('2023', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...3 x Trabalhador doméstico - sem carteira de trabalho assin_2]),
+		('2023', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregado no setor público]),
+		('2023', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_12]),
+		('2023', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_12]),
+		('2023', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_12]),
+		('2023', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregador]),
+		('2023', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregador com CNPJ]),
+		('2023', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Empregador sem CNPJ]),
+		('2023', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Conta própria]),
+		('2023', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Conta própria com CNPJ]),
+		('2023', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Conta própria sem CNPJ]),
+		('2023', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2023 x Trabalhador familiar auxiliar]),
+		('2024', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregado]),
+		('2024', 'Empregado no setor privado, exclusive trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador domést_13]),
+		('2024', 'Empregado no setor privado, exclusive trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - com carteira de trabalho assin_13]),
+		('2024', 'Empregado no setor privado, exclusive trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...ive trabalhador doméstico - sem carteira de trabalho assin_13]),
+		('2024', 'Trabalhador doméstico', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Trabalhador doméstico]),
+		('2024', 'Trabalhador doméstico - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - com carteira de trabalho assin_2]),
+		('2024', 'Trabalhador doméstico - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...4 x Trabalhador doméstico - sem carteira de trabalho assin_2]),
+		('2024', 'Empregado no setor público', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregado no setor público]),
+		('2024', 'Empregado no setor público, exclusive militar e funcionário público estatutário - com carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - com carteira de trabalho assin_13]),
+		('2024', 'Empregado no setor público, exclusive militar e funcionário público estatutário - sem carteira de trabalho assinada', [Ano x Posição na ocupação e categoria do emprego no trabalho pri...nário público estatutário - sem carteira de trabalho assin_13]),
+		('2024', 'Empregado no setor público - militar e funcionário público estatutário', [Ano x Posição na ocupação e categoria do emprego no trabalho pri... no setor público - militar e funcionário público estatutá_13]),
+		('2024', 'Empregador', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregador]),
+		('2024', 'Empregador com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregador com CNPJ]),
+		('2024', 'Empregador sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Empregador sem CNPJ]),
+		('2024', 'Conta própria', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Conta própria]),
+		('2024', 'Conta própria com CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Conta própria com CNPJ]),
+		('2024', 'Conta própria sem CNPJ', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Conta própria sem CNPJ]),
+		('2024', 'Trabalhador familiar auxiliar', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2024 x Trabalhador familiar auxiliar])
+) AS unpvt ([Ano], [Posição na ocupação e categoria do emprego no trabalho principal], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela4666 ==========================
+
 CREATE TABLE [tabela4666] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Força_de_trabalho_ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Força_de_trabalho_ou_desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Desocupado_ou_na_força_de_trabalho_potencial_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Desocupado_ou_subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Subocupado_por_insuficiência_de_horas_trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Desocupado_ou_na_força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Força_de_trabalho_potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2012 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2012 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2013 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2013 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_3] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2014 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2014 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_4] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2015 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2015 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_5] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2016 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2016 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_6] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2017 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2017 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_7] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2018 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2018 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_8] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2019 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2019 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_9] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2020 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2020 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_10] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2021 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2021 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_11] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2022 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2022 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_12] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2023 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2023 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_13] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Desocupado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2024 x Subocupado por insuficiência de horas trabalhadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2024 x Desocupado ou na força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Força de trabalho potencial] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela4666]
 FROM '/datasets/tabela4666.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -382,24 +633,156 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Tipo de medida de subutilização da força de trabalho na semana de referência],
+    unpvt.[Valor]
+INTO tabela4666_unpivoted
+FROM tabela4666
+CROSS APPLY (
+    VALUES
+		('2012', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ampliada]),
+		('2012', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ou desalentado]),
+		('2012', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalhadas]),
+		('2012', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalhadas]),
+		('2012', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Desocupado]),
+		('2012', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2012 x Subocupado por insuficiência de horas trabalhadas]),
+		('2012', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2012 x Desocupado ou na força de trabalho potencial]),
+		('2012', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho potencial]),
+		('2012', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Desalentado]),
+		('2013', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Força de trabalho ampliada]),
+		('2013', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Força de trabalho ou desalentado]),
+		('2013', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_2]),
+		('2013', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_2]),
+		('2013', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Desocupado]),
+		('2013', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2013 x Subocupado por insuficiência de horas trabalhadas]),
+		('2013', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2013 x Desocupado ou na força de trabalho potencial]),
+		('2013', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Força de trabalho potencial]),
+		('2013', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2013 x Desalentado]),
+		('2014', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Força de trabalho ampliada]),
+		('2014', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Força de trabalho ou desalentado]),
+		('2014', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_3]),
+		('2014', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_3]),
+		('2014', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Desocupado]),
+		('2014', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2014 x Subocupado por insuficiência de horas trabalhadas]),
+		('2014', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2014 x Desocupado ou na força de trabalho potencial]),
+		('2014', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Força de trabalho potencial]),
+		('2014', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2014 x Desalentado]),
+		('2015', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Força de trabalho ampliada]),
+		('2015', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Força de trabalho ou desalentado]),
+		('2015', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_4]),
+		('2015', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_4]),
+		('2015', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Desocupado]),
+		('2015', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2015 x Subocupado por insuficiência de horas trabalhadas]),
+		('2015', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2015 x Desocupado ou na força de trabalho potencial]),
+		('2015', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Força de trabalho potencial]),
+		('2015', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2015 x Desalentado]),
+		('2016', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Força de trabalho ampliada]),
+		('2016', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Força de trabalho ou desalentado]),
+		('2016', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_5]),
+		('2016', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_5]),
+		('2016', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Desocupado]),
+		('2016', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2016 x Subocupado por insuficiência de horas trabalhadas]),
+		('2016', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2016 x Desocupado ou na força de trabalho potencial]),
+		('2016', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Força de trabalho potencial]),
+		('2016', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2016 x Desalentado]),
+		('2017', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Força de trabalho ampliada]),
+		('2017', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Força de trabalho ou desalentado]),
+		('2017', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_6]),
+		('2017', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_6]),
+		('2017', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Desocupado]),
+		('2017', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2017 x Subocupado por insuficiência de horas trabalhadas]),
+		('2017', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2017 x Desocupado ou na força de trabalho potencial]),
+		('2017', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Força de trabalho potencial]),
+		('2017', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2017 x Desalentado]),
+		('2018', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Força de trabalho ampliada]),
+		('2018', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Força de trabalho ou desalentado]),
+		('2018', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_7]),
+		('2018', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_7]),
+		('2018', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Desocupado]),
+		('2018', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2018 x Subocupado por insuficiência de horas trabalhadas]),
+		('2018', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2018 x Desocupado ou na força de trabalho potencial]),
+		('2018', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Força de trabalho potencial]),
+		('2018', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2018 x Desalentado]),
+		('2019', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Força de trabalho ampliada]),
+		('2019', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Força de trabalho ou desalentado]),
+		('2019', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_8]),
+		('2019', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_8]),
+		('2019', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Desocupado]),
+		('2019', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2019 x Subocupado por insuficiência de horas trabalhadas]),
+		('2019', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2019 x Desocupado ou na força de trabalho potencial]),
+		('2019', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Força de trabalho potencial]),
+		('2019', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2019 x Desalentado]),
+		('2020', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Força de trabalho ampliada]),
+		('2020', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Força de trabalho ou desalentado]),
+		('2020', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_9]),
+		('2020', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_9]),
+		('2020', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Desocupado]),
+		('2020', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2020 x Subocupado por insuficiência de horas trabalhadas]),
+		('2020', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2020 x Desocupado ou na força de trabalho potencial]),
+		('2020', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Força de trabalho potencial]),
+		('2020', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2020 x Desalentado]),
+		('2021', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Força de trabalho ampliada]),
+		('2021', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Força de trabalho ou desalentado]),
+		('2021', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_10]),
+		('2021', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_10]),
+		('2021', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Desocupado]),
+		('2021', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2021 x Subocupado por insuficiência de horas trabalhadas]),
+		('2021', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2021 x Desocupado ou na força de trabalho potencial]),
+		('2021', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Força de trabalho potencial]),
+		('2021', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2021 x Desalentado]),
+		('2022', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Força de trabalho ampliada]),
+		('2022', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Força de trabalho ou desalentado]),
+		('2022', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_11]),
+		('2022', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_11]),
+		('2022', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Desocupado]),
+		('2022', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2022 x Subocupado por insuficiência de horas trabalhadas]),
+		('2022', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2022 x Desocupado ou na força de trabalho potencial]),
+		('2022', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Força de trabalho potencial]),
+		('2022', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2022 x Desalentado]),
+		('2023', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Força de trabalho ampliada]),
+		('2023', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Força de trabalho ou desalentado]),
+		('2023', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_12]),
+		('2023', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_12]),
+		('2023', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Desocupado]),
+		('2023', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2023 x Subocupado por insuficiência de horas trabalhadas]),
+		('2023', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2023 x Desocupado ou na força de trabalho potencial]),
+		('2023', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Força de trabalho potencial]),
+		('2023', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2023 x Desalentado]),
+		('2024', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Força de trabalho ampliada]),
+		('2024', 'Força de trabalho ou desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Força de trabalho ou desalentado]),
+		('2024', 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...otencial ou subocupado por insuficiência de horas trabalha_13]),
+		('2024', 'Desocupado ou subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...socupado ou subocupado por insuficiência de horas trabalha_13]),
+		('2024', 'Desocupado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Desocupado]),
+		('2024', 'Subocupado por insuficiência de horas trabalhadas', [Ano x Tipo de medida de subutilização da força de trabalho na se...ia x 2024 x Subocupado por insuficiência de horas trabalhadas]),
+		('2024', 'Desocupado ou na força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na se...erência x 2024 x Desocupado ou na força de trabalho potencial]),
+		('2024', 'Força de trabalho potencial', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Força de trabalho potencial]),
+		('2024', 'Desalentado', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2024 x Desalentado])
+) AS unpvt ([Ano], [Tipo de medida de subutilização da força de trabalho na semana de referência], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela4708 ==========================
+
 CREATE TABLE [tabela4708] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2016] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2017] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2018] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2019] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2020] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2021] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2022] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2023] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2024] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela4708]
 FROM '/datasets/tabela4708.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -407,42 +790,65 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Valor]
+INTO tabela4708_unpivoted
+FROM tabela4708
+CROSS APPLY (
+    VALUES
+		('2016', [Ano x 2016]),
+		('2017', [Ano x 2017]),
+		('2018', [Ano x 2018]),
+		('2019', [Ano x 2019]),
+		('2020', [Ano x 2020]),
+		('2021', [Ano x 2021]),
+		('2022', [Ano x 2022]),
+		('2023', [Ano x 2023]),
+		('2024', [Ano x 2024])
+) AS unpvt ([Ano], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6407 ==========================
+
 CREATE TABLE [tabela6407] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2012 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2012 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2013 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2013 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2014 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2014 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2015 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2015 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2020 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2020 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6407]
 FROM '/datasets/tabela6407.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -450,42 +856,84 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela6407_unpivoted
+FROM tabela6407
+CROSS APPLY (
+    VALUES
+		('2012', 'Homens', [Ano x Sexo x 2012 x Homens]),
+		('2012', 'Mulheres', [Ano x Sexo x 2012 x Mulheres]),
+		('2013', 'Homens', [Ano x Sexo x 2013 x Homens]),
+		('2013', 'Mulheres', [Ano x Sexo x 2013 x Mulheres]),
+		('2014', 'Homens', [Ano x Sexo x 2014 x Homens]),
+		('2014', 'Mulheres', [Ano x Sexo x 2014 x Mulheres]),
+		('2015', 'Homens', [Ano x Sexo x 2015 x Homens]),
+		('2015', 'Mulheres', [Ano x Sexo x 2015 x Mulheres]),
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2020', 'Homens', [Ano x Sexo x 2020 x Homens]),
+		('2020', 'Mulheres', [Ano x Sexo x 2020 x Mulheres]),
+		('2021', 'Homens', [Ano x Sexo x 2021 x Homens]),
+		('2021', 'Mulheres', [Ano x Sexo x 2021 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6409 ==========================
+
 CREATE TABLE [tabela6409] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Condição_no_domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2012_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2013_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2014_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2015_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2020_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Condição no domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2012 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2012 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2013 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2013 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2014 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2014 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2015 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2015 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2020 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2020 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6409]
 FROM '/datasets/tabela6409.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -493,30 +941,72 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Condição no domicílio],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela6409_unpivoted
+FROM tabela6409
+CROSS APPLY (
+    VALUES
+		('2012', 'Homens', [Ano x Sexo x 2012 x Homens]),
+		('2012', 'Mulheres', [Ano x Sexo x 2012 x Mulheres]),
+		('2013', 'Homens', [Ano x Sexo x 2013 x Homens]),
+		('2013', 'Mulheres', [Ano x Sexo x 2013 x Mulheres]),
+		('2014', 'Homens', [Ano x Sexo x 2014 x Homens]),
+		('2014', 'Mulheres', [Ano x Sexo x 2014 x Mulheres]),
+		('2015', 'Homens', [Ano x Sexo x 2015 x Homens]),
+		('2015', 'Mulheres', [Ano x Sexo x 2015 x Mulheres]),
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2020', 'Homens', [Ano x Sexo x 2020 x Homens]),
+		('2020', 'Mulheres', [Ano x Sexo x 2020 x Mulheres]),
+		('2021', 'Homens', [Ano x Sexo x 2021 x Homens]),
+		('2021', 'Mulheres', [Ano x Sexo x 2021 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6731 ==========================
+
 CREATE TABLE [tabela6731] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Principal_fonte_de_abastecimento_de_água] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Principal fonte de abastecimento de água] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6731]
 FROM '/datasets/tabela6731.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -524,30 +1014,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Principal fonte de abastecimento de água],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6731_unpivoted
+FROM tabela6731
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6732 ==========================
+
 CREATE TABLE [tabela6732] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Disponibilidade_da_rede_geral_de_distribuição_de_água] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Disponibilidade da rede geral de distribuição de água] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6732]
 FROM '/datasets/tabela6732.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -555,29 +1075,59 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Disponibilidade da rede geral de distribuição de água],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6732_unpivoted
+FROM tabela6732
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6733 ==========================
+
 CREATE TABLE [tabela6733] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6733]
 FROM '/datasets/tabela6733.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -585,27 +1135,56 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6733_unpivoted
+FROM tabela6733
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6734 ==========================
+
 CREATE TABLE [tabela6734] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6734]
 FROM '/datasets/tabela6734.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -613,22 +1192,49 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6734_unpivoted
+FROM tabela6734
+CROSS APPLY (
+    VALUES
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6735 ==========================
+
 CREATE TABLE [tabela6735] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Tipo_de_esgotamento_sanitário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Tipo de esgotamento sanitário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6735]
 FROM '/datasets/tabela6735.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -636,30 +1242,52 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Tipo de esgotamento sanitário],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6735_unpivoted
+FROM tabela6735
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6736 ==========================
+
 CREATE TABLE [tabela6736] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Destino_do_lixo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Destino do lixo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6736]
 FROM '/datasets/tabela6736.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -667,30 +1295,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Destino do lixo],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6736_unpivoted
+FROM tabela6736
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6737 ==========================
+
 CREATE TABLE [tabela6737] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Fonte_de_energia_elétrica] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Fonte de energia elétrica] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6737]
 FROM '/datasets/tabela6737.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -698,50 +1356,80 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Fonte de energia elétrica],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela6737_unpivoted
+FROM tabela6737
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela6821 ==========================
+
 CREATE TABLE [tabela6821] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Próprio_de_algum_morador___já_pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Próprio_de_algum_morador___ainda_pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Outra_condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2016 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2016 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2016 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2017 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2017 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2017 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2017 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2017 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2018 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2018 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2018 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2018 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2018 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2019 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2019 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2019 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2019 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2019 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2022 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2022 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2022 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2022 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2022 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2023 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2023 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2023 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2023 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2023 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2024 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2024 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2024 x Alugado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2024 x Cedido] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Condição de ocupação do domicílio x 2024 x Outra condição] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela6821]
 FROM '/datasets/tabela6821.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -749,30 +1437,80 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Condição de ocupação do domicílio],
+    unpvt.[Valor]
+INTO tabela6821_unpivoted
+FROM tabela6821
+CROSS APPLY (
+    VALUES
+		('2016', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - já pago]),
+		('2016', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - ainda pagando]),
+		('2016', 'Alugado', [Ano x Condição de ocupação do domicílio x 2016 x Alugado]),
+		('2016', 'Cedido', [Ano x Condição de ocupação do domicílio x 2016 x Cedido]),
+		('2016', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2016 x Outra condição]),
+		('2017', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2017 x Próprio de algum morador - já pago]),
+		('2017', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2017 x Próprio de algum morador - ainda pagando]),
+		('2017', 'Alugado', [Ano x Condição de ocupação do domicílio x 2017 x Alugado]),
+		('2017', 'Cedido', [Ano x Condição de ocupação do domicílio x 2017 x Cedido]),
+		('2017', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2017 x Outra condição]),
+		('2018', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2018 x Próprio de algum morador - já pago]),
+		('2018', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2018 x Próprio de algum morador - ainda pagando]),
+		('2018', 'Alugado', [Ano x Condição de ocupação do domicílio x 2018 x Alugado]),
+		('2018', 'Cedido', [Ano x Condição de ocupação do domicílio x 2018 x Cedido]),
+		('2018', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2018 x Outra condição]),
+		('2019', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2019 x Próprio de algum morador - já pago]),
+		('2019', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2019 x Próprio de algum morador - ainda pagando]),
+		('2019', 'Alugado', [Ano x Condição de ocupação do domicílio x 2019 x Alugado]),
+		('2019', 'Cedido', [Ano x Condição de ocupação do domicílio x 2019 x Cedido]),
+		('2019', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2019 x Outra condição]),
+		('2022', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2022 x Próprio de algum morador - já pago]),
+		('2022', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2022 x Próprio de algum morador - ainda pagando]),
+		('2022', 'Alugado', [Ano x Condição de ocupação do domicílio x 2022 x Alugado]),
+		('2022', 'Cedido', [Ano x Condição de ocupação do domicílio x 2022 x Cedido]),
+		('2022', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2022 x Outra condição]),
+		('2023', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2023 x Próprio de algum morador - já pago]),
+		('2023', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2023 x Próprio de algum morador - ainda pagando]),
+		('2023', 'Alugado', [Ano x Condição de ocupação do domicílio x 2023 x Alugado]),
+		('2023', 'Cedido', [Ano x Condição de ocupação do domicílio x 2023 x Cedido]),
+		('2023', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2023 x Outra condição]),
+		('2024', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2024 x Próprio de algum morador - já pago]),
+		('2024', 'Próprio de algum morador - ainda pagando', [Ano x Condição de ocupação do domicílio x 2024 x Próprio de algum morador - ainda pagando]),
+		('2024', 'Alugado', [Ano x Condição de ocupação do domicílio x 2024 x Alugado]),
+		('2024', 'Cedido', [Ano x Condição de ocupação do domicílio x 2024 x Cedido]),
+		('2024', 'Outra condição', [Ano x Condição de ocupação do domicílio x 2024 x Outra condição])
+) AS unpvt ([Ano], [Condição de ocupação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7109 ==========================
+
 CREATE TABLE [tabela7109] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7109]
 FROM '/datasets/tabela7109.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -780,30 +1518,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7109_unpivoted
+FROM tabela7109
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7110 ==========================
+
 CREATE TABLE [tabela7110] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7110]
 FROM '/datasets/tabela7110.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -811,30 +1579,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7110_unpivoted
+FROM tabela7110
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7111 ==========================
+
 CREATE TABLE [tabela7111] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7111]
 FROM '/datasets/tabela7111.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -842,30 +1640,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7111_unpivoted
+FROM tabela7111
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7113 ==========================
+
 CREATE TABLE [tabela7113] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7113]
 FROM '/datasets/tabela7113.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -873,30 +1701,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7113_unpivoted
+FROM tabela7113
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7126 ==========================
+
 CREATE TABLE [tabela7126] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7126]
 FROM '/datasets/tabela7126.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -904,30 +1762,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7126_unpivoted
+FROM tabela7126
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7127 ==========================
+
 CREATE TABLE [tabela7127] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7127]
 FROM '/datasets/tabela7127.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -935,30 +1823,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7127_unpivoted
+FROM tabela7127
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7128 ==========================
+
 CREATE TABLE [tabela7128] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Nível_de_instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Nível de instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7128]
 FROM '/datasets/tabela7128.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -966,30 +1884,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Nível de instrução],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7128_unpivoted
+FROM tabela7128
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7129 ==========================
+
 CREATE TABLE [tabela7129] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Nível_de_instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Nível de instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7129]
 FROM '/datasets/tabela7129.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -997,30 +1945,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Nível de instrução],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7129_unpivoted
+FROM tabela7129
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7133 ==========================
+
 CREATE TABLE [tabela7133] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupos_de_anos_de_estudo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupos de anos de estudo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7133]
 FROM '/datasets/tabela7133.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1028,30 +2006,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupos de anos de estudo],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7133_unpivoted
+FROM tabela7133
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7134 ==========================
+
 CREATE TABLE [tabela7134] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupos_de_anos_de_estudo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupos de anos de estudo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7134]
 FROM '/datasets/tabela7134.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1059,30 +2067,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupos de anos de estudo],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7134_unpivoted
+FROM tabela7134
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7135 ==========================
+
 CREATE TABLE [tabela7135] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Nível_de_instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Nível de instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7135]
 FROM '/datasets/tabela7135.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1090,30 +2128,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Nível de instrução],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7135_unpivoted
+FROM tabela7135
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7136 ==========================
+
 CREATE TABLE [tabela7136] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7136]
 FROM '/datasets/tabela7136.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1121,30 +2189,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7136_unpivoted
+FROM tabela7136
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7138 ==========================
+
 CREATE TABLE [tabela7138] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7138]
 FROM '/datasets/tabela7138.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1152,30 +2250,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7138_unpivoted
+FROM tabela7138
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7139 ==========================
+
 CREATE TABLE [tabela7139] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Grupo_de_idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7139]
 FROM '/datasets/tabela7139.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1183,30 +2311,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Grupo de idade],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7139_unpivoted
+FROM tabela7139
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7146 ==========================
+
 CREATE TABLE [tabela7146] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Tipo_de_ensino_superior] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Tipo de ensino superior] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7146]
 FROM '/datasets/tabela7146.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1214,30 +2372,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Tipo de ensino superior],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7146_unpivoted
+FROM tabela7146
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7147 ==========================
+
 CREATE TABLE [tabela7147] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Tipo_de_ensino_superior] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Tipo de ensino superior] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7147]
 FROM '/datasets/tabela7147.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1245,30 +2433,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Tipo de ensino superior],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7147_unpivoted
+FROM tabela7147
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7159 ==========================
+
 CREATE TABLE [tabela7159] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Situação_de_ocupação_na_semana_de_referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Situação de ocupação na semana de referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7159]
 FROM '/datasets/tabela7159.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1276,30 +2494,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Situação de ocupação na semana de referência],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7159_unpivoted
+FROM tabela7159
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7160 ==========================
+
 CREATE TABLE [tabela7160] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Situação_de_ocupação_na_semana_de_referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Situação de ocupação na semana de referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7160]
 FROM '/datasets/tabela7160.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1307,37 +2555,67 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Situação de ocupação na semana de referência],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7160_unpivoted
+FROM tabela7160
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7161 ==========================
+
 CREATE TABLE [tabela7161] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Situação_de_ocupação_na_semana_de_referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_15_a_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_18_a_24_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_25_anos_ou_mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Situação de ocupação na semana de referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 18 a 24 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 25 anos ou mais] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7161]
 FROM '/datasets/tabela7161.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1345,30 +2623,67 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Situação de ocupação na semana de referência],
+    unpvt.[Ano],
+    unpvt.[Grupo de idade],
+    unpvt.[Valor]
+INTO tabela7161_unpivoted
+FROM tabela7161
+CROSS APPLY (
+    VALUES
+		('2016', '15 a 17 anos', [Ano x Grupo de idade x 2016 x 15 a 17 anos]),
+		('2016', '18 a 24 anos', [Ano x Grupo de idade x 2016 x 18 a 24 anos]),
+		('2016', '25 anos ou mais', [Ano x Grupo de idade x 2016 x 25 anos ou mais]),
+		('2017', '15 a 17 anos', [Ano x Grupo de idade x 2017 x 15 a 17 anos]),
+		('2017', '18 a 24 anos', [Ano x Grupo de idade x 2017 x 18 a 24 anos]),
+		('2017', '25 anos ou mais', [Ano x Grupo de idade x 2017 x 25 anos ou mais]),
+		('2018', '15 a 17 anos', [Ano x Grupo de idade x 2018 x 15 a 17 anos]),
+		('2018', '18 a 24 anos', [Ano x Grupo de idade x 2018 x 18 a 24 anos]),
+		('2018', '25 anos ou mais', [Ano x Grupo de idade x 2018 x 25 anos ou mais]),
+		('2019', '15 a 17 anos', [Ano x Grupo de idade x 2019 x 15 a 17 anos]),
+		('2019', '18 a 24 anos', [Ano x Grupo de idade x 2019 x 18 a 24 anos]),
+		('2019', '25 anos ou mais', [Ano x Grupo de idade x 2019 x 25 anos ou mais]),
+		('2022', '15 a 17 anos', [Ano x Grupo de idade x 2022 x 15 a 17 anos]),
+		('2022', '18 a 24 anos', [Ano x Grupo de idade x 2022 x 18 a 24 anos]),
+		('2022', '25 anos ou mais', [Ano x Grupo de idade x 2022 x 25 anos ou mais]),
+		('2023', '15 a 17 anos', [Ano x Grupo de idade x 2023 x 15 a 17 anos]),
+		('2023', '18 a 24 anos', [Ano x Grupo de idade x 2023 x 18 a 24 anos]),
+		('2023', '25 anos ou mais', [Ano x Grupo de idade x 2023 x 25 anos ou mais]),
+		('2024', '15 a 17 anos', [Ano x Grupo de idade x 2024 x 15 a 17 anos]),
+		('2024', '18 a 24 anos', [Ano x Grupo de idade x 2024 x 18 a 24 anos]),
+		('2024', '25 anos ou mais', [Ano x Grupo de idade x 2024 x 25 anos ou mais])
+) AS unpvt ([Ano], [Grupo de idade], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7177 ==========================
+
 CREATE TABLE [tabela7177] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Frequência_a_curso_de_qualificação_profissional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Frequência a curso de qualificação profissional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7177]
 FROM '/datasets/tabela7177.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1376,30 +2691,60 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Frequência a curso de qualificação profissional],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7177_unpivoted
+FROM tabela7177
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7178 ==========================
+
 CREATE TABLE [tabela7178] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Frequência_a_curso_de_qualificação_profissional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Frequência a curso de qualificação profissional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2016 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2017 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2018 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7178]
 FROM '/datasets/tabela7178.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1407,24 +2752,54 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Frequência a curso de qualificação profissional],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7178_unpivoted
+FROM tabela7178
+CROSS APPLY (
+    VALUES
+		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
+		('2016', 'Preta ou parda', [Ano x Cor ou raça x 2016 x Preta ou parda]),
+		('2017', 'Branca', [Ano x Cor ou raça x 2017 x Branca]),
+		('2017', 'Preta ou parda', [Ano x Cor ou raça x 2017 x Preta ou parda]),
+		('2018', 'Branca', [Ano x Cor ou raça x 2018 x Branca]),
+		('2018', 'Preta ou parda', [Ano x Cor ou raça x 2018 x Preta ou parda]),
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7210 ==========================
+
 CREATE TABLE [tabela7210] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Conclusão_do_curso_técnico_de_nível_médio_ou_normal__magistério_] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Conclusão do curso técnico de nível médio ou normal (magistério)] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7210]
 FROM '/datasets/tabela7210.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1432,17 +2807,41 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Conclusão do curso técnico de nível médio ou normal (magistério)],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7210_unpivoted
+FROM tabela7210
+CROSS APPLY (
+    VALUES
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7211 ==========================
+
 CREATE TABLE [tabela7211] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Viagem_nacional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Viagem_internacional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de viagem x 2019 x Viagem nacional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Tipo de viagem x 2019 x Viagem internacional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7211]
 FROM '/datasets/tabela7211.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1450,24 +2849,41 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Tipo de viagem],
+    unpvt.[Valor]
+INTO tabela7211_unpivoted
+FROM tabela7211
+CROSS APPLY (
+    VALUES
+		('2019', 'Viagem nacional', [Ano x Tipo de viagem x 2019 x Viagem nacional]),
+		('2019', 'Viagem internacional', [Ano x Tipo de viagem x 2019 x Viagem internacional])
+) AS unpvt ([Ano], [Tipo de viagem], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7215 ==========================
+
 CREATE TABLE [tabela7215] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Idade_que_deixou_de_frequentar_escola_pela_última_vez] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Idade que deixou de frequentar escola pela última vez] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7215]
 FROM '/datasets/tabela7215.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1475,24 +2891,48 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Idade que deixou de frequentar escola pela última vez],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7215_unpivoted
+FROM tabela7215
+CROSS APPLY (
+    VALUES
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7219 ==========================
+
 CREATE TABLE [tabela7219] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Principal_motivo_de_atualmente_não_frequentar_escola_ou_outro_curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7219]
 FROM '/datasets/tabela7219.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1500,24 +2940,48 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Principal motivo de atualmente não frequentar escola ou outro curso],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7219_unpivoted
+FROM tabela7219
+CROSS APPLY (
+    VALUES
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7220 ==========================
+
 CREATE TABLE [tabela7220] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Principal_motivo_de_atualmente_não_frequentar_escola_ou_outro_curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7220]
 FROM '/datasets/tabela7220.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1525,24 +2989,48 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Principal motivo de atualmente não frequentar escola ou outro curso],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7220_unpivoted
+FROM tabela7220
+CROSS APPLY (
+    VALUES
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7221 ==========================
+
 CREATE TABLE [tabela7221] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Principal_motivo_de_atualmente_não_frequentar_escola_ou_outro_curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7221]
 FROM '/datasets/tabela7221.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1550,24 +3038,48 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Principal motivo de atualmente não frequentar escola ou outro curso],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7221_unpivoted
+FROM tabela7221
+CROSS APPLY (
+    VALUES
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7222 ==========================
+
 CREATE TABLE [tabela7222] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Principal_motivo_de_atualmente_não_frequentar_escola_ou_outro_curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Preta_ou_parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2019 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2022 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2023 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Cor ou raça x 2024 x Preta ou parda] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7222]
 FROM '/datasets/tabela7222.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1575,32 +3087,56 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Principal motivo de atualmente não frequentar escola ou outro curso],
+    unpvt.[Ano],
+    unpvt.[Cor ou raça],
+    unpvt.[Valor]
+INTO tabela7222_unpivoted
+FROM tabela7222
+CROSS APPLY (
+    VALUES
+		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
+		('2019', 'Preta ou parda', [Ano x Cor ou raça x 2019 x Preta ou parda]),
+		('2022', 'Branca', [Ano x Cor ou raça x 2022 x Branca]),
+		('2022', 'Preta ou parda', [Ano x Cor ou raça x 2022 x Preta ou parda]),
+		('2023', 'Branca', [Ano x Cor ou raça x 2023 x Branca]),
+		('2023', 'Preta ou parda', [Ano x Cor ou raça x 2023 x Preta ou parda]),
+		('2024', 'Branca', [Ano x Cor ou raça x 2024 x Branca]),
+		('2024', 'Preta ou parda', [Ano x Cor ou raça x 2024 x Preta ou parda])
+) AS unpvt ([Ano], [Cor ou raça], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7307 ==========================
+
 CREATE TABLE [tabela7307] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Existência_de_utilização_da_Internet_no_domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Existência de utilização da Internet no domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2018 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2019 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2021 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2021 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2022 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7307]
 FROM '/datasets/tabela7307.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1608,32 +3144,64 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Existência de utilização da Internet no domicílio],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela7307_unpivoted
+FROM tabela7307
+CROSS APPLY (
+    VALUES
+		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
+		('2016', 'Rural', [Ano x Situação do domicílio x 2016 x Rural]),
+		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
+		('2017', 'Rural', [Ano x Situação do domicílio x 2017 x Rural]),
+		('2018', 'Urbana', [Ano x Situação do domicílio x 2018 x Urbana]),
+		('2018', 'Rural', [Ano x Situação do domicílio x 2018 x Rural]),
+		('2019', 'Urbana', [Ano x Situação do domicílio x 2019 x Urbana]),
+		('2019', 'Rural', [Ano x Situação do domicílio x 2019 x Rural]),
+		('2021', 'Urbana', [Ano x Situação do domicílio x 2021 x Urbana]),
+		('2021', 'Rural', [Ano x Situação do domicílio x 2021 x Rural]),
+		('2022', 'Urbana', [Ano x Situação do domicílio x 2022 x Urbana]),
+		('2022', 'Rural', [Ano x Situação do domicílio x 2022 x Rural]),
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela7320 ==========================
+
 CREATE TABLE [tabela7320] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Condição_de_estudante__rede_de_ensino_e_curso_frequentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Condição de estudante, rede de ensino e curso frequentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7320]
 FROM '/datasets/tabela7320.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1641,32 +3209,64 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Condição de estudante, rede de ensino e curso frequentado],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7320_unpivoted
+FROM tabela7320
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2021', 'Homens', [Ano x Sexo x 2021 x Homens]),
+		('2021', 'Mulheres', [Ano x Sexo x 2021 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7321 ==========================
+
 CREATE TABLE [tabela7321] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Condição_de_estudante__rede_de_ensino_e_curso_frequentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Condição de estudante, rede de ensino e curso frequentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2016 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2017 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2018 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2019 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2021 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2022 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2023 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Sexo x 2024 x Mulheres] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7321]
 FROM '/datasets/tabela7321.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1674,55 +3274,87 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    [Condição de estudante, rede de ensino e curso frequentado],
+    unpvt.[Ano],
+    unpvt.[Sexo],
+    unpvt.[Valor]
+INTO tabela7321_unpivoted
+FROM tabela7321
+CROSS APPLY (
+    VALUES
+		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
+		('2016', 'Mulheres', [Ano x Sexo x 2016 x Mulheres]),
+		('2017', 'Homens', [Ano x Sexo x 2017 x Homens]),
+		('2017', 'Mulheres', [Ano x Sexo x 2017 x Mulheres]),
+		('2018', 'Homens', [Ano x Sexo x 2018 x Homens]),
+		('2018', 'Mulheres', [Ano x Sexo x 2018 x Mulheres]),
+		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
+		('2019', 'Mulheres', [Ano x Sexo x 2019 x Mulheres]),
+		('2021', 'Homens', [Ano x Sexo x 2021 x Homens]),
+		('2021', 'Mulheres', [Ano x Sexo x 2021 x Mulheres]),
+		('2022', 'Homens', [Ano x Sexo x 2022 x Homens]),
+		('2022', 'Mulheres', [Ano x Sexo x 2022 x Mulheres]),
+		('2023', 'Homens', [Ano x Sexo x 2023 x Homens]),
+		('2023', 'Mulheres', [Ano x Sexo x 2023 x Mulheres]),
+		('2024', 'Homens', [Ano x Sexo x 2024 x Homens]),
+		('2024', 'Mulheres', [Ano x Sexo x 2024 x Mulheres])
+) AS unpvt ([Ano], [Sexo], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7339 ==========================
+
 CREATE TABLE [tabela7339] (
-    [Grande_Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Havia_microcomputador_ou_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Havia_somente_microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Havia_somente_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Havia_microcomputador_e_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Não_havia_microcomputador_nem_tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia somente tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia microcomputador e tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Não havia microcomputador nem tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7339]
 FROM '/datasets/tabela7339.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1730,23 +3362,78 @@ WITH (
 );
 GO
 
+SELECT
+    [Grande Região],
+    unpvt.[Ano],
+    unpvt.[Existência de microcomputador ou tablet no domicílio],
+    unpvt.[Valor]
+INTO tabela7339_unpivoted
+FROM tabela7339
+CROSS APPLY (
+    VALUES
+		('2016', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia microcomputador ou tablet]),
+		('2016', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia somente microcomputador]),
+		('2016', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia somente tablet]),
+		('2016', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia microcomputador e tablet]),
+		('2016', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Não havia microcomputador nem tablet]),
+		('2017', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia microcomputador ou tablet]),
+		('2017', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia somente microcomputador]),
+		('2017', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia somente tablet]),
+		('2017', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Havia microcomputador e tablet]),
+		('2017', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2017 x Não havia microcomputador nem tablet]),
+		('2018', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia microcomputador ou tablet]),
+		('2018', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia somente microcomputador]),
+		('2018', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia somente tablet]),
+		('2018', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Havia microcomputador e tablet]),
+		('2018', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2018 x Não havia microcomputador nem tablet]),
+		('2019', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia microcomputador ou tablet]),
+		('2019', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia somente microcomputador]),
+		('2019', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia somente tablet]),
+		('2019', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Havia microcomputador e tablet]),
+		('2019', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2019 x Não havia microcomputador nem tablet]),
+		('2021', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia microcomputador ou tablet]),
+		('2021', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia somente microcomputador]),
+		('2021', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia somente tablet]),
+		('2021', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Havia microcomputador e tablet]),
+		('2021', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2021 x Não havia microcomputador nem tablet]),
+		('2022', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia microcomputador ou tablet]),
+		('2022', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia somente microcomputador]),
+		('2022', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia somente tablet]),
+		('2022', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Havia microcomputador e tablet]),
+		('2022', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2022 x Não havia microcomputador nem tablet]),
+		('2023', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia microcomputador ou tablet]),
+		('2023', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia somente microcomputador]),
+		('2023', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia somente tablet]),
+		('2023', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Havia microcomputador e tablet]),
+		('2023', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2023 x Não havia microcomputador nem tablet]),
+		('2024', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia microcomputador ou tablet]),
+		('2024', 'Havia somente microcomputador', [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia somente microcomputador]),
+		('2024', 'Havia somente tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia somente tablet]),
+		('2024', 'Havia microcomputador e tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Havia microcomputador e tablet]),
+		('2024', 'Não havia microcomputador nem tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2024 x Não havia microcomputador nem tablet])
+) AS unpvt ([Ano], [Existência de microcomputador ou tablet no domicílio], [Valor])
+WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
+GO
+
+-- ========================== tabela7395 ==========================
+
 CREATE TABLE [tabela7395] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2021] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2016] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2017] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2018] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2019] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2021] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2022] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2023] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x 2024] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela7395]
 FROM '/datasets/tabela7395.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1754,19 +3441,41 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Valor]
+INTO tabela7395_unpivoted
+FROM tabela7395
+CROSS APPLY (
+    VALUES
+		('2016', [Ano x 2016]),
+		('2017', [Ano x 2017]),
+		('2018', [Ano x 2018]),
+		('2019', [Ano x 2019]),
+		('2021', [Ano x 2021]),
+		('2022', [Ano x 2022]),
+		('2023', [Ano x 2023]),
+		('2024', [Ano x 2024])
+) AS unpvt ([Ano], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela9297 ==========================
+
 CREATE TABLE [tabela9297] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Sem_instrução_e_fundamental_incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Fundamental_completo_e_médio_incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Médio_completo_e_superior_incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Superior_completo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Fundamental completo e médio incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Médio completo e superior incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Superior completo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela9297]
 FROM '/datasets/tabela9297.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1774,20 +3483,39 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    unpvt.[Ano],
+    unpvt.[Nível de instrução],
+    unpvt.[Valor]
+INTO tabela9297_unpivoted
+FROM tabela9297
+CROSS APPLY (
+    VALUES
+		('2022', 'Sem instrução e fundamental incompleto', [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto]),
+		('2022', 'Fundamental completo e médio incompleto', [Ano x Nível de instrução x 2022 x Fundamental completo e médio incompleto]),
+		('2022', 'Médio completo e superior incompleto', [Ano x Nível de instrução x 2022 x Médio completo e superior incompleto]),
+		('2022', 'Superior completo', [Ano x Nível de instrução x 2022 x Superior completo])
+) AS unpvt ([Ano], [Nível de instrução], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela9311 ==========================
+
 CREATE TABLE [tabela9311] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Existência_de_deficiência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Sem_instrução_e_fundamental_incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Fundamental_completo_e_médio_incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Médio_completo_e_superior_incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_Superior_completo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Existência de deficiência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Fundamental completo e médio incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Médio completo e superior incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Nível de instrução x 2022 x Superior completo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela9311]
 FROM '/datasets/tabela9311.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1795,51 +3523,71 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Existência de deficiência],
+    unpvt.[Ano],
+    unpvt.[Nível de instrução],
+    unpvt.[Valor]
+INTO tabela9311_unpivoted
+FROM tabela9311
+CROSS APPLY (
+    VALUES
+		('2022', 'Sem instrução e fundamental incompleto', [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto]),
+		('2022', 'Fundamental completo e médio incompleto', [Ano x Nível de instrução x 2022 x Fundamental completo e médio incompleto]),
+		('2022', 'Médio completo e superior incompleto', [Ano x Nível de instrução x 2022 x Médio completo e superior incompleto]),
+		('2022', 'Superior completo', [Ano x Nível de instrução x 2022 x Superior completo])
+) AS unpvt ([Ano], [Nível de instrução], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela9499 ==========================
+
 CREATE TABLE [tabela9499] (
     [País] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Tipos_de_atividades_realizadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_5_a_9_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_10_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Tipos de atividades realizadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 5 a 9 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 10 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela9499]
 FROM '/datasets/tabela9499.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1847,37 +3595,88 @@ WITH (
 );
 GO
 
+SELECT
+    [País],
+    [Tipos de atividades realizadas],
+    unpvt.[Ano],
+    unpvt.[Grupo de idade],
+    unpvt.[Valor]
+INTO tabela9499_unpivoted
+FROM tabela9499
+CROSS APPLY (
+    VALUES
+		('2016', '5 a 13 anos', [Ano x Grupo de idade x 2016 x 5 a 13 anos]),
+		('2016', '5 a 9 anos', [Ano x Grupo de idade x 2016 x 5 a 9 anos]),
+		('2016', '10 a 13 anos', [Ano x Grupo de idade x 2016 x 10 a 13 anos]),
+		('2016', '14 ou 15 anos', [Ano x Grupo de idade x 2016 x 14 ou 15 anos]),
+		('2016', '16 ou 17 anos', [Ano x Grupo de idade x 2016 x 16 ou 17 anos]),
+		('2017', '5 a 13 anos', [Ano x Grupo de idade x 2017 x 5 a 13 anos]),
+		('2017', '5 a 9 anos', [Ano x Grupo de idade x 2017 x 5 a 9 anos]),
+		('2017', '10 a 13 anos', [Ano x Grupo de idade x 2017 x 10 a 13 anos]),
+		('2017', '14 ou 15 anos', [Ano x Grupo de idade x 2017 x 14 ou 15 anos]),
+		('2017', '16 ou 17 anos', [Ano x Grupo de idade x 2017 x 16 ou 17 anos]),
+		('2018', '5 a 13 anos', [Ano x Grupo de idade x 2018 x 5 a 13 anos]),
+		('2018', '5 a 9 anos', [Ano x Grupo de idade x 2018 x 5 a 9 anos]),
+		('2018', '10 a 13 anos', [Ano x Grupo de idade x 2018 x 10 a 13 anos]),
+		('2018', '14 ou 15 anos', [Ano x Grupo de idade x 2018 x 14 ou 15 anos]),
+		('2018', '16 ou 17 anos', [Ano x Grupo de idade x 2018 x 16 ou 17 anos]),
+		('2019', '5 a 13 anos', [Ano x Grupo de idade x 2019 x 5 a 13 anos]),
+		('2019', '5 a 9 anos', [Ano x Grupo de idade x 2019 x 5 a 9 anos]),
+		('2019', '10 a 13 anos', [Ano x Grupo de idade x 2019 x 10 a 13 anos]),
+		('2019', '14 ou 15 anos', [Ano x Grupo de idade x 2019 x 14 ou 15 anos]),
+		('2019', '16 ou 17 anos', [Ano x Grupo de idade x 2019 x 16 ou 17 anos]),
+		('2022', '5 a 13 anos', [Ano x Grupo de idade x 2022 x 5 a 13 anos]),
+		('2022', '5 a 9 anos', [Ano x Grupo de idade x 2022 x 5 a 9 anos]),
+		('2022', '10 a 13 anos', [Ano x Grupo de idade x 2022 x 10 a 13 anos]),
+		('2022', '14 ou 15 anos', [Ano x Grupo de idade x 2022 x 14 ou 15 anos]),
+		('2022', '16 ou 17 anos', [Ano x Grupo de idade x 2022 x 16 ou 17 anos]),
+		('2023', '5 a 13 anos', [Ano x Grupo de idade x 2023 x 5 a 13 anos]),
+		('2023', '5 a 9 anos', [Ano x Grupo de idade x 2023 x 5 a 9 anos]),
+		('2023', '10 a 13 anos', [Ano x Grupo de idade x 2023 x 10 a 13 anos]),
+		('2023', '14 ou 15 anos', [Ano x Grupo de idade x 2023 x 14 ou 15 anos]),
+		('2023', '16 ou 17 anos', [Ano x Grupo de idade x 2023 x 16 ou 17 anos]),
+		('2024', '5 a 13 anos', [Ano x Grupo de idade x 2024 x 5 a 13 anos]),
+		('2024', '5 a 9 anos', [Ano x Grupo de idade x 2024 x 5 a 9 anos]),
+		('2024', '10 a 13 anos', [Ano x Grupo de idade x 2024 x 10 a 13 anos]),
+		('2024', '14 ou 15 anos', [Ano x Grupo de idade x 2024 x 14 ou 15 anos]),
+		('2024', '16 ou 17 anos', [Ano x Grupo de idade x 2024 x 16 ou 17 anos])
+) AS unpvt ([Ano], [Grupo de idade], [Valor])
+WHERE [País] COLLATE Latin1_General_BIN <> 'País';
+GO
+
+-- ========================== tabela9506 ==========================
+
 CREATE TABLE [tabela9506] (
     [País] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Atividade_do_trabalho_principal] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2016_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2017_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2018_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2019_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2022_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_5_a_13_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_14_ou_15_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_16_ou_17_anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Atividade do trabalho principal] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2016 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2017 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2018 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2019 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2022 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2023 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 14 ou 15 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Grupo de idade x 2024 x 16 ou 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela9506]
 FROM '/datasets/tabela9506.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1885,20 +3684,57 @@ WITH (
 );
 GO
 
+SELECT
+    [País],
+    [Atividade do trabalho principal],
+    unpvt.[Ano],
+    unpvt.[Grupo de idade],
+    unpvt.[Valor]
+INTO tabela9506_unpivoted
+FROM tabela9506
+CROSS APPLY (
+    VALUES
+		('2016', '5 a 13 anos', [Ano x Grupo de idade x 2016 x 5 a 13 anos]),
+		('2016', '14 ou 15 anos', [Ano x Grupo de idade x 2016 x 14 ou 15 anos]),
+		('2016', '16 ou 17 anos', [Ano x Grupo de idade x 2016 x 16 ou 17 anos]),
+		('2017', '5 a 13 anos', [Ano x Grupo de idade x 2017 x 5 a 13 anos]),
+		('2017', '14 ou 15 anos', [Ano x Grupo de idade x 2017 x 14 ou 15 anos]),
+		('2017', '16 ou 17 anos', [Ano x Grupo de idade x 2017 x 16 ou 17 anos]),
+		('2018', '5 a 13 anos', [Ano x Grupo de idade x 2018 x 5 a 13 anos]),
+		('2018', '14 ou 15 anos', [Ano x Grupo de idade x 2018 x 14 ou 15 anos]),
+		('2018', '16 ou 17 anos', [Ano x Grupo de idade x 2018 x 16 ou 17 anos]),
+		('2019', '5 a 13 anos', [Ano x Grupo de idade x 2019 x 5 a 13 anos]),
+		('2019', '14 ou 15 anos', [Ano x Grupo de idade x 2019 x 14 ou 15 anos]),
+		('2019', '16 ou 17 anos', [Ano x Grupo de idade x 2019 x 16 ou 17 anos]),
+		('2022', '5 a 13 anos', [Ano x Grupo de idade x 2022 x 5 a 13 anos]),
+		('2022', '14 ou 15 anos', [Ano x Grupo de idade x 2022 x 14 ou 15 anos]),
+		('2022', '16 ou 17 anos', [Ano x Grupo de idade x 2022 x 16 ou 17 anos]),
+		('2023', '5 a 13 anos', [Ano x Grupo de idade x 2023 x 5 a 13 anos]),
+		('2023', '14 ou 15 anos', [Ano x Grupo de idade x 2023 x 14 ou 15 anos]),
+		('2023', '16 ou 17 anos', [Ano x Grupo de idade x 2023 x 16 ou 17 anos]),
+		('2024', '5 a 13 anos', [Ano x Grupo de idade x 2024 x 5 a 13 anos]),
+		('2024', '14 ou 15 anos', [Ano x Grupo de idade x 2024 x 14 ou 15 anos]),
+		('2024', '16 ou 17 anos', [Ano x Grupo de idade x 2024 x 16 ou 17 anos])
+) AS unpvt ([Ano], [Grupo de idade], [Valor])
+WHERE [País] COLLATE Latin1_General_BIN <> 'País';
+GO
+
+-- ========================== tabela9552 ==========================
+
 CREATE TABLE [tabela9552] (
-    [Unidade_da_Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Situação_de_segurança_alimentar_existente_no_domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Situação de segurança alimentar existente no domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2023 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação do domicílio x 2024 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela9552]
 FROM '/datasets/tabela9552.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
@@ -1906,59 +3742,134 @@ WITH (
 );
 GO
 
+SELECT
+    [Unidade da Federação],
+    [Situação de segurança alimentar existente no domicílio],
+    unpvt.[Ano],
+    unpvt.[Situação do domicílio],
+    unpvt.[Valor]
+INTO tabela9552_unpivoted
+FROM tabela9552
+CROSS APPLY (
+    VALUES
+		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
+		('2023', 'Rural', [Ano x Situação do domicílio x 2023 x Rural]),
+		('2024', 'Urbana', [Ano x Situação do domicílio x 2024 x Urbana]),
+		('2024', 'Rural', [Ano x Situação do domicílio x 2024 x Rural])
+) AS unpvt ([Ano], [Situação do domicílio], [Valor])
+WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
+GO
+
+-- ========================== tabela9558 ==========================
+
 CREATE TABLE [tabela9558] (
     [País] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [Situação_do_domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_segurança_alimentar_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_segurança_alimentar_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_segurança_alimentar_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_segurança_alimentar_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_segurança_alimentar_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_leve_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_leve_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_leve_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_leve_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_leve_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_moderada_ou_grave_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2023_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_segurança_alimentar_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_segurança_alimentar_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_segurança_alimentar_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_segurança_alimentar_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_segurança_alimentar_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_leve_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_leve_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_leve_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_leve_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_leve_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_moderada_ou_grave_x_Até_¼_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_1_4_a_1_2_do_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_1_2_a_1_salário_mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_1_a_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
-    [_2024_x_Com_insegurança_alimentar_moderada_ou_grave_x_Mais_de_2_salários_mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
+    [Situação do domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...apita x 2023 x Com segurança alimentar x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...Com segurança alimentar x Mais de 1/4 a 1/2 do salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...23 x Com segurança alimentar x Mais de 1/2 a 1 salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...23 x Com segurança alimentar x Mais de 1 a 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...x 2023 x Com segurança alimentar x Mais de 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...ita x 2023 x Com insegurança alimentar x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar x Mais de 1/4 a 1/2 do salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1/2 a 1 salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1 a 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...2023 x Com insegurança alimentar x Mais de 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... 2023 x Com insegurança alimentar leve x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...egurança alimentar leve x Mais de 1/4 a 1/2 do salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1/2 a 1 salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1 a 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...x Com insegurança alimentar leve x Mais de 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...nsegurança alimentar moderada ou grave x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...entar moderada ou grave x Mais de 1/4 a 1/2 do salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1/2 a 1 salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1 a 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...ança alimentar moderada ou grave x Mais de 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...apita x 2024 x Com segurança alimentar x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...Com segurança alimentar x Mais de 1/4 a 1/2 do salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...24 x Com segurança alimentar x Mais de 1/2 a 1 salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...24 x Com segurança alimentar x Mais de 1 a 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...x 2024 x Com segurança alimentar x Mais de 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...ita x 2024 x Com insegurança alimentar x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar x Mais de 1/4 a 1/2 do salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1/2 a 1 salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1 a 2 salários míni_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...2024 x Com insegurança alimentar x Mais de 2 salários mínimos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... 2024 x Com insegurança alimentar leve x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...egurança alimentar leve x Mais de 1/4 a 1/2 do salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1/2 a 1 salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1 a 2 salários míni_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...x Com insegurança alimentar leve x Mais de 2 salários míni_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...nsegurança alimentar moderada ou grave x Até ¼ salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...entar moderada ou grave x Mais de 1/4 a 1/2 do salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1/2 a 1 salário mín_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1 a 2 salários míni_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
+    [Ano x Situação de segurança alimentar existente no domicílio x F...ança alimentar moderada ou grave x Mais de 2 salários míni_2] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
 BULK INSERT [tabela9558]
 FROM '/datasets/tabela9558.tsv'
 WITH (
-    FIELDTERMINATOR = '	',
+    FIELDTERMINATOR = '\t',
     ROWTERMINATOR = '0x0A',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
     TABLOCK
 );
+GO
+
+SELECT
+    [País],
+    [Situação do domicílio],
+    unpvt.[Ano],
+    unpvt.[Situação de segurança alimentar existente no domicílio],
+    unpvt.[Faixas de rendimento mensal domiciliar per capita],
+    unpvt.[Valor]
+INTO tabela9558_unpivoted
+FROM tabela9558
+CROSS APPLY (
+    VALUES
+		('2023', 'Com segurança alimentar', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...apita x 2023 x Com segurança alimentar x Até ¼ salário mínimo]),
+		('2023', 'Com segurança alimentar', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...Com segurança alimentar x Mais de 1/4 a 1/2 do salário mínimo]),
+		('2023', 'Com segurança alimentar', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...23 x Com segurança alimentar x Mais de 1/2 a 1 salário mínimo]),
+		('2023', 'Com segurança alimentar', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...23 x Com segurança alimentar x Mais de 1 a 2 salários mínimos]),
+		('2023', 'Com segurança alimentar', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...x 2023 x Com segurança alimentar x Mais de 2 salários mínimos]),
+		('2023', 'Com insegurança alimentar', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...ita x 2023 x Com insegurança alimentar x Até ¼ salário mínimo]),
+		('2023', 'Com insegurança alimentar', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar x Mais de 1/4 a 1/2 do salário mínimo]),
+		('2023', 'Com insegurança alimentar', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1/2 a 1 salário mínimo]),
+		('2023', 'Com insegurança alimentar', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1 a 2 salários mínimos]),
+		('2023', 'Com insegurança alimentar', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...2023 x Com insegurança alimentar x Mais de 2 salários mínimos]),
+		('2023', 'Com insegurança alimentar leve', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F... 2023 x Com insegurança alimentar leve x Até ¼ salário mínimo]),
+		('2023', 'Com insegurança alimentar leve', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...egurança alimentar leve x Mais de 1/4 a 1/2 do salário mínimo]),
+		('2023', 'Com insegurança alimentar leve', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1/2 a 1 salário mínimo]),
+		('2023', 'Com insegurança alimentar leve', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1 a 2 salários mínimos]),
+		('2023', 'Com insegurança alimentar leve', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...x Com insegurança alimentar leve x Mais de 2 salários mínimos]),
+		('2023', 'Com insegurança alimentar moderada ou grave', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...nsegurança alimentar moderada ou grave x Até ¼ salário mínimo]),
+		('2023', 'Com insegurança alimentar moderada ou grave', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...entar moderada ou grave x Mais de 1/4 a 1/2 do salário mínimo]),
+		('2023', 'Com insegurança alimentar moderada ou grave', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1/2 a 1 salário mínimo]),
+		('2023', 'Com insegurança alimentar moderada ou grave', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1 a 2 salários mínimos]),
+		('2023', 'Com insegurança alimentar moderada ou grave', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...ança alimentar moderada ou grave x Mais de 2 salários mínimos]),
+		('2024', 'Com segurança alimentar', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...apita x 2024 x Com segurança alimentar x Até ¼ salário mínimo]),
+		('2024', 'Com segurança alimentar', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...Com segurança alimentar x Mais de 1/4 a 1/2 do salário mín_2]),
+		('2024', 'Com segurança alimentar', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...24 x Com segurança alimentar x Mais de 1/2 a 1 salário mínimo]),
+		('2024', 'Com segurança alimentar', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...24 x Com segurança alimentar x Mais de 1 a 2 salários mínimos]),
+		('2024', 'Com segurança alimentar', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...x 2024 x Com segurança alimentar x Mais de 2 salários mínimos]),
+		('2024', 'Com insegurança alimentar', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...ita x 2024 x Com insegurança alimentar x Até ¼ salário mínimo]),
+		('2024', 'Com insegurança alimentar', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar x Mais de 1/4 a 1/2 do salário mín_2]),
+		('2024', 'Com insegurança alimentar', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1/2 a 1 salário mín_2]),
+		('2024', 'Com insegurança alimentar', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F... x Com insegurança alimentar x Mais de 1 a 2 salários míni_2]),
+		('2024', 'Com insegurança alimentar', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...2024 x Com insegurança alimentar x Mais de 2 salários mínimos]),
+		('2024', 'Com insegurança alimentar leve', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F... 2024 x Com insegurança alimentar leve x Até ¼ salário mínimo]),
+		('2024', 'Com insegurança alimentar leve', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...egurança alimentar leve x Mais de 1/4 a 1/2 do salário mín_2]),
+		('2024', 'Com insegurança alimentar leve', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1/2 a 1 salário mín_2]),
+		('2024', 'Com insegurança alimentar leve', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...m insegurança alimentar leve x Mais de 1 a 2 salários míni_2]),
+		('2024', 'Com insegurança alimentar leve', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...x Com insegurança alimentar leve x Mais de 2 salários míni_2]),
+		('2024', 'Com insegurança alimentar moderada ou grave', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...nsegurança alimentar moderada ou grave x Até ¼ salário mín_2]),
+		('2024', 'Com insegurança alimentar moderada ou grave', 'Mais de 1/4 a 1/2 do salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...entar moderada ou grave x Mais de 1/4 a 1/2 do salário mín_2]),
+		('2024', 'Com insegurança alimentar moderada ou grave', 'Mais de 1/2 a 1 salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1/2 a 1 salário mín_2]),
+		('2024', 'Com insegurança alimentar moderada ou grave', 'Mais de 1 a 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F... alimentar moderada ou grave x Mais de 1 a 2 salários míni_2]),
+		('2024', 'Com insegurança alimentar moderada ou grave', 'Mais de 2 salários mínimos', [Ano x Situação de segurança alimentar existente no domicílio x F...ança alimentar moderada ou grave x Mais de 2 salários míni_2])
+) AS unpvt ([Ano], [Situação de segurança alimentar existente no domicílio], [Faixas de rendimento mensal domiciliar per capita], [Valor])
+WHERE [País] COLLATE Latin1_General_BIN <> 'País';
 GO
