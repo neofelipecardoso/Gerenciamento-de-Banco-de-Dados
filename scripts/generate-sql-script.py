@@ -9,7 +9,7 @@ EXPECTED_PATTERN = re.compile(r"^tabela\d+\.tsv$", re.IGNORECASE)
 ENCODING = "utf-8"
 ROW_TERMINATOR = "0x0A"  # \n
 COLUMNS_TYPE = "VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8"
-
+SUFFIX = "_raw"
 
 def sanitize_column_name(name: str) -> tuple[str, str]:
     sanitized = "".join(c for c in name if c.isprintable())
@@ -57,7 +57,7 @@ def extract_multilevel_header(file: Path) -> tuple[list[str], list[str]]:
     truncated_headers = []
     full_headers = []
     seen_truncated = {}
-    
+
     for col_idx, col in enumerate(columns):
         parts = []
         for value in col:
@@ -72,7 +72,7 @@ def extract_multilevel_header(file: Path) -> tuple[list[str], list[str]]:
 
         if len(full_name) > 128:
             truncated, original = sanitize_column_name(full_name)
-            
+
             # Garantir unicidade
             if truncated in seen_truncated:
                 counter = seen_truncated[truncated] + 1
@@ -80,7 +80,7 @@ def extract_multilevel_header(file: Path) -> tuple[list[str], list[str]]:
                 truncated = f"{truncated[:125]}_{counter}"
             else:
                 seen_truncated[truncated] = 1
-            
+
             truncated_headers.append(truncated)
             full_headers.append(original)
         else:
@@ -125,7 +125,7 @@ def unpivot_header(
 
     unpivoted_name = [f"[{name}]" for name in col_name[0]]
 
-    unpivoted_table_name = f"{table_name}_unpivoted"
+    raw_table_name = table_name + SUFFIX
 
     select_parts = (
         fixed_cols + [f"unpvt.{name}" for name in unpivoted_name] + ["unpvt.[Valor]"]
@@ -152,8 +152,8 @@ def unpivot_header(
 
     return f"""SELECT
     {select_clause}
-INTO {unpivoted_table_name}
-FROM {table_name}
+INTO {table_name}
+FROM {raw_table_name}
 CROSS APPLY (
     VALUES
 {values_clause}
@@ -164,17 +164,17 @@ def generate_columns(raw_header: list[str]) -> list[str]:
     return [f"[{name}] {COLUMNS_TYPE}" for name in raw_header]
 
 
-def generate_script(file: Path, col: list[str], unpivoted_header: str) -> str:
-    table_name = file.stem.lower()
+def generate_script(file: Path, col: list[str], unpivoted_header: str, table_name: str) -> str:
+    raw_table_name = table_name + SUFFIX
     return f"""
 -- ========================== {table_name} ==========================
 
-CREATE TABLE [{table_name}] (
+CREATE TABLE [{raw_table_name}] (
     {",\n    ".join(col)}
 );
 GO
 
-BULK INSERT [{table_name}]
+BULK INSERT [{raw_table_name}]
 FROM '{Path(BULK_INSERT_PATH / file.name)}'
 WITH (
     FIELDTERMINATOR = {repr(DELIMITER)},
@@ -186,6 +186,9 @@ WITH (
 GO
 
 {unpivoted_header}
+GO
+
+DROP TABLE IF EXISTS {raw_table_name}
 GO
 """
 
@@ -213,14 +216,16 @@ def main():
                 print(f"Processing {file}")
 
                 validate_file_name(file.name)
+                
+                table_name = file.stem.lower()
 
                 truncated_header, full_header = extract_multilevel_header(file)
                 sql_col_list = generate_columns(truncated_header)
                 unpivoted_header = unpivot_header(
-                    truncated_header, full_header, file.stem
+                    truncated_header, full_header, table_name
                 )
 
-                sql_script = generate_script(file, sql_col_list, unpivoted_header)
+                sql_script = generate_script(file, sql_col_list, unpivoted_header, table_name)
 
                 f.write(sql_script)
 
