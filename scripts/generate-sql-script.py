@@ -1,6 +1,5 @@
 from pathlib import Path
 import re
-import pandas as pd
 
 INPUT_DIR = Path("datasets_tsv")
 DELIMITER = "\t"
@@ -10,19 +9,25 @@ EXPECTED_PATTERN = re.compile(r"^tabela\d+\.tsv$", re.IGNORECASE)
 ENCODING = "utf-8"
 ROW_TERMINATOR = "0x0A"  # \n
 COLUMNS_TYPE = "VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8"
+SUFFIX = "_raw"
 
-
-def sanitize_column_name(name: str) -> str:
+def sanitize_column_name(name: str) -> tuple[str, str]:
     sanitized = "".join(c for c in name if c.isprintable())
-    sanitized = re.sub(r"[^\w]", "_", sanitized)
     if not sanitized:
         raise ValueError(f"Invalid column name: '{name}'")
-    if sanitized[0].isdigit():
-        sanitized = "_" + sanitized
-    return sanitized
+
+    max_length = 128
+    if len(sanitized) <= max_length:
+        return sanitized, sanitized
+
+    keep_start = max_length // 2
+    keep_end = max_length - keep_start - 3
+    truncated = f"{sanitized[:keep_start]}...{sanitized[-keep_end:]}"
+
+    return truncated, sanitized
 
 
-def extract_multilevel_header(file: Path) -> list[str]:
+def extract_multilevel_header(file: Path) -> tuple[list[str], list[str]]:
     data_init = {"Rondônia", "Norte", "Brasil"}
     lines = []
     with open(file, "r", encoding=ENCODING) as f:
@@ -49,43 +54,141 @@ def extract_multilevel_header(file: Path) -> list[str]:
     elif first_col_set not in [{"Unidade da Federação"}, {"Grande Região"}]:
         raise ValueError(f"Invalid first column: '{first_col_set}'")
 
-    finals_headers = []
+    truncated_headers = []
+    full_headers = []
+    seen_truncated = {}
+
     for col_idx, col in enumerate(columns):
         parts = []
         for value in col:
             value = value.strip()
             if value and (not parts or value != parts[-1]):
                 parts.append(value)
+
         if col_idx == 0 and is_national and not parts:
             parts = ["País"]
-        finals_headers.append(" x ".join(parts))
 
-    return finals_headers
+        full_name = " x ".join(parts)
+
+        if len(full_name) > 128:
+            truncated, original = sanitize_column_name(full_name)
+
+            # Garantir unicidade
+            if truncated in seen_truncated:
+                counter = seen_truncated[truncated] + 1
+                seen_truncated[truncated] = counter
+                truncated = f"{truncated[:125]}_{counter}"
+            else:
+                seen_truncated[truncated] = 1
+
+            truncated_headers.append(truncated)
+            full_headers.append(original)
+        else:
+            if full_name in seen_truncated:
+                counter = seen_truncated[full_name] + 1
+                seen_truncated[full_name] = counter
+                truncated_headers.append(f"{full_name[:125]}_{counter}")
+            else:
+                seen_truncated[full_name] = 1
+                truncated_headers.append(full_name)
+            full_headers.append(full_name)
+
+    return truncated_headers, full_headers
 
 
-def generate_columns(file: Path) -> list[str]:
-    raw_headers = extract_multilevel_header(file)
-    sanitized_headers = [sanitize_column_name(header) for header in raw_headers]
-    return [f"[{name}] {COLUMNS_TYPE}" for name in sanitized_headers]
+def unpivot_header(
+    truncated_header: list[str], full_header: list[str], table_name: str
+) -> str:
+    if not truncated_header:
+        return ""
+
+    fixed_cols = []
+    unpivot_col_truncated = []
+    col_name = []
+    col_value = []
+
+    for trunc_h, full_h in zip(truncated_header, full_header):
+        parts_trunc = trunc_h.split(" x ")
+        parts_full = full_h.split(" x ")
+
+        half = len(parts_full) // 2
+
+        if half == 0:
+            fixed_cols.append(f"[{parts_trunc[0]}]")
+        else:
+            unpivot_col_truncated.append(trunc_h)
+            col_name.append(parts_full[:half])
+            col_value.append(parts_full[half:])
+
+    if not unpivot_col_truncated:
+        return ""
+
+    unpivoted_name = [f"[{name}]" for name in col_name[0]]
+
+    raw_table_name = table_name + SUFFIX
+
+    select_parts = (
+        fixed_cols + [f"unpvt.{name}" for name in unpivoted_name] + ["unpvt.[Valor]"]
+    )
+    select_clause = ",\n    ".join(select_parts)
+
+    values_lines = []
+    for idx, values in enumerate(col_value):
+        formatted_values = [f"'{v}'" for v in values]
+        original_col = unpivot_col_truncated[idx]
+
+        line = f"\t\t({', '.join(formatted_values)}, [{original_col}])"
+        values_lines.append(line)
+
+    values_clause = ",\n".join(values_lines)
+    unpvt_columns = ", ".join(unpivoted_name + ["[Valor]"])
+
+    where_clause = ""
+    if fixed_cols:
+        first_fixed = fixed_cols[0]
+        where_clause = f"\nWHERE {first_fixed} COLLATE Latin1_General_BIN <> '{first_fixed[1:-1]}';"
+    else:
+        where_clause = ";"
+
+    return f"""SELECT
+    {select_clause}
+INTO {table_name}
+FROM {raw_table_name}
+CROSS APPLY (
+    VALUES
+{values_clause}
+) AS unpvt ({unpvt_columns}){where_clause}"""
 
 
-def generate_script(file: Path, col: list[str]) -> str:
-    table_name = file.stem.lower()
+def generate_columns(raw_header: list[str]) -> list[str]:
+    return [f"[{name}] {COLUMNS_TYPE}" for name in raw_header]
+
+
+def generate_script(file: Path, col: list[str], unpivoted_header: str, table_name: str) -> str:
+    raw_table_name = table_name + SUFFIX
     return f"""
-CREATE TABLE [{table_name}] (
+-- ========================== {table_name} ==========================
+
+CREATE TABLE [{raw_table_name}] (
     {",\n    ".join(col)}
 );
 GO
 
-BULK INSERT [{table_name}]
+BULK INSERT [{raw_table_name}]
 FROM '{Path(BULK_INSERT_PATH / file.name)}'
 WITH (
-    FIELDTERMINATOR = '{DELIMITER}',
+    FIELDTERMINATOR = {repr(DELIMITER)},
     ROWTERMINATOR = '{ROW_TERMINATOR}',
     FIRSTROW = 1,
     CODEPAGE = 'RAW',
     TABLOCK
 );
+GO
+
+{unpivoted_header}
+GO
+
+DROP TABLE IF EXISTS {raw_table_name}
 GO
 """
 
@@ -110,12 +213,19 @@ def main():
                         "The input directory must contain only table files."
                     )
 
-                validate_file_name(file.name)
-
-                sql_col_list = generate_columns(file)
-                sql_script = generate_script(file, sql_col_list)
-
                 print(f"Processing {file}")
+
+                validate_file_name(file.name)
+                
+                table_name = file.stem.lower()
+
+                truncated_header, full_header = extract_multilevel_header(file)
+                sql_col_list = generate_columns(truncated_header)
+                unpivoted_header = unpivot_header(
+                    truncated_header, full_header, table_name
+                )
+
+                sql_script = generate_script(file, sql_col_list, unpivoted_header, table_name)
 
                 f.write(sql_script)
 
