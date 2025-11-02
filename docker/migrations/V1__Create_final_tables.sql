@@ -8,7 +8,7 @@ CREATE TABLE Dim_Local (
     nome varchar(255)
 );
 
--- Etnias/generos/deficiência/grupos demograficos
+-- Etnias/generos/grupos demograficos
 CREATE TABLE Dim_GrupoDemografico (
     IdGrupoDemo INT PRIMARY KEY,
     nomeGrupoDemo varchar(255)
