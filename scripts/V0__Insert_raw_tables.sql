@@ -1,7 +1,7 @@
 
 -- ========================== tabela4361 ==========================
 
-CREATE TABLE [tabela4361_raw] (
+CREATE TABLE staging.[tabela4361_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Posição na ocupação e categoria do emprego no trabalho pri...x Empregado no setor privado, exclusive trabalhador doméstico] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -240,7 +240,7 @@ CREATE TABLE [tabela4361_raw] (
 );
 GO
 
-BULK INSERT [tabela4361_raw]
+BULK INSERT staging.[tabela4361_raw]
 FROM '/datasets/tabela4361.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -256,8 +256,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Posição na ocupação e categoria do emprego no trabalho principal],
     unpvt.[Valor]
-INTO tabela4361
-FROM tabela4361_raw
+INTO staging.[tabela4361]
+FROM staging.[tabela4361_raw]
 CROSS APPLY (
     VALUES
 		('2012', 'Empregado', [Ano x Posição na ocupação e categoria do emprego no trabalho principal x 2012 x Empregado]),
@@ -498,12 +498,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela4361_raw
+DROP TABLE IF EXISTS staging.[tabela4361_raw]
 GO
 
 -- ========================== tabela4666 ==========================
 
-CREATE TABLE [tabela4666_raw] (
+CREATE TABLE staging.[tabela4666_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ampliada] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ou desalentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -625,7 +625,7 @@ CREATE TABLE [tabela4666_raw] (
 );
 GO
 
-BULK INSERT [tabela4666_raw]
+BULK INSERT staging.[tabela4666_raw]
 FROM '/datasets/tabela4666.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -641,8 +641,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Tipo de medida de subutilização da força de trabalho na semana de referência],
     unpvt.[Valor]
-INTO tabela4666
-FROM tabela4666_raw
+INTO staging.[tabela4666]
+FROM staging.[tabela4666_raw]
 CROSS APPLY (
     VALUES
 		('2012', 'Força de trabalho ampliada', [Ano x Tipo de medida de subutilização da força de trabalho na semana de referência x 2012 x Força de trabalho ampliada]),
@@ -766,12 +766,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela4666_raw
+DROP TABLE IF EXISTS staging.[tabela4666_raw]
 GO
 
 -- ========================== tabela4708 ==========================
 
-CREATE TABLE [tabela4708_raw] (
+CREATE TABLE staging.[tabela4708_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x 2016] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x 2017] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -785,7 +785,7 @@ CREATE TABLE [tabela4708_raw] (
 );
 GO
 
-BULK INSERT [tabela4708_raw]
+BULK INSERT staging.[tabela4708_raw]
 FROM '/datasets/tabela4708.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -800,8 +800,8 @@ SELECT
     [Unidade da Federação],
     unpvt.[Ano],
     unpvt.[Valor]
-INTO tabela4708
-FROM tabela4708_raw
+INTO staging.[tabela4708]
+FROM staging.[tabela4708_raw]
 CROSS APPLY (
     VALUES
 		('2016', [Ano x 2016]),
@@ -817,12 +817,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela4708_raw
+DROP TABLE IF EXISTS staging.[tabela4708_raw]
 GO
 
 -- ========================== tabela6407 ==========================
 
-CREATE TABLE [tabela6407_raw] (
+CREATE TABLE staging.[tabela6407_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2012 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -854,7 +854,7 @@ CREATE TABLE [tabela6407_raw] (
 );
 GO
 
-BULK INSERT [tabela6407_raw]
+BULK INSERT staging.[tabela6407_raw]
 FROM '/datasets/tabela6407.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -871,8 +871,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela6407
-FROM tabela6407_raw
+INTO staging.[tabela6407]
+FROM staging.[tabela6407_raw]
 CROSS APPLY (
     VALUES
 		('2012', 'Homens', [Ano x Sexo x 2012 x Homens]),
@@ -905,12 +905,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6407_raw
+DROP TABLE IF EXISTS staging.[tabela6407_raw]
 GO
 
 -- ========================== tabela6409 ==========================
 
-CREATE TABLE [tabela6409_raw] (
+CREATE TABLE staging.[tabela6409_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Condição no domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2012 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -942,7 +942,7 @@ CREATE TABLE [tabela6409_raw] (
 );
 GO
 
-BULK INSERT [tabela6409_raw]
+BULK INSERT staging.[tabela6409_raw]
 FROM '/datasets/tabela6409.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -959,8 +959,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela6409
-FROM tabela6409_raw
+INTO staging.[tabela6409]
+FROM staging.[tabela6409_raw]
 CROSS APPLY (
     VALUES
 		('2012', 'Homens', [Ano x Sexo x 2012 x Homens]),
@@ -993,12 +993,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6409_raw
+DROP TABLE IF EXISTS staging.[tabela6409_raw]
 GO
 
 -- ========================== tabela6731 ==========================
 
-CREATE TABLE [tabela6731_raw] (
+CREATE TABLE staging.[tabela6731_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Principal fonte de abastecimento de água] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1018,7 +1018,7 @@ CREATE TABLE [tabela6731_raw] (
 );
 GO
 
-BULK INSERT [tabela6731_raw]
+BULK INSERT staging.[tabela6731_raw]
 FROM '/datasets/tabela6731.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1035,8 +1035,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6731
-FROM tabela6731_raw
+INTO staging.[tabela6731]
+FROM staging.[tabela6731_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -1057,12 +1057,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6731_raw
+DROP TABLE IF EXISTS staging.[tabela6731_raw]
 GO
 
 -- ========================== tabela6732 ==========================
 
-CREATE TABLE [tabela6732_raw] (
+CREATE TABLE staging.[tabela6732_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Disponibilidade da rede geral de distribuição de água] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1082,7 +1082,7 @@ CREATE TABLE [tabela6732_raw] (
 );
 GO
 
-BULK INSERT [tabela6732_raw]
+BULK INSERT staging.[tabela6732_raw]
 FROM '/datasets/tabela6732.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1099,8 +1099,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6732
-FROM tabela6732_raw
+INTO staging.[tabela6732]
+FROM staging.[tabela6732_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -1121,12 +1121,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6732_raw
+DROP TABLE IF EXISTS staging.[tabela6732_raw]
 GO
 
 -- ========================== tabela6733 ==========================
 
-CREATE TABLE [tabela6733_raw] (
+CREATE TABLE staging.[tabela6733_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1145,7 +1145,7 @@ CREATE TABLE [tabela6733_raw] (
 );
 GO
 
-BULK INSERT [tabela6733_raw]
+BULK INSERT staging.[tabela6733_raw]
 FROM '/datasets/tabela6733.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1161,8 +1161,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6733
-FROM tabela6733_raw
+INTO staging.[tabela6733]
+FROM staging.[tabela6733_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -1183,12 +1183,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6733_raw
+DROP TABLE IF EXISTS staging.[tabela6733_raw]
 GO
 
 -- ========================== tabela6734 ==========================
 
-CREATE TABLE [tabela6734_raw] (
+CREATE TABLE staging.[tabela6734_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2017 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2017 x Rural] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1205,7 +1205,7 @@ CREATE TABLE [tabela6734_raw] (
 );
 GO
 
-BULK INSERT [tabela6734_raw]
+BULK INSERT staging.[tabela6734_raw]
 FROM '/datasets/tabela6734.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1221,8 +1221,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6734
-FROM tabela6734_raw
+INTO staging.[tabela6734]
+FROM staging.[tabela6734_raw]
 CROSS APPLY (
     VALUES
 		('2017', 'Urbana', [Ano x Situação do domicílio x 2017 x Urbana]),
@@ -1241,12 +1241,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6734_raw
+DROP TABLE IF EXISTS staging.[tabela6734_raw]
 GO
 
 -- ========================== tabela6735 ==========================
 
-CREATE TABLE [tabela6735_raw] (
+CREATE TABLE staging.[tabela6735_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Tipo de esgotamento sanitário] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1258,7 +1258,7 @@ CREATE TABLE [tabela6735_raw] (
 );
 GO
 
-BULK INSERT [tabela6735_raw]
+BULK INSERT staging.[tabela6735_raw]
 FROM '/datasets/tabela6735.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1275,8 +1275,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6735
-FROM tabela6735_raw
+INTO staging.[tabela6735]
+FROM staging.[tabela6735_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -1289,12 +1289,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6735_raw
+DROP TABLE IF EXISTS staging.[tabela6735_raw]
 GO
 
 -- ========================== tabela6736 ==========================
 
-CREATE TABLE [tabela6736_raw] (
+CREATE TABLE staging.[tabela6736_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Destino do lixo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1314,7 +1314,7 @@ CREATE TABLE [tabela6736_raw] (
 );
 GO
 
-BULK INSERT [tabela6736_raw]
+BULK INSERT staging.[tabela6736_raw]
 FROM '/datasets/tabela6736.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1331,8 +1331,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6736
-FROM tabela6736_raw
+INTO staging.[tabela6736]
+FROM staging.[tabela6736_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -1353,12 +1353,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6736_raw
+DROP TABLE IF EXISTS staging.[tabela6736_raw]
 GO
 
 -- ========================== tabela6737 ==========================
 
-CREATE TABLE [tabela6737_raw] (
+CREATE TABLE staging.[tabela6737_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Fonte de energia elétrica] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1378,7 +1378,7 @@ CREATE TABLE [tabela6737_raw] (
 );
 GO
 
-BULK INSERT [tabela6737_raw]
+BULK INSERT staging.[tabela6737_raw]
 FROM '/datasets/tabela6737.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1395,8 +1395,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela6737
-FROM tabela6737_raw
+INTO staging.[tabela6737]
+FROM staging.[tabela6737_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -1417,12 +1417,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6737_raw
+DROP TABLE IF EXISTS staging.[tabela6737_raw]
 GO
 
 -- ========================== tabela6821 ==========================
 
-CREATE TABLE [tabela6821_raw] (
+CREATE TABLE staging.[tabela6821_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - já pago] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - ainda pagando] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1462,7 +1462,7 @@ CREATE TABLE [tabela6821_raw] (
 );
 GO
 
-BULK INSERT [tabela6821_raw]
+BULK INSERT staging.[tabela6821_raw]
 FROM '/datasets/tabela6821.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1478,8 +1478,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Condição de ocupação do domicílio],
     unpvt.[Valor]
-INTO tabela6821
-FROM tabela6821_raw
+INTO staging.[tabela6821]
+FROM staging.[tabela6821_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Próprio de algum morador - já pago', [Ano x Condição de ocupação do domicílio x 2016 x Próprio de algum morador - já pago]),
@@ -1521,12 +1521,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela6821_raw
+DROP TABLE IF EXISTS staging.[tabela6821_raw]
 GO
 
 -- ========================== tabela7109 ==========================
 
-CREATE TABLE [tabela7109_raw] (
+CREATE TABLE staging.[tabela7109_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1546,7 +1546,7 @@ CREATE TABLE [tabela7109_raw] (
 );
 GO
 
-BULK INSERT [tabela7109_raw]
+BULK INSERT staging.[tabela7109_raw]
 FROM '/datasets/tabela7109.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1563,8 +1563,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7109
-FROM tabela7109_raw
+INTO staging.[tabela7109]
+FROM staging.[tabela7109_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -1585,12 +1585,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7109_raw
+DROP TABLE IF EXISTS staging.[tabela7109_raw]
 GO
 
 -- ========================== tabela7110 ==========================
 
-CREATE TABLE [tabela7110_raw] (
+CREATE TABLE staging.[tabela7110_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1610,7 +1610,7 @@ CREATE TABLE [tabela7110_raw] (
 );
 GO
 
-BULK INSERT [tabela7110_raw]
+BULK INSERT staging.[tabela7110_raw]
 FROM '/datasets/tabela7110.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1627,8 +1627,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7110
-FROM tabela7110_raw
+INTO staging.[tabela7110]
+FROM staging.[tabela7110_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -1649,12 +1649,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7110_raw
+DROP TABLE IF EXISTS staging.[tabela7110_raw]
 GO
 
 -- ========================== tabela7111 ==========================
 
-CREATE TABLE [tabela7111_raw] (
+CREATE TABLE staging.[tabela7111_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1674,7 +1674,7 @@ CREATE TABLE [tabela7111_raw] (
 );
 GO
 
-BULK INSERT [tabela7111_raw]
+BULK INSERT staging.[tabela7111_raw]
 FROM '/datasets/tabela7111.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1691,8 +1691,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7111
-FROM tabela7111_raw
+INTO staging.[tabela7111]
+FROM staging.[tabela7111_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -1713,12 +1713,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7111_raw
+DROP TABLE IF EXISTS staging.[tabela7111_raw]
 GO
 
 -- ========================== tabela7113 ==========================
 
-CREATE TABLE [tabela7113_raw] (
+CREATE TABLE staging.[tabela7113_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1738,7 +1738,7 @@ CREATE TABLE [tabela7113_raw] (
 );
 GO
 
-BULK INSERT [tabela7113_raw]
+BULK INSERT staging.[tabela7113_raw]
 FROM '/datasets/tabela7113.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1755,8 +1755,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7113
-FROM tabela7113_raw
+INTO staging.[tabela7113]
+FROM staging.[tabela7113_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -1777,12 +1777,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7113_raw
+DROP TABLE IF EXISTS staging.[tabela7113_raw]
 GO
 
 -- ========================== tabela7126 ==========================
 
-CREATE TABLE [tabela7126_raw] (
+CREATE TABLE staging.[tabela7126_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1802,7 +1802,7 @@ CREATE TABLE [tabela7126_raw] (
 );
 GO
 
-BULK INSERT [tabela7126_raw]
+BULK INSERT staging.[tabela7126_raw]
 FROM '/datasets/tabela7126.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1819,8 +1819,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7126
-FROM tabela7126_raw
+INTO staging.[tabela7126]
+FROM staging.[tabela7126_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -1841,12 +1841,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7126_raw
+DROP TABLE IF EXISTS staging.[tabela7126_raw]
 GO
 
 -- ========================== tabela7127 ==========================
 
-CREATE TABLE [tabela7127_raw] (
+CREATE TABLE staging.[tabela7127_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1866,7 +1866,7 @@ CREATE TABLE [tabela7127_raw] (
 );
 GO
 
-BULK INSERT [tabela7127_raw]
+BULK INSERT staging.[tabela7127_raw]
 FROM '/datasets/tabela7127.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1883,8 +1883,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7127
-FROM tabela7127_raw
+INTO staging.[tabela7127]
+FROM staging.[tabela7127_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -1905,12 +1905,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7127_raw
+DROP TABLE IF EXISTS staging.[tabela7127_raw]
 GO
 
 -- ========================== tabela7128 ==========================
 
-CREATE TABLE [tabela7128_raw] (
+CREATE TABLE staging.[tabela7128_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Nível de instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1930,7 +1930,7 @@ CREATE TABLE [tabela7128_raw] (
 );
 GO
 
-BULK INSERT [tabela7128_raw]
+BULK INSERT staging.[tabela7128_raw]
 FROM '/datasets/tabela7128.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -1947,8 +1947,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7128
-FROM tabela7128_raw
+INTO staging.[tabela7128]
+FROM staging.[tabela7128_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -1969,12 +1969,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7128_raw
+DROP TABLE IF EXISTS staging.[tabela7128_raw]
 GO
 
 -- ========================== tabela7129 ==========================
 
-CREATE TABLE [tabela7129_raw] (
+CREATE TABLE staging.[tabela7129_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Nível de instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -1994,7 +1994,7 @@ CREATE TABLE [tabela7129_raw] (
 );
 GO
 
-BULK INSERT [tabela7129_raw]
+BULK INSERT staging.[tabela7129_raw]
 FROM '/datasets/tabela7129.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2011,8 +2011,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7129
-FROM tabela7129_raw
+INTO staging.[tabela7129]
+FROM staging.[tabela7129_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2033,12 +2033,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7129_raw
+DROP TABLE IF EXISTS staging.[tabela7129_raw]
 GO
 
 -- ========================== tabela7133 ==========================
 
-CREATE TABLE [tabela7133_raw] (
+CREATE TABLE staging.[tabela7133_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupos de anos de estudo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2058,7 +2058,7 @@ CREATE TABLE [tabela7133_raw] (
 );
 GO
 
-BULK INSERT [tabela7133_raw]
+BULK INSERT staging.[tabela7133_raw]
 FROM '/datasets/tabela7133.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2075,8 +2075,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7133
-FROM tabela7133_raw
+INTO staging.[tabela7133]
+FROM staging.[tabela7133_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -2097,12 +2097,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7133_raw
+DROP TABLE IF EXISTS staging.[tabela7133_raw]
 GO
 
 -- ========================== tabela7134 ==========================
 
-CREATE TABLE [tabela7134_raw] (
+CREATE TABLE staging.[tabela7134_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupos de anos de estudo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2122,7 +2122,7 @@ CREATE TABLE [tabela7134_raw] (
 );
 GO
 
-BULK INSERT [tabela7134_raw]
+BULK INSERT staging.[tabela7134_raw]
 FROM '/datasets/tabela7134.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2139,8 +2139,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7134
-FROM tabela7134_raw
+INTO staging.[tabela7134]
+FROM staging.[tabela7134_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2161,12 +2161,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7134_raw
+DROP TABLE IF EXISTS staging.[tabela7134_raw]
 GO
 
 -- ========================== tabela7135 ==========================
 
-CREATE TABLE [tabela7135_raw] (
+CREATE TABLE staging.[tabela7135_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Nível de instrução] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2186,7 +2186,7 @@ CREATE TABLE [tabela7135_raw] (
 );
 GO
 
-BULK INSERT [tabela7135_raw]
+BULK INSERT staging.[tabela7135_raw]
 FROM '/datasets/tabela7135.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2203,8 +2203,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7135
-FROM tabela7135_raw
+INTO staging.[tabela7135]
+FROM staging.[tabela7135_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2225,12 +2225,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7135_raw
+DROP TABLE IF EXISTS staging.[tabela7135_raw]
 GO
 
 -- ========================== tabela7136 ==========================
 
-CREATE TABLE [tabela7136_raw] (
+CREATE TABLE staging.[tabela7136_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2250,7 +2250,7 @@ CREATE TABLE [tabela7136_raw] (
 );
 GO
 
-BULK INSERT [tabela7136_raw]
+BULK INSERT staging.[tabela7136_raw]
 FROM '/datasets/tabela7136.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2267,8 +2267,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7136
-FROM tabela7136_raw
+INTO staging.[tabela7136]
+FROM staging.[tabela7136_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -2289,12 +2289,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7136_raw
+DROP TABLE IF EXISTS staging.[tabela7136_raw]
 GO
 
 -- ========================== tabela7138 ==========================
 
-CREATE TABLE [tabela7138_raw] (
+CREATE TABLE staging.[tabela7138_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2314,7 +2314,7 @@ CREATE TABLE [tabela7138_raw] (
 );
 GO
 
-BULK INSERT [tabela7138_raw]
+BULK INSERT staging.[tabela7138_raw]
 FROM '/datasets/tabela7138.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2331,8 +2331,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7138
-FROM tabela7138_raw
+INTO staging.[tabela7138]
+FROM staging.[tabela7138_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -2353,12 +2353,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7138_raw
+DROP TABLE IF EXISTS staging.[tabela7138_raw]
 GO
 
 -- ========================== tabela7139 ==========================
 
-CREATE TABLE [tabela7139_raw] (
+CREATE TABLE staging.[tabela7139_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Grupo de idade] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2378,7 +2378,7 @@ CREATE TABLE [tabela7139_raw] (
 );
 GO
 
-BULK INSERT [tabela7139_raw]
+BULK INSERT staging.[tabela7139_raw]
 FROM '/datasets/tabela7139.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2395,8 +2395,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7139
-FROM tabela7139_raw
+INTO staging.[tabela7139]
+FROM staging.[tabela7139_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2417,12 +2417,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7139_raw
+DROP TABLE IF EXISTS staging.[tabela7139_raw]
 GO
 
 -- ========================== tabela7146 ==========================
 
-CREATE TABLE [tabela7146_raw] (
+CREATE TABLE staging.[tabela7146_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Tipo de ensino superior] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2442,7 +2442,7 @@ CREATE TABLE [tabela7146_raw] (
 );
 GO
 
-BULK INSERT [tabela7146_raw]
+BULK INSERT staging.[tabela7146_raw]
 FROM '/datasets/tabela7146.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2459,8 +2459,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7146
-FROM tabela7146_raw
+INTO staging.[tabela7146]
+FROM staging.[tabela7146_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2481,12 +2481,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7146_raw
+DROP TABLE IF EXISTS staging.[tabela7146_raw]
 GO
 
 -- ========================== tabela7147 ==========================
 
-CREATE TABLE [tabela7147_raw] (
+CREATE TABLE staging.[tabela7147_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Tipo de ensino superior] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2506,7 +2506,7 @@ CREATE TABLE [tabela7147_raw] (
 );
 GO
 
-BULK INSERT [tabela7147_raw]
+BULK INSERT staging.[tabela7147_raw]
 FROM '/datasets/tabela7147.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2523,8 +2523,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7147
-FROM tabela7147_raw
+INTO staging.[tabela7147]
+FROM staging.[tabela7147_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -2545,12 +2545,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7147_raw
+DROP TABLE IF EXISTS staging.[tabela7147_raw]
 GO
 
 -- ========================== tabela7159 ==========================
 
-CREATE TABLE [tabela7159_raw] (
+CREATE TABLE staging.[tabela7159_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Situação de ocupação na semana de referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2570,7 +2570,7 @@ CREATE TABLE [tabela7159_raw] (
 );
 GO
 
-BULK INSERT [tabela7159_raw]
+BULK INSERT staging.[tabela7159_raw]
 FROM '/datasets/tabela7159.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2587,8 +2587,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7159
-FROM tabela7159_raw
+INTO staging.[tabela7159]
+FROM staging.[tabela7159_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -2609,12 +2609,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7159_raw
+DROP TABLE IF EXISTS staging.[tabela7159_raw]
 GO
 
 -- ========================== tabela7160 ==========================
 
-CREATE TABLE [tabela7160_raw] (
+CREATE TABLE staging.[tabela7160_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Situação de ocupação na semana de referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2634,7 +2634,7 @@ CREATE TABLE [tabela7160_raw] (
 );
 GO
 
-BULK INSERT [tabela7160_raw]
+BULK INSERT staging.[tabela7160_raw]
 FROM '/datasets/tabela7160.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2651,8 +2651,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7160
-FROM tabela7160_raw
+INTO staging.[tabela7160]
+FROM staging.[tabela7160_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2673,12 +2673,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7160_raw
+DROP TABLE IF EXISTS staging.[tabela7160_raw]
 GO
 
 -- ========================== tabela7161 ==========================
 
-CREATE TABLE [tabela7161_raw] (
+CREATE TABLE staging.[tabela7161_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Situação de ocupação na semana de referência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Grupo de idade x 2016 x 15 a 17 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2705,7 +2705,7 @@ CREATE TABLE [tabela7161_raw] (
 );
 GO
 
-BULK INSERT [tabela7161_raw]
+BULK INSERT staging.[tabela7161_raw]
 FROM '/datasets/tabela7161.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2722,8 +2722,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Grupo de idade],
     unpvt.[Valor]
-INTO tabela7161
-FROM tabela7161_raw
+INTO staging.[tabela7161]
+FROM staging.[tabela7161_raw]
 CROSS APPLY (
     VALUES
 		('2016', '15 a 17 anos', [Ano x Grupo de idade x 2016 x 15 a 17 anos]),
@@ -2751,12 +2751,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7161_raw
+DROP TABLE IF EXISTS staging.[tabela7161_raw]
 GO
 
 -- ========================== tabela7177 ==========================
 
-CREATE TABLE [tabela7177_raw] (
+CREATE TABLE staging.[tabela7177_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Frequência a curso de qualificação profissional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2776,7 +2776,7 @@ CREATE TABLE [tabela7177_raw] (
 );
 GO
 
-BULK INSERT [tabela7177_raw]
+BULK INSERT staging.[tabela7177_raw]
 FROM '/datasets/tabela7177.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2793,8 +2793,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7177
-FROM tabela7177_raw
+INTO staging.[tabela7177]
+FROM staging.[tabela7177_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -2815,12 +2815,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7177_raw
+DROP TABLE IF EXISTS staging.[tabela7177_raw]
 GO
 
 -- ========================== tabela7178 ==========================
 
-CREATE TABLE [tabela7178_raw] (
+CREATE TABLE staging.[tabela7178_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Frequência a curso de qualificação profissional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2016 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2840,7 +2840,7 @@ CREATE TABLE [tabela7178_raw] (
 );
 GO
 
-BULK INSERT [tabela7178_raw]
+BULK INSERT staging.[tabela7178_raw]
 FROM '/datasets/tabela7178.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2857,8 +2857,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7178
-FROM tabela7178_raw
+INTO staging.[tabela7178]
+FROM staging.[tabela7178_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Branca', [Ano x Cor ou raça x 2016 x Branca]),
@@ -2879,12 +2879,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7178_raw
+DROP TABLE IF EXISTS staging.[tabela7178_raw]
 GO
 
 -- ========================== tabela7210 ==========================
 
-CREATE TABLE [tabela7210_raw] (
+CREATE TABLE staging.[tabela7210_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Conclusão do curso técnico de nível médio ou normal (magistério)] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2898,7 +2898,7 @@ CREATE TABLE [tabela7210_raw] (
 );
 GO
 
-BULK INSERT [tabela7210_raw]
+BULK INSERT staging.[tabela7210_raw]
 FROM '/datasets/tabela7210.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2915,8 +2915,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7210
-FROM tabela7210_raw
+INTO staging.[tabela7210]
+FROM staging.[tabela7210_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
@@ -2931,19 +2931,19 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7210_raw
+DROP TABLE IF EXISTS staging.[tabela7210_raw]
 GO
 
 -- ========================== tabela7211 ==========================
 
-CREATE TABLE [tabela7211_raw] (
+CREATE TABLE staging.[tabela7211_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Tipo de viagem x 2019 x Viagem nacional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Tipo de viagem x 2019 x Viagem internacional] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8
 );
 GO
 
-BULK INSERT [tabela7211_raw]
+BULK INSERT staging.[tabela7211_raw]
 FROM '/datasets/tabela7211.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -2959,8 +2959,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Tipo de viagem],
     unpvt.[Valor]
-INTO tabela7211
-FROM tabela7211_raw
+INTO staging.[tabela7211]
+FROM staging.[tabela7211_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Viagem nacional', [Ano x Tipo de viagem x 2019 x Viagem nacional]),
@@ -2969,12 +2969,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7211_raw
+DROP TABLE IF EXISTS staging.[tabela7211_raw]
 GO
 
 -- ========================== tabela7215 ==========================
 
-CREATE TABLE [tabela7215_raw] (
+CREATE TABLE staging.[tabela7215_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Idade que deixou de frequentar escola pela última vez] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -2988,7 +2988,7 @@ CREATE TABLE [tabela7215_raw] (
 );
 GO
 
-BULK INSERT [tabela7215_raw]
+BULK INSERT staging.[tabela7215_raw]
 FROM '/datasets/tabela7215.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3005,8 +3005,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7215
-FROM tabela7215_raw
+INTO staging.[tabela7215]
+FROM staging.[tabela7215_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
@@ -3021,12 +3021,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7215_raw
+DROP TABLE IF EXISTS staging.[tabela7215_raw]
 GO
 
 -- ========================== tabela7219 ==========================
 
-CREATE TABLE [tabela7219_raw] (
+CREATE TABLE staging.[tabela7219_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3040,7 +3040,7 @@ CREATE TABLE [tabela7219_raw] (
 );
 GO
 
-BULK INSERT [tabela7219_raw]
+BULK INSERT staging.[tabela7219_raw]
 FROM '/datasets/tabela7219.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3057,8 +3057,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7219
-FROM tabela7219_raw
+INTO staging.[tabela7219]
+FROM staging.[tabela7219_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
@@ -3073,12 +3073,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7219_raw
+DROP TABLE IF EXISTS staging.[tabela7219_raw]
 GO
 
 -- ========================== tabela7220 ==========================
 
-CREATE TABLE [tabela7220_raw] (
+CREATE TABLE staging.[tabela7220_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3092,7 +3092,7 @@ CREATE TABLE [tabela7220_raw] (
 );
 GO
 
-BULK INSERT [tabela7220_raw]
+BULK INSERT staging.[tabela7220_raw]
 FROM '/datasets/tabela7220.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3109,8 +3109,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7220
-FROM tabela7220_raw
+INTO staging.[tabela7220]
+FROM staging.[tabela7220_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
@@ -3125,12 +3125,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7220_raw
+DROP TABLE IF EXISTS staging.[tabela7220_raw]
 GO
 
 -- ========================== tabela7221 ==========================
 
-CREATE TABLE [tabela7221_raw] (
+CREATE TABLE staging.[tabela7221_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2019 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3144,7 +3144,7 @@ CREATE TABLE [tabela7221_raw] (
 );
 GO
 
-BULK INSERT [tabela7221_raw]
+BULK INSERT staging.[tabela7221_raw]
 FROM '/datasets/tabela7221.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3161,8 +3161,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7221
-FROM tabela7221_raw
+INTO staging.[tabela7221]
+FROM staging.[tabela7221_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Homens', [Ano x Sexo x 2019 x Homens]),
@@ -3177,12 +3177,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7221_raw
+DROP TABLE IF EXISTS staging.[tabela7221_raw]
 GO
 
 -- ========================== tabela7222 ==========================
 
-CREATE TABLE [tabela7222_raw] (
+CREATE TABLE staging.[tabela7222_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Principal motivo de atualmente não frequentar escola ou outro curso] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Cor ou raça x 2019 x Branca] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3196,7 +3196,7 @@ CREATE TABLE [tabela7222_raw] (
 );
 GO
 
-BULK INSERT [tabela7222_raw]
+BULK INSERT staging.[tabela7222_raw]
 FROM '/datasets/tabela7222.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3213,8 +3213,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Cor ou raça],
     unpvt.[Valor]
-INTO tabela7222
-FROM tabela7222_raw
+INTO staging.[tabela7222]
+FROM staging.[tabela7222_raw]
 CROSS APPLY (
     VALUES
 		('2019', 'Branca', [Ano x Cor ou raça x 2019 x Branca]),
@@ -3229,12 +3229,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7222_raw
+DROP TABLE IF EXISTS staging.[tabela7222_raw]
 GO
 
 -- ========================== tabela7307 ==========================
 
-CREATE TABLE [tabela7307_raw] (
+CREATE TABLE staging.[tabela7307_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Existência de utilização da Internet no domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2016 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3256,7 +3256,7 @@ CREATE TABLE [tabela7307_raw] (
 );
 GO
 
-BULK INSERT [tabela7307_raw]
+BULK INSERT staging.[tabela7307_raw]
 FROM '/datasets/tabela7307.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3273,8 +3273,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela7307
-FROM tabela7307_raw
+INTO staging.[tabela7307]
+FROM staging.[tabela7307_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Urbana', [Ano x Situação do domicílio x 2016 x Urbana]),
@@ -3297,12 +3297,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7307_raw
+DROP TABLE IF EXISTS staging.[tabela7307_raw]
 GO
 
 -- ========================== tabela7320 ==========================
 
-CREATE TABLE [tabela7320_raw] (
+CREATE TABLE staging.[tabela7320_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Condição de estudante, rede de ensino e curso frequentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3324,7 +3324,7 @@ CREATE TABLE [tabela7320_raw] (
 );
 GO
 
-BULK INSERT [tabela7320_raw]
+BULK INSERT staging.[tabela7320_raw]
 FROM '/datasets/tabela7320.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3341,8 +3341,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7320
-FROM tabela7320_raw
+INTO staging.[tabela7320]
+FROM staging.[tabela7320_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -3365,12 +3365,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7320_raw
+DROP TABLE IF EXISTS staging.[tabela7320_raw]
 GO
 
 -- ========================== tabela7321 ==========================
 
-CREATE TABLE [tabela7321_raw] (
+CREATE TABLE staging.[tabela7321_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Condição de estudante, rede de ensino e curso frequentado] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Sexo x 2016 x Homens] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3392,7 +3392,7 @@ CREATE TABLE [tabela7321_raw] (
 );
 GO
 
-BULK INSERT [tabela7321_raw]
+BULK INSERT staging.[tabela7321_raw]
 FROM '/datasets/tabela7321.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3409,8 +3409,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Sexo],
     unpvt.[Valor]
-INTO tabela7321
-FROM tabela7321_raw
+INTO staging.[tabela7321]
+FROM staging.[tabela7321_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Homens', [Ano x Sexo x 2016 x Homens]),
@@ -3433,12 +3433,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7321_raw
+DROP TABLE IF EXISTS staging.[tabela7321_raw]
 GO
 
 -- ========================== tabela7339 ==========================
 
-CREATE TABLE [tabela7339_raw] (
+CREATE TABLE staging.[tabela7339_raw] (
     [Grande Região] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia microcomputador ou tablet] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia somente microcomputador] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3483,7 +3483,7 @@ CREATE TABLE [tabela7339_raw] (
 );
 GO
 
-BULK INSERT [tabela7339_raw]
+BULK INSERT staging.[tabela7339_raw]
 FROM '/datasets/tabela7339.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3499,8 +3499,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Existência de microcomputador ou tablet no domicílio],
     unpvt.[Valor]
-INTO tabela7339
-FROM tabela7339_raw
+INTO staging.[tabela7339]
+FROM staging.[tabela7339_raw]
 CROSS APPLY (
     VALUES
 		('2016', 'Havia microcomputador ou tablet', [Ano x Existência de microcomputador ou tablet no domicílio x 2016 x Havia microcomputador ou tablet]),
@@ -3547,12 +3547,12 @@ CROSS APPLY (
 WHERE [Grande Região] COLLATE Latin1_General_BIN <> 'Grande Região';
 GO
 
-DROP TABLE IF EXISTS tabela7339_raw
+DROP TABLE IF EXISTS staging.[tabela7339_raw]
 GO
 
 -- ========================== tabela7395 ==========================
 
-CREATE TABLE [tabela7395_raw] (
+CREATE TABLE staging.[tabela7395_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x 2016] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x 2017] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3565,7 +3565,7 @@ CREATE TABLE [tabela7395_raw] (
 );
 GO
 
-BULK INSERT [tabela7395_raw]
+BULK INSERT staging.[tabela7395_raw]
 FROM '/datasets/tabela7395.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3580,8 +3580,8 @@ SELECT
     [Unidade da Federação],
     unpvt.[Ano],
     unpvt.[Valor]
-INTO tabela7395
-FROM tabela7395_raw
+INTO staging.[tabela7395]
+FROM staging.[tabela7395_raw]
 CROSS APPLY (
     VALUES
 		('2016', [Ano x 2016]),
@@ -3596,12 +3596,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela7395_raw
+DROP TABLE IF EXISTS staging.[tabela7395_raw]
 GO
 
 -- ========================== tabela9297 ==========================
 
-CREATE TABLE [tabela9297_raw] (
+CREATE TABLE staging.[tabela9297_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Nível de instrução x 2022 x Fundamental completo e médio incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3610,7 +3610,7 @@ CREATE TABLE [tabela9297_raw] (
 );
 GO
 
-BULK INSERT [tabela9297_raw]
+BULK INSERT staging.[tabela9297_raw]
 FROM '/datasets/tabela9297.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3626,8 +3626,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Nível de instrução],
     unpvt.[Valor]
-INTO tabela9297
-FROM tabela9297_raw
+INTO staging.[tabela9297]
+FROM staging.[tabela9297_raw]
 CROSS APPLY (
     VALUES
 		('2022', 'Sem instrução e fundamental incompleto', [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto]),
@@ -3638,12 +3638,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela9297_raw
+DROP TABLE IF EXISTS staging.[tabela9297_raw]
 GO
 
 -- ========================== tabela9311 ==========================
 
-CREATE TABLE [tabela9311_raw] (
+CREATE TABLE staging.[tabela9311_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Existência de deficiência] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3653,7 +3653,7 @@ CREATE TABLE [tabela9311_raw] (
 );
 GO
 
-BULK INSERT [tabela9311_raw]
+BULK INSERT staging.[tabela9311_raw]
 FROM '/datasets/tabela9311.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3670,8 +3670,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Nível de instrução],
     unpvt.[Valor]
-INTO tabela9311
-FROM tabela9311_raw
+INTO staging.[tabela9311]
+FROM staging.[tabela9311_raw]
 CROSS APPLY (
     VALUES
 		('2022', 'Sem instrução e fundamental incompleto', [Ano x Nível de instrução x 2022 x Sem instrução e fundamental incompleto]),
@@ -3682,12 +3682,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela9311_raw
+DROP TABLE IF EXISTS staging.[tabela9311_raw]
 GO
 
 -- ========================== tabela9499 ==========================
 
-CREATE TABLE [tabela9499_raw] (
+CREATE TABLE staging.[tabela9499_raw] (
     [País] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Tipos de atividades realizadas] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Grupo de idade x 2016 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3728,7 +3728,7 @@ CREATE TABLE [tabela9499_raw] (
 );
 GO
 
-BULK INSERT [tabela9499_raw]
+BULK INSERT staging.[tabela9499_raw]
 FROM '/datasets/tabela9499.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3745,8 +3745,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Grupo de idade],
     unpvt.[Valor]
-INTO tabela9499
-FROM tabela9499_raw
+INTO staging.[tabela9499]
+FROM staging.[tabela9499_raw]
 CROSS APPLY (
     VALUES
 		('2016', '5 a 13 anos', [Ano x Grupo de idade x 2016 x 5 a 13 anos]),
@@ -3788,12 +3788,12 @@ CROSS APPLY (
 WHERE [País] COLLATE Latin1_General_BIN <> 'País';
 GO
 
-DROP TABLE IF EXISTS tabela9499_raw
+DROP TABLE IF EXISTS staging.[tabela9499_raw]
 GO
 
 -- ========================== tabela9506 ==========================
 
-CREATE TABLE [tabela9506_raw] (
+CREATE TABLE staging.[tabela9506_raw] (
     [País] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Atividade do trabalho principal] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Grupo de idade x 2016 x 5 a 13 anos] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3820,7 +3820,7 @@ CREATE TABLE [tabela9506_raw] (
 );
 GO
 
-BULK INSERT [tabela9506_raw]
+BULK INSERT staging.[tabela9506_raw]
 FROM '/datasets/tabela9506.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3837,8 +3837,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Grupo de idade],
     unpvt.[Valor]
-INTO tabela9506
-FROM tabela9506_raw
+INTO staging.[tabela9506]
+FROM staging.[tabela9506_raw]
 CROSS APPLY (
     VALUES
 		('2016', '5 a 13 anos', [Ano x Grupo de idade x 2016 x 5 a 13 anos]),
@@ -3866,12 +3866,12 @@ CROSS APPLY (
 WHERE [País] COLLATE Latin1_General_BIN <> 'País';
 GO
 
-DROP TABLE IF EXISTS tabela9506_raw
+DROP TABLE IF EXISTS staging.[tabela9506_raw]
 GO
 
 -- ========================== tabela9552 ==========================
 
-CREATE TABLE [tabela9552_raw] (
+CREATE TABLE staging.[tabela9552_raw] (
     [Unidade da Federação] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Situação de segurança alimentar existente no domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação do domicílio x 2023 x Urbana] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3881,7 +3881,7 @@ CREATE TABLE [tabela9552_raw] (
 );
 GO
 
-BULK INSERT [tabela9552_raw]
+BULK INSERT staging.[tabela9552_raw]
 FROM '/datasets/tabela9552.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3898,8 +3898,8 @@ SELECT
     unpvt.[Ano],
     unpvt.[Situação do domicílio],
     unpvt.[Valor]
-INTO tabela9552
-FROM tabela9552_raw
+INTO staging.[tabela9552]
+FROM staging.[tabela9552_raw]
 CROSS APPLY (
     VALUES
 		('2023', 'Urbana', [Ano x Situação do domicílio x 2023 x Urbana]),
@@ -3910,12 +3910,12 @@ CROSS APPLY (
 WHERE [Unidade da Federação] COLLATE Latin1_General_BIN <> 'Unidade da Federação';
 GO
 
-DROP TABLE IF EXISTS tabela9552_raw
+DROP TABLE IF EXISTS staging.[tabela9552_raw]
 GO
 
 -- ========================== tabela9558 ==========================
 
-CREATE TABLE [tabela9558_raw] (
+CREATE TABLE staging.[tabela9558_raw] (
     [País] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Situação do domicílio] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
     [Ano x Situação de segurança alimentar existente no domicílio x F...apita x 2023 x Com segurança alimentar x Até ¼ salário mínimo] VARCHAR(MAX) COLLATE Latin1_General_100_CI_AS_SC_UTF8,
@@ -3961,7 +3961,7 @@ CREATE TABLE [tabela9558_raw] (
 );
 GO
 
-BULK INSERT [tabela9558_raw]
+BULK INSERT staging.[tabela9558_raw]
 FROM '/datasets/tabela9558.tsv'
 WITH (
     FIELDTERMINATOR = '\t',
@@ -3979,8 +3979,8 @@ SELECT
     unpvt.[Situação de segurança alimentar existente no domicílio],
     unpvt.[Faixas de rendimento mensal domiciliar per capita],
     unpvt.[Valor]
-INTO tabela9558
-FROM tabela9558_raw
+INTO staging.[tabela9558]
+FROM staging.[tabela9558_raw]
 CROSS APPLY (
     VALUES
 		('2023', 'Com segurança alimentar', 'Até ¼ salário mínimo', [Ano x Situação de segurança alimentar existente no domicílio x F...apita x 2023 x Com segurança alimentar x Até ¼ salário mínimo]),
@@ -4027,5 +4027,5 @@ CROSS APPLY (
 WHERE [País] COLLATE Latin1_General_BIN <> 'País';
 GO
 
-DROP TABLE IF EXISTS tabela9558_raw
+DROP TABLE IF EXISTS staging.[tabela9558_raw]
 GO
