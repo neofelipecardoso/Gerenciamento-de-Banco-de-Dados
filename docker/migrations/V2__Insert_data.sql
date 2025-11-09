@@ -989,21 +989,6 @@ GO
 
 
 
--- Passar dados 6409
-
-DROP TABLE tabela6409;
-GO
-
-
-
-
-
-
-
-
-
-
-
 
 
 
