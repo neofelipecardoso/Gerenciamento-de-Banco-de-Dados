@@ -33,19 +33,7 @@ VALUES
 (31, 'São Paulo'),
 (32, 'Sergipe'),
 (33, 'Tocantins');
-
-
-
-
-
-
-
-
-
-
-
-
-
+GO
 
 
 
@@ -53,8 +41,8 @@ VALUES
 
 INSERT INTO Dim_GrupoDemografico(IdGrupoDemo, nomeGrupoDemo)
 VALUES
-(1, 'Masculino'),
-(2, 'Feminino'),
+(1, 'Homens'),
+(2, 'Mulheres'),
 (3, 'Branca'),
 (4, 'Parda'),
 (5, 'Amarela'),
@@ -62,26 +50,10 @@ VALUES
 (7, 'Preta'),
 (8, 'Urbana'),
 (9,'Rural');
+GO
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -101,14 +73,7 @@ VALUES
 (11, 2022),
 (12, 2023),
 (13, 2024);
-
-
-
-
-
-
-
-
+GO
 
 
 
@@ -129,9 +94,18 @@ VALUES
 (8, 'Sem instrução e fundamental incompleto'),
 (9, 'Fundamental completo e médio incompleto'),
 (10, 'Médio completo e superiro incompleto');
+GO
+
+
+
+
+
+
+
 
 INSERT INTO Dim_Emprego (IdEmprego, nomeEmprego, empregado) 
 VALUES
+-- Categorias principais
 (1, 'Total', NULL),
 (2, 'Empregado', 'Sim'),
 (3, 'Empregado no setor privado, exclusive trabalhador doméstico', 'Sim'),
@@ -163,6 +137,14 @@ VALUES
 (29, 'Ocupados', 'Sim'),
 (30, 'Desocupados', 'Não'),
 (31, 'Fora da força de trabalho', 'Não');
+GO
+
+
+
+
+
+
+
 
 INSERT INTO Dim_Condicao_Domicilio (
     IdCondDomi, 
@@ -197,7 +179,9 @@ FROM (
         NULL as DestinoLixo,
         NULL as FonteDeEnergia
     FROM tabela6731
+    
     UNION
+    
     SELECT DISTINCT 
         [Situação do domicílio] as nomeDaCondicao,
         [Disponibilidade da rede geral de distribuição de água] as disponibilidadeAgua,
@@ -206,7 +190,9 @@ FROM (
         NULL as DestinoLixo,
         NULL as FonteDeEnergia
     FROM tabela6732
+    
     UNION
+    
     SELECT DISTINCT 
         NULL as nomeDaCondicao,
         NULL as disponibilidadeAgua,
@@ -215,7 +201,9 @@ FROM (
         NULL as DestinoLixo,
         NULL as FonteDeEnergia
     FROM tabela6731
+    
     UNION
+    
     SELECT DISTINCT 
         NULL as nomeDaCondicao,
         NULL as disponibilidadeAgua,
@@ -224,7 +212,9 @@ FROM (
         NULL as DestinoLixo,
         NULL as FonteDeEnergia
     FROM tabela6735
+    
     UNION
+    
     SELECT DISTINCT 
         NULL as nomeDaCondicao,
         NULL as disponibilidadeAgua,
@@ -233,7 +223,9 @@ FROM (
         [Destino do lixo] as DestinoLixo,
         NULL as FonteDeEnergia
     FROM tabela6736
+    
     UNION
+    
     SELECT DISTINCT 
         NULL as nomeDaCondicao,
         NULL as disponibilidadeAgua,
@@ -242,7 +234,9 @@ FROM (
         NULL as DestinoLixo,
         [Fonte de energia elétrica] as FonteDeEnergia
     FROM tabela6737
+    
     UNION
+    
     SELECT DISTINCT 
         [Condição de ocupação do domicílio] as nomeDaCondicao,
         NULL as disponibilidadeAgua,
@@ -252,6 +246,16 @@ FROM (
         NULL as FonteDeEnergia
     FROM tabela6821
 ) AS AllCondicoes;
+GO
+
+
+
+
+
+
+
+
+
 
 INSERT INTO Dim_Saneamento (IdSaneamento, nomeSaneamento)
 VALUES
@@ -275,6 +279,16 @@ VALUES
 (18, 'Saneamento completo (água, esgoto e lixo adequados)'),
 (19, 'Saneamento precário (pelo menos um serviço ausente)'),
 (20, 'Sem saneamento básico');
+GO
+
+
+
+
+
+
+
+
+
 
 INSERT INTO Dim_Condicao_Estudante (IdCondEstudante, nomeDaCondicao)
 VALUES
@@ -301,20 +315,7 @@ VALUES
 (21, 'Concluiu curso superior'),
 (22, 'Abandono escolar recente'),
 (23, 'Retornou aos estudos após pausa');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+GO
 
 
 
@@ -332,13 +333,14 @@ SELECT
 FROM (
     SELECT DISTINCT [Grupo de idade] 
     FROM tabela7126
-    WHERE [Grupo de idade] COLLATE Latin1_General_BIN IS NOT NULL
+    WHERE [Grupo de idade] IS NOT NULL
 ) AS t
 WHERE NOT EXISTS (
     SELECT 1 
     FROM Dim_Faixa_Etaria d 
-    WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
+    WHERE d.nomeFaixaEtaria COLLATE Latin1_General_BIN = t.[Grupo de idade] COLLATE Latin1_General_BIN
 );
+GO
 
 -- Passar dados 7126
 ALTER TABLE Fact_Escolaridade alter column NumeroMedioDeAnosDeEstudo varchar(255);
@@ -382,7 +384,6 @@ GO
 
 
 DECLARE @MaxFaixaId INT;
-
 -- Criar faixa etaria caso não tenha.
 SELECT @MaxFaixaId = ISNULL(MAX(IdFaixaEtaria), 0) FROM Dim_Faixa_Etaria;
 
@@ -400,9 +401,19 @@ WHERE NOT EXISTS (
     FROM Dim_Faixa_Etaria d 
     WHERE d.nomeFaixaEtaria = t.[Grupos de anos de estudo] COLLATE Latin1_General_BIN
 );
+GO
+
+
+
+
+
+
+
+
 
 -- Passar dados 7133
 ALTER TABLE Fact_Escolaridade alter column QuantidadeDeEstudantes varchar(255);
+GO
 
 INSERT INTO Fact_Escolaridade (
     IdLocal,
@@ -469,6 +480,15 @@ WHERE NOT EXISTS (
     FROM Dim_Faixa_Etaria d 
     WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
 );
+GO
+
+
+
+
+
+
+
+
 
 -- Passar dados 7127
 
@@ -518,7 +538,6 @@ GO
 
 
 DECLARE @MaxFaixaId INT;
-
 -- Criar faixa etaria caso não tenha.
 SELECT @MaxFaixaId = ISNULL(MAX(IdFaixaEtaria), 0) FROM Dim_Faixa_Etaria;
 
@@ -536,10 +555,20 @@ WHERE NOT EXISTS (
     FROM Dim_Faixa_Etaria d 
     WHERE d.nomeFaixaEtaria = t.[Grupos de anos de estudo] COLLATE Latin1_General_BIN
 );
+GO
+
+
+
+
+
+
+
+
 
 -- Passar dados 7134
 
 ALTER TABLE Fact_Escolaridade alter column QuantidadeDeEstudantes varchar(255);
+GO
 
 INSERT INTO Fact_Escolaridade (
     IdLocal,
@@ -585,6 +614,7 @@ GO
 -- Passar dados 7215
 
 ALTER TABLE Fact_Escolaridade alter column IdadeQueDeixouDeFrequentarEscola varchar(255);
+GO
 
 INSERT INTO Fact_Escolaridade (
     IdLocal,
@@ -629,7 +659,7 @@ GO
 
 -- Passar dados 6821
 ALTER TABLE Fact_Domicilio alter column QuantidadeDeDomicilios varchar(255);
-
+GO
 
 INSERT INTO Fact_Domicilio (
     IdLocal,
@@ -685,10 +715,31 @@ WHERE NOT EXISTS (
     FROM Dim_Faixa_Etaria d 
     WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
 );
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Passar dados 7113
 ALTER TABLE Fact_Analfabetismo alter column TaxaDeAnalfabetismo varchar(255);
-
+GO
 
 INSERT INTO Fact_Analfabetismo (
     IdLocal,
@@ -747,10 +798,25 @@ WHERE NOT EXISTS (
     FROM Dim_Faixa_Etaria d 
     WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
 );
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Passar dados 7111
 ALTER TABLE Fact_Analfabetismo alter column PessoasAnalfabetas varchar(255);
-
+GO
 
 INSERT INTO Fact_Analfabetismo (
     IdLocal,
@@ -793,29 +859,42 @@ GO
 
 
 
--- Criar faixa etaria caso não tenha.
-
--- Passar dados 7395
-ALTER TABLE Fact_Rendimento alter column RendimentoMedioMensal varchar(255);
 
 
-INSERT INTO Fact_Rendimento (
+
+-- Passar dados 7146
+
+ALTER TABLE Fact_Estudante ADD IdGrupoDemo INT CONSTRAINT FK_Fact_GrupoDemoEstudante FOREIGN KEY (IdGrupoDemo) REFERENCES Dim_GrupoDemografico (IdGrupoDemo);
+GO
+
+INSERT INTO Dim_GrupoDemografico(IdGrupoDemo, nomeGrupoDemo)
+VALUES
+(10, 'Preta ou parda');
+
+INSERT INTO Fact_Estudante (
     IdLocal,
+    TipoDeEnsinoSuperior,
     IdAno,
-    RendimentoMedioMensal
+	IdGrupoDemo,
+	QuantidadeDeEstudantes
 )
 SELECT
     d_loc.IdLocal,
+    src.[Tipo de ensino superior] AS TipoDeEnsinoSuperior,
     d_ano.IdAno,
-    src.Valor AS RendimentoMedioMensal
+    d_demo.IdGrupoDemo,
+    src.Valor AS QuantidadeDeEstudantes
 FROM
-    tabela7395 AS src
+    tabela7146 AS src
 LEFT JOIN
     Dim_Local AS d_loc 
-    ON src.[Unidade da Federação] COLLATE Latin1_General_BIN = d_loc.nome
+    ON src.[Grande Região] COLLATE Latin1_General_BIN = d_loc.nome
+LEFT JOIN
+    Dim_GrupoDemografico AS d_demo
+    ON src.[Cor ou raça] COLLATE Latin1_General_BIN = d_demo.nomeGrupoDemo
 LEFT JOIN
     Dim_Ano AS d_ano 
-    ON src.Ano = d_ano.ano
+    ON src.Ano = d_ano.ano;
 GO
 
 
@@ -824,44 +903,82 @@ GO
 
 
 
---Arquivo: tabela7128.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 7128 - Pessoas de 14 anos ou mais de idade, por sexo e nível de instrução
---  Linha 2: Variável - Pessoas de 14 anos ou mais de idade
---  Linha 3: Unidade da Federação;"Nível de instrução";"Ano x Sexo
 
 
--- Criar faixa etaria caso não tenha.
+-- Passar dados 7147
 
--- Passar dados 7128
-ALTER TABLE Fact_Populacao alter column Populacao varchar(255);
-ALTER TABLE Fact_Populacao add FaixaEtariaFixa varchar(255);
-
-
-INSERT INTO Fact_Populacao (
+INSERT INTO Fact_Estudante (
     IdLocal,
-    FaixaEtariaFixa,
+    TipoDeEnsinoSuperior,
     IdAno,
-    IdGrupoDemo,
-    Populacao
+	IdGrupoDemo,
+	QuantidadeDeEstudantes
 )
 SELECT
     d_loc.IdLocal,
-    '14 anos ou mais de idade',
+    src.[Tipo de ensino superior] AS TipoDeEnsinoSuperior,
+    d_ano.IdAno,
+    d_demo.IdGrupoDemo,
+    src.Valor AS QuantidadeDeEstudantes
+FROM
+    tabela7147 AS src
+LEFT JOIN
+    Dim_Local AS d_loc 
+    ON src.[Grande Região] COLLATE Latin1_General_BIN = d_loc.nome
+LEFT JOIN
+    Dim_GrupoDemografico AS d_demo
+    ON src.Sexo COLLATE Latin1_General_BIN = d_demo.nomeGrupoDemo
+LEFT JOIN
+    Dim_Ano AS d_ano 
+    ON src.Ano = d_ano.ano;
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Passar dados 6407
+
+INSERT INTO Fact_Populacao (
+    IdLocal,
+    IdFaixaEtaria,
+    IdAno,
+	IdGrupoDemo,
+	Populacao
+)
+SELECT
+    d_loc.IdLocal,
+    d_faixa.IdFaixaEtaria,
     d_ano.IdAno,
     d_demo.IdGrupoDemo,
     src.Valor AS Populacao
 FROM
-    tabela7128 AS src
+    tabela6407 AS src
 LEFT JOIN
     Dim_Local AS d_loc 
     ON src.[Unidade da Federação] COLLATE Latin1_General_BIN = d_loc.nome
 LEFT JOIN
+    Dim_Faixa_Etaria AS d_faixa
+    ON src.[Grupo de idade] COLLATE Latin1_General_BIN = d_faixa.nomeFaixaEtaria
+LEFT JOIN
     Dim_Ano AS d_ano 
     ON src.Ano = d_ano.ano
 LEFT JOIN
-    Dim_GrupoDemografico AS d_demo 
-    ON src.Sexo = d_demo.nomeGrupoDemo;
+    Dim_GrupoDemografico AS d_demo
+    ON src.Sexo COLLATE Latin1_General_BIN = d_demo.nomeGrupoDemo;
 GO
 
 
@@ -872,109 +989,9 @@ GO
 
 
 
---Arquivo: tabela4708.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 4708 - Taxa de informalidade das pessoas de 14 anos ou mais de idade ocupadas na semana de referência
---  Linha 2: Variável - Taxa de informalidade das pessoas de 14 anos ou mais de idade ocupadas na semana de referência
---  Linha 3: Unidade da Federação;"Ano
--- Comentario do Nellaf (joinha) : Vai ter que colocar a faixa etaria manualmente, eu acho.
+-- Passar dados 6409
 
--- Criar faixa etaria caso não tenha.
-
--- Passar dados 4708
-ALTER TABLE Fact_Informalidade alter column TaxaDeInformalidade varchar(255);
-ALTER TABLE Fact_Informalidade add FaixaEtariaFixa varchar(255);
-
-
-INSERT INTO Fact_Informalidade (
-    IdLocal,
-    FaixaEtariaFixa,
-    IdAno,
-    TaxaDeInformalidade
-)
-SELECT
-    d_loc.IdLocal,
-    '14 anos ou mais de idade',
-    d_ano.IdAno,
-    src.Valor AS TaxaDeInformalidade
-FROM
-    tabela4708 AS src
-LEFT JOIN
-    Dim_Local AS d_loc 
-    ON src.[Unidade da Federação] COLLATE Latin1_General_BIN = d_loc.nome
-LEFT JOIN
-    Dim_Ano AS d_ano 
-    ON src.Ano = d_ano.ano
-GO
-
-
-
-
-
-
-
-
-
-
-
-
-
---Arquivo: tabela4361.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 4361 - Pessoas de 14 anos ou mais de idade, ocupadas na semana de referência, por posição na ocupação e categoria do emprego no trabalho principal
---  Linha 2: Variável - Pessoas de 14 anos ou mais de idade ocupadas na semana de referência
---  Linha 3: Unidade da Federação;"Ano x Posição na ocupação e categoria do emprego no trabalho principal
-
--- Criar faixa etaria caso não tenha.
-
-DECLARE @MaxFaixaId INT;
-SELECT @MaxFaixaId = ISNULL(MAX(IdEmprego), 0) FROM Dim_Emprego;
-
-INSERT INTO Dim_Emprego (IdEmprego, nomeEmprego)
-SELECT
-    @MaxFaixaId + ROW_NUMBER() OVER (ORDER BY t.[Posição na ocupação e categoria do emprego no trabalho principal]) AS IdEmprego,
-    t.[Posição na ocupação e categoria do emprego no trabalho principal] AS nomeEmprego
-FROM (
-    SELECT DISTINCT [Posição na ocupação e categoria do emprego no trabalho principal] 
-    FROM tabela4361
-    WHERE [Posição na ocupação e categoria do emprego no trabalho principal] COLLATE Latin1_General_BIN IS NOT NULL
-) AS t
-WHERE NOT EXISTS (
-    SELECT 1 
-    FROM Dim_Emprego d 
-    WHERE d.nomeEmprego = t.[Posição na ocupação e categoria do emprego no trabalho principal] COLLATE Latin1_General_BIN
-);
-
-
--- Passar dados 4361
-ALTER TABLE Fact_Ocupacao alter column QuantidadeDePessoas varchar(255);
-ALTER TABLE Fact_Ocupacao add FaixaEtariaFixa varchar(255);
-
-
-INSERT INTO Fact_Ocupacao (
-    IdLocal,
-    FaixaEtariaFixa,
-    IdAno,
-    IdEmprego,
-    QuantidadeDePessoas
-)
-SELECT
-    d_loc.IdLocal,
-    '14 anos ou mais de idade ocupadas na semana de referência',
-    d_ano.IdAno,
-    d_emprego.IdEmprego,
-    src.Valor AS QuantidadeDePessoas
-FROM
-    tabela4361 AS src
-LEFT JOIN
-    Dim_Local AS d_loc 
-    ON src.[Unidade da Federação] COLLATE Latin1_General_BIN = d_loc.nome
-LEFT JOIN
-    Dim_Ano AS d_ano 
-    ON src.Ano = d_ano.ano
-LEFT JOIN
-    Dim_Emprego AS d_emprego 
-    ON src.[Posição na ocupação e categoria do emprego no trabalho principal] = d_emprego.nomeEmprego
+DROP TABLE tabela6409;
 GO
 
 
@@ -992,59 +1009,95 @@ GO
 
 
 
+-- Passar dados 7177
 
-
-
-DECLARE @MaxFaixaId INT;
-
--- Criar faixa etaria caso não tenha.
-SELECT @MaxFaixaId = ISNULL(MAX(IdFaixaEtaria), 0) FROM Dim_Faixa_Etaria;
+INSERT INTO Dim_Condicao_Estudante (IdCondEstudante, nomeDaCondicao)
+VALUES
+	(24, 'Frequenta curso de qualificação profissional'),
+	(25, 'Não frequenta curso de qualificação profissional');
+GO
 
 INSERT INTO Dim_Faixa_Etaria (IdFaixaEtaria, nomeFaixaEtaria)
-SELECT
-    @MaxFaixaId + ROW_NUMBER() OVER (ORDER BY t.[Grupo de idade]) AS NovoIdFaixa,
-    t.[Grupo de idade] AS nomeFaixaEtaria
-FROM (
-    SELECT DISTINCT [Grupo de idade] 
-    FROM tabela7138
-    WHERE [Grupo de idade] COLLATE Latin1_General_BIN IS NOT NULL
-) AS t
-WHERE NOT EXISTS (
-    SELECT 1 
-    FROM Dim_Faixa_Etaria d 
-    WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
-);
-
--- Passar dados 7138
-ALTER TABLE Fact_Escolaridade alter column TaxaDeEscolarizacao varchar(255);
-
+VALUES
+	(15, '14 anos ou mais');
+GO
+	
 INSERT INTO Fact_Escolaridade (
+	IdFaixaEtaria,
     IdLocal,
-    IdFaixaEtaria,
+    FrequenciaCursoQualProfissional,
     IdAno,
-    IdGrupoDemo,
-    TaxaDeEscolarizacao
+	IdGrupoDemo,
+	QuantidadeDeEstudantes
 )
 SELECT
+	d_faixa.IdFaixaEtaria,
     d_loc.IdLocal,
-    d_faixa.IdFaixaEtaria,
+    d_freq.IdCondEstudante,
     d_ano.IdAno,
     d_demo.IdGrupoDemo,
-    src.Valor AS TaxaDeEscolarizacao
+    src.Valor AS QuantidadeDeEstudantes
 FROM
-    tabela7133 AS src
+    tabela7177 AS src
+LEFT JOIN
+	Dim_Faixa_Etaria AS d_faixa
+	ON d_faixa.nomeFaixaEtaria COLLATE Latin1_General_BIN = '14 anos ou mais'
 LEFT JOIN
     Dim_Local AS d_loc 
-    ON src.[Unidade da Federação] COLLATE Latin1_General_BIN = d_loc.nome
+    ON src.[Grande Região] COLLATE Latin1_General_BIN = d_loc.nome
 LEFT JOIN
-    Dim_Faixa_Etaria AS d_faixa 
-    ON src.[Grupos de anos de estudo] COLLATE Latin1_General_BIN = d_faixa.nomeFaixaEtaria
+    Dim_Condicao_Estudante AS d_freq
+    ON src.[Frequência a curso de qualificação profissional] COLLATE Latin1_General_BIN = d_freq.nomeDaCondicao
 LEFT JOIN
     Dim_Ano AS d_ano 
     ON src.Ano = d_ano.ano
 LEFT JOIN
-    Dim_GrupoDemografico AS d_demo 
-    ON src.Sexo = d_demo.nomeGrupoDemo;
+    Dim_GrupoDemografico AS d_demo
+    ON src.Sexo COLLATE Latin1_General_BIN = d_demo.nomeGrupoDemo;
+GO
+
+
+
+
+
+
+
+
+
+-- Passar dados 7178
+	
+INSERT INTO Fact_Escolaridade (
+	IdFaixaEtaria,
+    IdLocal,
+    FrequenciaCursoQualProfissional,
+    IdAno,
+	IdGrupoDemo,
+	QuantidadeDeEstudantes
+)
+SELECT
+	d_faixa.IdFaixaEtaria,
+    d_loc.IdLocal,
+    d_freq.IdCondEstudante,
+    d_ano.IdAno,
+    d_demo.IdGrupoDemo,
+    src.Valor AS QuantidadeDeEstudantes
+FROM
+    tabela7178 AS src
+LEFT JOIN
+	Dim_Faixa_Etaria AS d_faixa
+	ON d_faixa.nomeFaixaEtaria COLLATE Latin1_General_BIN = '14 anos ou mais'
+LEFT JOIN
+    Dim_Local AS d_loc 
+    ON src.[Grande Região] COLLATE Latin1_General_BIN = d_loc.nome
+LEFT JOIN
+    Dim_Condicao_Estudante AS d_freq
+    ON src.[Frequência a curso de qualificação profissional] COLLATE Latin1_General_BIN = d_freq.nomeDaCondicao
+LEFT JOIN
+    Dim_Ano AS d_ano 
+    ON src.Ano = d_ano.ano
+LEFT JOIN
+    Dim_GrupoDemografico AS d_demo
+    ON src.[Cor ou raça] COLLATE Latin1_General_BIN = d_demo.nomeGrupoDemo;
 GO
 
 
@@ -1057,212 +1110,87 @@ GO
 
 
 
---Arquivo: tabela9552.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 9552 - Domicílios e moradores, por situação do domicílio e situação de segurança alimentar existente no domicílio
---  Linha 2: Variável - Domicílios
---  Linha 3: Unidade da Federação;"Situação de segurança alimentar existente no domicílio";"Ano x Situação do domicílio
 
+-- Passar dados 7210
 
--- Passar dados 9552
-ALTER TABLE Fact_Domicilio add SituacaoDomicilio varchar(255), SituacaoSeguranca varchar(255);
-
-INSERT INTO Fact_Domicilio (
+INSERT INTO Dim_Condicao_Estudante (IdCondEstudante, nomeDaCondicao)
+VALUES
+	(26, 'Concluiu curso técnico de nível médio ou curso normal (magistério)'),
+	(27, 'Nunca frequentou ou não concluiu curso técnico de nível médio ou curso normal (magistério)');
+GO
+	
+INSERT INTO Fact_Escolaridade (
     IdLocal,
+    FrequenciaCursoQualProfissional,
     IdAno,
-    IdCondDomi,
-    SituacaoSeguranca,
-    QuantidadeDeDomicilios
+	IdGrupoDemo,
+	QuantidadeDeEstudantes
 )
 SELECT
     d_loc.IdLocal,
+    d_freq.IdCondEstudante,
     d_ano.IdAno,
-    d_demo.IdCondDomi,
-    src.[Situação de segurança alimentar existente no domicílio] AS SituacaoSeguranca,
-    src.Valor AS QuantidadeDeDomicilios
+    d_demo.IdGrupoDemo,
+    src.Valor AS QuantidadeDeEstudantes
 FROM
-    tabela9552 AS src
+    tabela7210 AS src
 LEFT JOIN
     Dim_Local AS d_loc 
-    --TODO MUDAR PARA GRANDE REGIAO
+    ON src.[Grande Região] COLLATE Latin1_General_BIN = d_loc.nome
+LEFT JOIN
+    Dim_Condicao_Estudante AS d_freq
+    ON src.[Conclusão do curso técnico de nível médio ou normal (magistério)] COLLATE Latin1_General_BIN = d_freq.nomeDaCondicao
+LEFT JOIN
+    Dim_Ano AS d_ano 
+    ON src.Ano = d_ano.ano
+LEFT JOIN
+    Dim_GrupoDemografico AS d_demo
+    ON src.Sexo COLLATE Latin1_General_BIN = d_demo.nomeGrupoDemo;
+GO
+
+
+
+
+
+
+
+
+
+-- Passar dados 4666
+
+INSERT INTO Dim_Emprego (IdEmprego, nomeEmprego)
+VALUES
+	(32, 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas')
+
+INSERT INTO Fact_Ocupacao (
+	IdFaixaEtaria,
+    IdLocal,
+    IdAno,
+	IdEmprego,
+	QuantidadeDePessoas
+)
+SELECT
+	d_faixa.IdFaixaEtaria,
+    d_loc.IdLocal,
+    d_ano.IdAno,
+    d_empr.IdEmprego,
+    src.Valor AS QuantidadeDeEstudantes
+FROM
+    tabela4666 AS src
+LEFT JOIN
+	Dim_Faixa_Etaria AS d_faixa
+	ON d_faixa.nomeFaixaEtaria COLLATE Latin1_General_BIN = '14 anos ou mais'
+LEFT JOIN
+    Dim_Local AS d_loc 
     ON src.[Unidade da Federação] COLLATE Latin1_General_BIN = d_loc.nome
 LEFT JOIN
     Dim_Ano AS d_ano 
     ON src.Ano = d_ano.ano
 LEFT JOIN
-    Dim_Condicao_Domicilio AS d_demo 
-    ON src.[Situação do domicílio] = d_demo.nomeDaCondicao;
+    Dim_Emprego AS d_empr
+    ON src.[Tipo de medida de subutilização da força de trabalho na semana de referência] COLLATE Latin1_General_BIN = d_empr.nomeEmprego
 GO
 
 
 
 
-
-
-
-
-
-
-
-
---Arquivo: tabela9558.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 9558 - Domicílios, por situação de segurança alimentar existente no domicílio, faixas de rendimento mensal domiciliar per capita e situação do domicílio
---  Linha 2: Variável - Domicílios
---  Linha 3: ;"Situação do domicílio";"Ano x Situação de segurança alimentar existente no domicílio x Faixas de rendimento mensal domiciliar per capita
-
-
--- Passar dados 9552
-ALTER TABLE Fact_Domicilio alter column Rendimento varchar(255);
-
-INSERT INTO Fact_Domicilio (
-    IdAno,
-    IdCondDomi,
-    Rendimento,
-    QuantidadeDeDomicilios,
-    SituacaoSeguranca
-)
-SELECT
-    d_ano.IdAno,
-    d_demo.IdCondDomi,
-    src.[Faixas de rendimento mensal domiciliar per capita] AS Rendimento,
-    src.Valor AS QuantidadeDeDomicilios,
-    src.[Situação de segurança alimentar existente no domicílio] AS SituacaoSeguranca
-FROM
-    tabela9558 AS src
-LEFT JOIN
-    Dim_Ano AS d_ano 
-    ON src.Ano = d_ano.ano
-LEFT JOIN
-    Dim_Condicao_Domicilio AS d_demo 
-    ON src.[Situação do domicílio] COLLATE Latin1_General_BIN  = d_demo.nomeDaCondicao;
-GO
-
-
-
-
-
-
-
-
-
-
-
-
-
---Arquivo: tabela9499.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 9499 - Pessoas de 5 a 17 anos de idade em situação de trabalho infantil, por grupo de idade e tipos de atividades realizadas - Estatísticas experimentais
---  Linha 2: Variável - Pessoas de 5 a 17 anos de idade em situação de trabalho infantil
---  Linha 3: ;"Tipos de atividades realizadas";"Ano x Grupo de idade
-
-
-DECLARE @MaxFaixaId INT;
-
--- Criar faixa etaria caso não tenha.
-SELECT @MaxFaixaId = ISNULL(MAX(IdFaixaEtaria), 0) FROM Dim_Faixa_Etaria;
-
-INSERT INTO Dim_Faixa_Etaria (IdFaixaEtaria, nomeFaixaEtaria)
-SELECT
-    @MaxFaixaId + ROW_NUMBER() OVER (ORDER BY t.[Grupo de idade]) AS NovoIdFaixa,
-    t.[Grupo de idade] AS nomeFaixaEtaria
-FROM (
-    SELECT DISTINCT [Grupo de idade] 
-    FROM tabela9499
-    WHERE [Grupo de idade] COLLATE Latin1_General_BIN IS NOT NULL
-) AS t
-WHERE NOT EXISTS (
-    SELECT 1 
-    FROM Dim_Faixa_Etaria d 
-    WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
-);
-
--- Passar dados 9499
-ALTER TABLE Fact_TrabalhoInfantil alter column QuantidadePessoas varchar(255);
-    
-
-INSERT INTO Fact_TrabalhoInfantil (
-    IdAno,
-    IdFaixaEtaria,
-    QuantidadePessoas,
-    TipoDeAtividadesRealizadas
-)
-SELECT
-    d_ano.IdAno,
-    d_faixa.IdFaixaEtaria,
-    src.Valor AS QuantidadePessoas,
-    src.[Tipos de atividades realizadas] AS TipoDeAtividadesRealizadas
-FROM
-    tabela9499 AS src
-LEFT JOIN
-    Dim_Ano AS d_ano 
-    ON src.Ano = d_ano.ano
-LEFT JOIN
-    Dim_Faixa_Etaria AS d_faixa 
-    ON src.[Grupo de idade] COLLATE Latin1_General_BIN  = d_faixa.nomeFaixaEtaria;
-GO
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---Arquivo: tabela9506.csv
---Primeiras linhas:
---  Linha 1: ﻿"Tabela 9506 - Pessoas de 5 a 17 anos de idade que realizam atividade econômica, por grupo de idade e atividade do trabalho principal - Estatísticas experimentais
---  Linha 2: Variável - Pessoas de 5 a 17 anos de idade que realizam atividade econômica
---  Linha 3: ;"Atividade do trabalho principal";"Ano x Grupo de idade
-
-
-DECLARE @MaxFaixaId INT;
-
--- Criar faixa etaria caso não tenha.
-SELECT @MaxFaixaId = ISNULL(MAX(IdFaixaEtaria), 0) FROM Dim_Faixa_Etaria;
-
-INSERT INTO Dim_Faixa_Etaria (IdFaixaEtaria, nomeFaixaEtaria)
-SELECT
-    @MaxFaixaId + ROW_NUMBER() OVER (ORDER BY t.[Grupo de idade]) AS NovoIdFaixa,
-    t.[Grupo de idade] AS nomeFaixaEtaria
-FROM (
-    SELECT DISTINCT [Grupo de idade] 
-    FROM tabela9506
-    WHERE [Grupo de idade] COLLATE Latin1_General_BIN IS NOT NULL
-) AS t
-WHERE NOT EXISTS (
-    SELECT 1 
-    FROM Dim_Faixa_Etaria d 
-    WHERE d.nomeFaixaEtaria = t.[Grupo de idade] COLLATE Latin1_General_BIN
-);
-
--- Passar dados 9506
-ALTER TABLE Fact_TrabalhoInfantil alter column QuantidadePessoas varchar(255);
-    
-
-INSERT INTO Fact_TrabalhoInfantil (
-    IdAno,
-    IdFaixaEtaria,
-    QuantidadePessoas,
-    TipoDeAtividadesRealizadas
-)
-SELECT
-    d_ano.IdAno,
-    d_faixa.IdFaixaEtaria,
-    src.Valor AS QuantidadePessoas,
-    src.[Atividade do trabalho principal] AS TipoDeAtividadesRealizadas
-FROM
-    tabela9506 AS src
-LEFT JOIN
-    Dim_Ano AS d_ano 
-    ON src.Ano = d_ano.ano
-LEFT JOIN
-    Dim_Faixa_Etaria AS d_faixa 
-    ON src.[Grupo de idade] COLLATE Latin1_General_BIN  = d_faixa.nomeFaixaEtaria;
-GO
