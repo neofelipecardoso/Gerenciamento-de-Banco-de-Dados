@@ -56,7 +56,7 @@ A lista de todas as tabelas estão disponíveis em: https://sidra.ibge.gov.br/ac
 
 O número delas são:
 
-7138, 7139, 7109, 7110, 7113, 7111, 7126, 7127, 7395, 7128, 4708, 4361, 4666, 7129, 6407, 7339, 7320, 7321, 7307, 9297, 9311, 9552, 9558, 9499, 9506, 7136, 7161, 7133, 7134, 7215, 6821, 7219, 7220, 7221, 7222, 7159, 7160, 7210, 7211, 7177, 7178, 6409, 7135, 6731, 6732, 6733, 6734, 6735, 6736, 6737, 7146 e 7147
+7113, 7111, 7126, 7133, 7127, 7134, 7215, 6821, 7395, 7128, 4708, 4361, 7138, 9552, 9558, 9499, 9506, 7210, 4666, 7177, 7178, 6407, 7146 e 7147
 
 Em todas as tabelas, foi selecionado apenas a primeira varíavel, todas as classificações disponíveis, exceto o total, e todos os anos.
 
