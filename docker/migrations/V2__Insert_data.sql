@@ -1,3 +1,325 @@
+INSERT INTO Dim_Local (IdLocal, nome)
+VALUES
+(1, 'Brasil'),
+(2, 'Norte'),
+(3, 'Nordeste'),
+(4, 'Centro-Oeste'),
+(5, 'Sudeste'),
+(6, 'Sul'),
+(7, 'Acre'),
+(8, 'Alagoas'),
+(9, 'Amapá'),
+(10, 'Amazonas'),
+(11, 'Bahia'),
+(12, 'Ceará'),
+(13, 'Distrito Federal'),
+(14, 'Espírito Santo'),
+(15, 'Goiás'),
+(16, 'Maranhão'),
+(17, 'Mato Grosso'),
+(18, 'Mato Grosso do Sul'),
+(19, 'Minas Gerais'),
+(20, 'Pará'),
+(21, 'Paraíba'),
+(22, 'Paraná'),
+(23, 'Pernambuco'),
+(24, 'Piauí'),
+(25, 'Rio de Janeiro'),
+(26, 'Rio Grande do Norte'),
+(27, 'Rio Grande do Sul'),
+(28, 'Rondônia'),
+(29, 'Roraima'),
+(30, 'Santa Catarina'),
+(31, 'São Paulo'),
+(32, 'Sergipe'),
+(33, 'Tocantins');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO Dim_GrupoDemografico(IdGrupoDemo, nomeGrupoDemo)
+VALUES
+(1, 'Masculino'),
+(2, 'Feminino'),
+(3, 'Branca'),
+(4, 'Parda'),
+(5, 'Amarela'),
+(6, 'Indígena'),
+(7, 'Preta'),
+(8, 'Urbana'),
+(9,'Rural');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO Dim_Ano (IdAno,ano)
+VALUES
+(1, 2012),
+(2, 2013),
+(3, 2014),
+(4, 2015),
+(5, 2016),
+(6, 2017),
+(7, 2018),
+(8, 2019),
+(9, 2020),
+(10, 2021),
+(11, 2022),
+(12, 2023),
+(13, 2024);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO Dim_Instrucao (IdInstru,nomeInstru)
+VALUES
+(1,'Sem instrução'),
+(2, 'Ensino fundamental incompleto ou equivalente'),
+(3, 'Ensino fundamental completo ou equivalente'),
+(4, 'Ensino médio incompleto ou equivalente'),
+(5, 'Ensino médio completo ou equivalente'),
+(6, 'Ensino superior incompleto ou equivalente'),
+(7, 'Superior completo'),
+(8, 'Sem instrução e fundamental incompleto'),
+(9, 'Fundamental completo e médio incompleto'),
+(10, 'Médio completo e superiro incompleto');
+
+INSERT INTO Dim_Emprego (IdEmprego, nomeEmprego, empregado) 
+VALUES
+(1, 'Total', NULL),
+(2, 'Empregado', 'Sim'),
+(3, 'Empregado no setor privado, exclusive trabalhador doméstico', 'Sim'),
+(4, 'Empregado no setor privado - com carteira assinada', 'Sim'),
+(5, 'Empregado no setor privado - sem carteira assinada', 'Sim'),
+(6, 'Trabalhador doméstico', 'Sim'),
+(7, 'Trabalhador doméstico - com carteira assinada', 'Sim'),
+(8, 'Trabalhador doméstico - sem carteira assinada', 'Sim'),
+(9, 'Empregado no setor público', 'Sim'),
+(10, 'Empregado no setor público - com carteira assinada', 'Sim'),
+(11, 'Empregado no setor público - sem carteira assinada', 'Sim'),
+(12, 'Empregado no setor público - militar e funcionário público estatutário', 'Sim'),
+(13, 'Empregador', 'Não'),
+(14, 'Empregador com CNPJ', 'Não'),
+(15, 'Empregador sem CNPJ', 'Não'),
+(16, 'Conta própria', 'Não'),
+(17, 'Conta própria com CNPJ', 'Não'),
+(18, 'Conta própria sem CNPJ', 'Não'),
+(19, 'Trabalhador familiar auxiliar', 'Não'),
+(20, 'Força de trabalho ampliada', NULL),
+(21, 'Força de trabalho ou desalentado', NULL),
+(22, 'Desocupado ou na força de trabalho potencial ou subocupado', NULL),
+(23, 'Desocupado ou subocupado por insuficiência de horas trabalhadas', NULL),
+(24, 'Desocupado', 'Não'),
+(25, 'Subocupado por insuficiência de horas trabalhadas', 'Sim'),
+(26, 'Desocupado ou na força de trabalho potencial', NULL),
+(27, 'Força de trabalho potencial', NULL),
+(28, 'Desalentado', NULL),
+(29, 'Ocupados', 'Sim'),
+(30, 'Desocupados', 'Não'),
+(31, 'Fora da força de trabalho', 'Não');
+
+INSERT INTO Dim_Condicao_Domicilio (
+    IdCondDomi, 
+    nomeDaCondicao, 
+    disponibilidadeAgua, 
+    AbastecimentoAgua, 
+    TipoEsgoto, 
+    DestinoLixo, 
+    FonteDeEnergia
+)
+SELECT DISTINCT 
+    ROW_NUMBER() OVER (ORDER BY 
+        COALESCE(nomeDaCondicao, ''), 
+        COALESCE(disponibilidadeAgua, ''), 
+        COALESCE(AbastecimentoAgua, ''), 
+        COALESCE(TipoEsgoto, ''), 
+        COALESCE(DestinoLixo, ''), 
+        COALESCE(FonteDeEnergia, '')
+    ) as IdCondDomi,
+    nomeDaCondicao,
+    disponibilidadeAgua,
+    AbastecimentoAgua,
+    TipoEsgoto,
+    DestinoLixo,
+    FonteDeEnergia
+FROM (
+    SELECT DISTINCT 
+        [Situação do domicílio] as nomeDaCondicao,
+        NULL as disponibilidadeAgua,
+        NULL as AbastecimentoAgua,
+        NULL as TipoEsgoto,
+        NULL as DestinoLixo,
+        NULL as FonteDeEnergia
+    FROM tabela6731
+    UNION
+    SELECT DISTINCT 
+        [Situação do domicílio] as nomeDaCondicao,
+        [Disponibilidade da rede geral de distribuição de água] as disponibilidadeAgua,
+        NULL as AbastecimentoAgua,
+        NULL as TipoEsgoto,
+        NULL as DestinoLixo,
+        NULL as FonteDeEnergia
+    FROM tabela6732
+    UNION
+    SELECT DISTINCT 
+        NULL as nomeDaCondicao,
+        NULL as disponibilidadeAgua,
+        [Principal fonte de abastecimento de água] as AbastecimentoAgua,
+        NULL as TipoEsgoto,
+        NULL as DestinoLixo,
+        NULL as FonteDeEnergia
+    FROM tabela6731
+    UNION
+    SELECT DISTINCT 
+        NULL as nomeDaCondicao,
+        NULL as disponibilidadeAgua,
+        NULL as AbastecimentoAgua,
+        [Tipo de esgotamento sanitário] as TipoEsgoto,
+        NULL as DestinoLixo,
+        NULL as FonteDeEnergia
+    FROM tabela6735
+    UNION
+    SELECT DISTINCT 
+        NULL as nomeDaCondicao,
+        NULL as disponibilidadeAgua,
+        NULL as AbastecimentoAgua,
+        NULL as TipoEsgoto,
+        [Destino do lixo] as DestinoLixo,
+        NULL as FonteDeEnergia
+    FROM tabela6736
+    UNION
+    SELECT DISTINCT 
+        NULL as nomeDaCondicao,
+        NULL as disponibilidadeAgua,
+        NULL as AbastecimentoAgua,
+        NULL as TipoEsgoto,
+        NULL as DestinoLixo,
+        [Fonte de energia elétrica] as FonteDeEnergia
+    FROM tabela6737
+    UNION
+    SELECT DISTINCT 
+        [Condição de ocupação do domicílio] as nomeDaCondicao,
+        NULL as disponibilidadeAgua,
+        NULL as AbastecimentoAgua,
+        NULL as TipoEsgoto,
+        NULL as DestinoLixo,
+        NULL as FonteDeEnergia
+    FROM tabela6821
+) AS AllCondicoes;
+
+INSERT INTO Dim_Saneamento (IdSaneamento, nomeSaneamento)
+VALUES
+(1, 'Rede geral de abastecimento de água'),
+(2, 'Poço profundo ou artesiano'),
+(3, 'Poço raso ou cacimba'),
+(4, 'Fonte, nascente ou rio'),
+(5, 'Carro-pipa ou outro meio de abastecimento'),
+(6, 'Sem abastecimento de água'),
+(7, 'Rede geral de esgoto ou pluvial'),
+(8, 'Fossa séptica'),
+(9, 'Fossa rudimentar'),
+(10, 'Céu aberto / vala / curso d’água'),
+(11, 'Sem esgotamento sanitário'),
+(12, 'Coleta pública de lixo'),
+(13, 'Queima do lixo no terreno ou quintal'),
+(14, 'Enterra o lixo no terreno'),
+(15, 'Joga o lixo em terreno baldio'),
+(16, 'Joga o lixo em rio, lago ou mar'),
+(17, 'Sem destino definido para o lixo'),
+(18, 'Saneamento completo (água, esgoto e lixo adequados)'),
+(19, 'Saneamento precário (pelo menos um serviço ausente)'),
+(20, 'Sem saneamento básico');
+
+INSERT INTO Dim_Condicao_Estudante (IdCondEstudante, nomeDaCondicao)
+VALUES
+(1, 'Frequentando escola ou creche'),
+(2, 'Já frequentou escola'),
+(3, 'Nunca frequentou escola'),
+(4, 'Frequentando curso técnico ou profissionalizante'),
+(5, 'Frequentando curso superior'),
+(6, 'Frequentando Educação de Jovens e Adultos (EJA)'),
+(7, 'Frequentando curso preparatório ou supletivo'),
+(8, 'Não frequenta atualmente, mas concluiu os estudos'),
+(9, 'Não frequenta atualmente e não concluiu'),
+(10, 'Parou de estudar por trabalho'),
+(11, 'Parou de estudar por falta de interesse'),
+(12, 'Parou de estudar por dificuldade financeira'),
+(13, 'Parou de estudar por distância da escola'),
+(14, 'Parou de estudar por motivo de saúde ou deficiência'),
+(15, 'Parou de estudar por motivo familiar ou doméstico'),
+(16, 'Nunca teve acesso à escola'),
+(17, 'Frequenta curso de alfabetização de adultos'),
+(18, 'Frequenta outro tipo de curso educacional'),
+(19, 'Em idade escolar e não frequenta'),
+(20, 'Concluiu a educação básica'),
+(21, 'Concluiu curso superior'),
+(22, 'Abandono escolar recente'),
+(23, 'Retornou aos estudos após pausa');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Criar faixa etaria caso não tenha.
 
 DECLARE @MaxFaixaId INT;
