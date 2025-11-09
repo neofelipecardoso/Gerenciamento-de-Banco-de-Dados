@@ -158,6 +158,11 @@ CREATE TABLE Fact_Escolaridade (
 --  Linha 2: Variável - Pessoas de 14 anos ou mais de idade que estudam até o ensino fundamental (regular ou EJA) e aquelas que frequentaram no máximo o ensino médio ou curso equivalente sem o completar
 --  Linha 3: Grande Região;"Frequência a curso de qualificação profissional";"Ano x Cor ou raça
 
+--Arquivo: tabela7210.csv
+--Primeiras linhas:
+--  Linha 1: ﻿Tabela 7210 - Estudantes do ensino superior, especialização, mestrado ou doutorado, por sexo e conclusão de curso técnico de nível médio ou normal (magistério)
+--  Linha 2: Variável - Estudantes do superior, especialização, mestrado ou doutorado (Mil pessoas)
+--  Linha 3: Grande Região;Conclusão do curso técnico de nível médio ou normal (magistério);Ano x Sexo
 
 CREATE TABLE Fact_Populacao (
     IdPopulacao INT IDENTITY(1,1) PRIMARY KEY,
