@@ -10,65 +10,41 @@ https://trello.com/b/A56DuRJG/gerenciamento-de-banco-de-dados
 
 A seguir estão perguntas as quais a análise de dados usando os datasets deve responder:
 
-1. **Em quais estados há maior proporção de adolescentes de 15 a 17 anos fora da escola, e como isso varia conforme a cor ou raça?**  
-   *Tabelas:* 7138, 7139, 7109, 7110
-
-2. **Qual é a taxa de analfabetismo da população com 15 anos ou mais por estado, e como ela varia entre homens e mulheres?**  
+1. **Qual é a taxa de analfabetismo da população com 15 anos ou mais por estado, e como ela varia entre homens e mulheres?**  
    *Tabelas:* 7113, 7111
 
-3. **Qual é o número médio de anos de estudo da população com 25 anos ou mais por estado, e como isso se correlaciona com o rendimento médio domiciliar?**  
-   *Tabelas:* 7126, 7127, 7395
-
-4. **Em quais estados a informalidade no trabalho é mais comum entre jovens de 18 a 24 anos sem ensino superior?**  
-    *Tabelas:* 7128, 4708, 4361
-
-5. **Qual é o rendimento médio mensal de pessoas com ensino superior completo comparado às com ensino médio incompleto, por estado?**  
-    *Tabelas:* 4666, 7128/7129, 6407
-
-6. **Em quais estados há maior acesso a microcomputador ou tablet em domicílios com crianças em idade escolar, e como isso se relaciona com a taxa de escolarização?**  
-    *Tabelas:* 7339, 7138, 6407
-
-7. **Qual é a proporção de estudantes de 10 a 17 anos que utilizam a internet para atividades escolares por estado, e como isso varia conforme a renda domiciliar?**  
-    *Tabelas:* 7320–7321, 7307, 7395
-
-8. **Em quais estados há maior proporção de pessoas com deficiência com ensino superior completo, e como isso se relaciona com a inserção no mercado formal?**  
-    *Tabelas:* 9297, 9311, 4361, 4708
-
-9. **Como a insegurança alimentar moderada ou grave nos domicílios afeta a frequência escolar de crianças de 6 a 14 anos por estado?**  
-    *Tabelas:* 7138, 9552, 9558
-
-10. **Em quais estados há maior sobreposição entre trabalho infantil e baixa escolaridade até ensino fundamental incompleto?**  
-    *Tabelas:* 9499, 9506, 7128
-
-11. **Como a posse de internet em domicílios com adolescentes de 15 a 17 anos influencia a permanência no ensino médio por estado?**  
-    *Tabelas:* 7136, 7161, 7307, 7395
-
-12. **Qual é a diferença no número médio de anos de estudo entre homens e mulheres com 25 anos ou mais por estado, e como isso evoluiu de 2016 a 2024?**  
+2. **Qual é a diferença no número médio de anos de estudo entre homens e mulheres com 25 anos ou mais por estado, e como isso evoluiu de 2016 a 2024?**  
     *Tabelas:* 7126, 7133
 
-13. **Em quais estados a desigualdade educacional entre brancos e pretos/pardos, em anos de estudo, é mais acentuada?**  
+3. **Em quais estados a desigualdade educacional entre brancos e pretos/pardos, em anos de estudo, é mais acentuada?**  
     *Tabelas:* 7127, 7134
 
-14. **Como a condição de ocupação do domicílio se associa à taxa de abandono escolar entre jovens de 15 a 17 anos por estado?**  
+4. **Como a condição de ocupação do domicílio se associa à taxa de abandono escolar entre jovens de 15 a 17 anos por estado?**  
     *Tabelas:* 7215, 6821
 
-15. **Qual é a proporção de jovens de 18 a 24 anos que não frequentam escola nem trabalham por estado, e como isso varia com o nível de renda familiar?**  
-    *Tabelas:* 7219–7222, 7159–7161, 7395
+5. **Qual é o número médio de anos de estudo da população com 25 anos ou mais por estado, e como isso se correlaciona com o rendimento médio domiciliar?**  
+   *Tabelas:* 7126, 7127, 7395
 
-16. **Em quais estados os concluintes de curso técnico de nível médio têm maior rendimento médio no primeiro emprego?**  
-    *Tabelas:* 7210–7211, 4666
+6. **Em quais estados a informalidade no trabalho é mais comum entre jovens de 18 a 24 anos sem ensino superior?**  
+    *Tabelas:* 7128, 4708, 4361
 
-17. **Qual é a taxa de participação em cursos de qualificação profissional entre jovens de 18 a 24 anos sem ensino superior por estado?**  
-    *Tabelas:* 7177–7178, 7128
+7. **Como a insegurança alimentar moderada ou grave nos domicílios afeta a frequência escolar de crianças de 6 a 14 anos por estado?**  
+    *Tabelas:* 7138, 9552, 9558
 
-18. **Em quais estados há maior proporção de crianças em idade escolar vivendo em domicílios onde o responsável é analfabeto?**  
-    *Tabelas:* 7111, 6409, 6407
+8. **Em quais estados há maior sobreposição entre trabalho infantil e baixa escolaridade até ensino fundamental incompleto?**  
+    *Tabelas:* 9499, 9506, 7128
+  
+9. **Em quais estados os concluintes de curso técnico de nível médio têm maior rendimento médio no primeiro emprego?**  
+    *Tabelas:* 7210, 4666
 
-19. **Qual é a diferença na taxa de conclusão do ensino médio entre as regiões Norte/Nordeste e Sul/Sudeste, e como isso se relaciona com indicadores de infraestrutura?**  
-    *Tabelas:* 7128, 7135, 6731–6737, 7307
+10. **Qual é a taxa de participação em cursos de qualificação profissional entre jovens de 18 a 24 anos sem ensino superior por estado?**  
+    *Tabelas:* 7177, 7178, 7128
 
-20. **Como evoluiu o percentual de jovens de 18 a 24 anos matriculados no ensino superior por estado entre 2016 e 2024, e quais estados tiveram crescimento abaixo da média nacional?**  
-    *Tabelas:* 7146–7147, 6407
+11. **Em quais estados há maior proporção de crianças em idade escolar em relação a pessoas com 15 ou mais anos de idade analfabetas?**  
+    *Tabelas:* 7111, 6407
+
+12. **Como evoluiu o percentual de jovens de 18 a 24 anos matriculados no ensino superior por estado entre 2016 e 2024, e quais estados tiveram crescimento abaixo da média nacional?**  
+    *Tabelas:* 7146, 7147, 6407
 
 ## Datasets Utilizados
 
