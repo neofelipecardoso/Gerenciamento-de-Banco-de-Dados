@@ -2,6 +2,10 @@
 
 Este projeto tem o objetivo de utilizar análise de dados de datasets utilizando T-SQL no SQL Server, a fim de responder perguntas relacionadas a educação no Brasil.
 
+# Download
+
+É só baixar o arquivo .bak da raiz do repositório.
+
 ## Trello
 
 https://trello.com/b/A56DuRJG/gerenciamento-de-banco-de-dados
