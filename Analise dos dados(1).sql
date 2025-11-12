@@ -20,7 +20,7 @@ ORDER BY TaxaMediaAnalfabetismo DESC;
 
 
 -- ============================================
--- 2. Diferença no número médio de anos de estudo entre homens e mulheres (25+ anos)
+-- 2. DiferenÃ§a no nÃºmero mÃ©dio de anos de estudo entre homens e mulheres (25+ anos)
 -- ============================================
 WITH MediaPorSexo AS (
     SELECT 
@@ -56,46 +56,9 @@ ORDER BY DiferencaMulheresHomens DESC;
 -- ============================================
 
 
-WITH MediaBranca AS (
-    -- 1. Média de anos de estudo APENAS para a Raça Branca
-    SELECT
-        l.nome AS Estado,
-        AVG(TRY_CAST(fe.NumeroMedioDeAnosDeEstudo AS FLOAT)) AS MediaAnos
-    FROM Fact_Escolaridade fe
-    INNER JOIN Dim_Local l ON fe.IdLocal = l.IdLocal
-    INNER JOIN Dim_GrupoDemografico d ON fe.IdGrupoDemo = d.IdGrupoDemo
-    WHERE d.nomeGrupoDemo = 'Branca'
-        AND TRY_CAST(fe.NumeroMedioDeAnosDeEstudo AS FLOAT) IS NOT NULL
-    GROUP BY l.nome
-),
-MediaPretaParda AS (
-    -- 2. Média de anos de estudo CONSOLIDADA para o grupo Preta/Parda
-    SELECT
-        l.nome AS Estado,
-        AVG(TRY_CAST(fe.NumeroMedioDeAnosDeEstudo AS FLOAT)) AS MediaAnos
-    FROM Fact_Escolaridade fe
-    INNER JOIN Dim_Local l ON fe.IdLocal = l.IdLocal
-    INNER JOIN Dim_GrupoDemografico d ON fe.IdGrupoDemo = d.IdGrupoDemo
-    WHERE d.nomeGrupoDemo IN ('Preta', 'Parda', 'Preta ou parda') 
-        AND TRY_CAST(fe.NumeroMedioDeAnosDeEstudo AS FLOAT) IS NOT NULL
-    GROUP BY l.nome
-)
--- 3. Usar LEFT JOIN para garantir que todos os estados com dados 'Branca' sejam exibidos
-SELECT
-    b.Estado,
-    ROUND(b.MediaAnos, 2) AS MediaBrancos,
-    -- A média do outro grupo pode ser NULL, mas será exibida.
-    ROUND(p.MediaAnos, 2) AS MediaPretosOuPardos, 
-    -- Se p.MediaAnos for NULL, a diferença também será NULL.
-    ROUND((b.MediaAnos - p.MediaAnos), 2) AS DiferencaEmAnos,
-    ROUND(((b.MediaAnos - p.MediaAnos) / NULLIF(p.MediaAnos, 0)) * 100, 2) AS PercentualDesigualdade
-FROM MediaBranca b
-LEFT JOIN MediaPretaParda p
-    ON b.Estado = p.Estado
-ORDER BY DiferencaEmAnos DESC;
 
 -- ============================================
--- 4A. Idade média de abandono escolar por estado e sexo
+-- 4A. Idade mÃ©dia de abandono escolar por estado e sexo
 -- ============================================
 SELECT 
     l.nome AS Estado,
@@ -115,7 +78,7 @@ ORDER BY MediaIdadeAbandono DESC;
 
 
 -- ============================================
--- 4B. Condição de ocupação dos domicílios
+-- 4B. CondiÃ§Ã£o de ocupaÃ§Ã£o dos domicÃ­lios
 -- ============================================
 SELECT 
     l.nome AS Estado,
@@ -132,7 +95,7 @@ ORDER BY l.nome, a.ano;
 
 
 -- ============================================
--- 5. Média de anos de estudo por estado (25+ anos)
+-- 5. MÃ©dia de anos de estudo por estado (25+ anos)
 -- ============================================
 SELECT 
     l.nome AS Estado,
@@ -161,14 +124,14 @@ INNER JOIN Dim_Local l ON fo.IdLocal = l.IdLocal
 INNER JOIN Dim_Ano a ON fo.IdAno = a.IdAno
 INNER JOIN Dim_Emprego e ON fo.IdEmprego = e.IdEmprego
 WHERE (e.nomeEmprego LIKE '%sem carteira%' 
-       OR e.nomeEmprego LIKE '%Conta própria sem CNPJ%')
+       OR e.nomeEmprego LIKE '%Conta prÃ³pria sem CNPJ%')
     AND fo.QuantidadeDePessoas IS NOT NULL
 GROUP BY l.nome, e.nomeEmprego, a.ano
 ORDER BY l.nome, a.ano, TotalPessoas DESC;
 
 
 -- ============================================
--- 7. Quantidade de estudantes por faixa etária (6-14 anos)
+-- 7. Quantidade de estudantes por faixa etÃ¡ria (6-14 anos)
 -- ============================================
 SELECT 
     l.nome AS Estado,
@@ -226,7 +189,7 @@ ORDER BY TotalEstudantes DESC;
 
 
 -- ============================================
--- 10. Quantidade de estudantes por estado e grupo demográfico
+-- 10. Quantidade de estudantes por estado e grupo demogrÃ¡fico
 -- ============================================
 SELECT 
     l.nome AS Estado,
@@ -243,7 +206,7 @@ ORDER BY TotalEstudantes DESC;
 
 
 -- ============================================
--- 11. Proporção crianças em idade escolar vs analfabetos (15+ anos)
+-- 11. ProporÃ§Ã£o crianÃ§as em idade escolar vs analfabetos (15+ anos)
 -- ============================================
 WITH CriancasIdadeEscolar AS (
     SELECT 
@@ -283,7 +246,7 @@ ORDER BY ProporcaoCriancasPorAnalfabeto DESC;
 
 
 -- ============================================
--- 12. Evolução de matrículas no ensino superior (2016-2024)
+-- 12. EvoluÃ§Ã£o de matrÃ­culas no ensino superior (2016-2024)
 -- ============================================
 WITH MatriculasPorEstado AS (
     SELECT 
@@ -312,8 +275,8 @@ SELECT
     ROUND(mn.MediaMatriculados, 0) AS MediaMatriculados,
     ROUND((m.TotalMatriculados - mn.MediaMatriculados), 0) AS DiferencaDaMedia,
     CASE 
-        WHEN m.TotalMatriculados < mn.MediaMatriculados THEN 'Abaixo da Média' 
-        ELSE 'Acima da Média' 
+        WHEN m.TotalMatriculados < mn.MediaMatriculados THEN 'Abaixo da MÃ©dia' 
+        ELSE 'Acima da MÃ©dia' 
     END AS Classificacao
 FROM MatriculasPorEstado m
 INNER JOIN MediaNacional mn ON m.Ano = mn.Ano
