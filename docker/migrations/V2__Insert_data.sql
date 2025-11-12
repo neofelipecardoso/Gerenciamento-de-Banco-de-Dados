@@ -1,3 +1,5 @@
+use SistemaGerenciamento;
+
 INSERT INTO Dim_Local (IdLocal, nome)
 VALUES
 (1, 'Brasil'),
@@ -867,6 +869,8 @@ GO
 ALTER TABLE Fact_Estudante ADD IdGrupoDemo INT CONSTRAINT FK_Fact_GrupoDemoEstudante FOREIGN KEY (IdGrupoDemo) REFERENCES Dim_GrupoDemografico (IdGrupoDemo);
 GO
 
+ALTER TABLE Fact_Estudante alter column QuantidadeDeEstudantes varchar(255);
+
 INSERT INTO Dim_GrupoDemografico(IdGrupoDemo, nomeGrupoDemo)
 VALUES
 (10, 'Preta ou parda');
@@ -951,7 +955,7 @@ GO
 
 
 -- Passar dados 6407
-
+ALTER TABLE Fact_Populacao alter column Populacao varchar(255);
 INSERT INTO Fact_Populacao (
     IdLocal,
     IdFaixaEtaria,
@@ -1146,6 +1150,8 @@ GO
 INSERT INTO Dim_Emprego (IdEmprego, nomeEmprego)
 VALUES
 	(32, 'Desocupado ou na força de trabalho potencial ou subocupado por insuficiência de horas trabalhadas')
+
+alter table Fact_Ocupacao alter column QuantidadeDePessoas varchar(255);
 
 INSERT INTO Fact_Ocupacao (
 	IdFaixaEtaria,
